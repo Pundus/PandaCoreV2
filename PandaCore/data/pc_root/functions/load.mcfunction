@@ -1,5 +1,5 @@
 #This function will run when loading the datapack or /reload-ing.
-say Hello world!
+tellraw @p ["",{"text":"PandaCore systems loaded. Created by Lord_Pundus"}]
 
 #Load scoreboards.
 
