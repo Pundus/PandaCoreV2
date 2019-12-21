@@ -1,6 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"PandaCoreRoot:load"
+		"pc_root:load"
 	]
 }

@@ -1,6 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"PandaCoreRoot:tick"
+		"pc_root:tick"
 	]
 }

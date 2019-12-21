@@ -3,4 +3,4 @@ say Hello world!
 
 #Load scoreboards.
 
-function PandaCoreRoot:scoreboard_setup
+function pc_root:scoreboard_setup
