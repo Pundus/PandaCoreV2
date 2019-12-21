@@ -1,1 +1,2 @@
 function pcm_sustenance:customcrafting/recipes/cheese
+function pcm_sustenance:customcrafting/recipes/tortilla
