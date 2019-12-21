@@ -35,6 +35,8 @@ execute as @e[type=armor_stand,name=pcm_sustenance_stove] at @s if block ~ ~ ~ m
 execute as @e[type=armor_stand,name=pcm_sustenance_stove] at @s if block ~ ~ ~ minecraft:barrel unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 25b}]} run replaceitem block ~ ~ ~ container.25 minecraft:red_stained_glass_pane{display: {Name: "{\"text\":\" \"}"}, pc_contraband: 1b}
 execute as @e[type=armor_stand,name=pcm_sustenance_stove] at @s if block ~ ~ ~ minecraft:barrel unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 26b}]} run replaceitem block ~ ~ ~ container.26 minecraft:red_stained_glass_pane{display: {Name: "{\"text\":\" \"}"}, pc_contraband: 1b}
 execute as @e[type=armor_stand,name=pcm_sustenance_stove] store result entity @s NoBasePlate byte 1 run tag @s list
+execute as @e[type=armor_stand,name=pcm_sustenance_stove] if entity @s[nbt={NoBasePlate:0b}] at @s unless block ~ ~ ~ minecraft:barrel run data remove entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:barrel"}},limit=1] Item.tag
+execute as @e[type=armor_stand,name=pcm_sustenance_stove] if entity @s[nbt={NoBasePlate:0b}] at @s unless block ~ ~ ~ minecraft:barrel run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:furnace",Count:1b}}
 execute as @e[type=armor_stand,name=pcm_sustenance_stove] if entity @s[nbt={NoBasePlate:0b}] at @s unless block ~ ~ ~ minecraft:barrel run kill @s
 execute as @e[type=armor_stand,name=pcm_sustenance_stove,nbt={ArmorItems:[{},{},{},{id:"minecraft:carrot",Count:1b,tag:{CustomModelData:102}}]}] unless block ~ ~ ~ minecraft:barrel run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:carrot",Count:1b,tag:{CustomModelData:102}}]}
 
