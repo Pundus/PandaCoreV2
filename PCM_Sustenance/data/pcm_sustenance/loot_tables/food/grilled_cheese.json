@@ -1,0 +1,1 @@
+{"pools":[{"rolls":1,"entries":[{"type":"item","weight":1,"name":"minecraft:pumpkin_pie","functions":[{"function":"set_count","count":1},{"function":"set_nbt","tag":"{CustomModelData:104,PCM:1,PCUUID:104}"},{"function":"set_name","name":{"text":"Grilled Cheese","color":"reset","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}}]}]}]}
