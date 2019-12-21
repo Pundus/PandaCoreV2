@@ -1,3 +1,7 @@
 function pcm_sustenance:customcrafting/recipes/cheese
 function pcm_sustenance:customcrafting/recipes/tortilla
 function pcm_sustenance:customcrafting/recipes/grilled_cheese
+function pcm_sustenance:customcrafting/recipes/potato_chips
+function pcm_sustenance:customcrafting/recipes/seaweed_soup
+function pcm_sustenance:customcrafting/recipes/baguette
+function pcm_sustenance:customcrafting/recipes/cookie_pile
