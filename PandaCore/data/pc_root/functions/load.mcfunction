@@ -6,3 +6,4 @@ tellraw @a ["",{"text":"PandaCore Root Systems","color":"yellow"},{"text":" load
 #Load scoreboards.
 
 function pc_root:scoreboard_setup
+function pc_root:player_inv_modifier/pim_setup
