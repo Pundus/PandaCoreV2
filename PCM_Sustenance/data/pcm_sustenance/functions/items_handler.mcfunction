@@ -27,3 +27,15 @@ tag @a[tag=pcm1_baguette] remove pcm1_baguette
 #cookie pile
 execute as @a[tag=pcm1_cookie_pile] run loot give @s loot pcm_sustenance:food/cookie_pile
 tag @a[tag=pcm1_cookie_pile] remove pcm1_cookie_pile
+
+#apple pie
+execute as @a[tag=pcm1_apple_pie] run loot give @s loot pcm_sustenance:food/apple_pie
+tag @a[tag=pcm1_apple_pie] remove pcm1_apple_pie
+
+#mayonnaise
+execute as @a[tag=pcm1_mayonnaise] run loot give @s loot pcm_sustenance:food/mayonnaise
+tag @a[tag=pcm1_mayonnaise] remove pcm1_mayonnaise
+
+#taco
+execute as @a[tag=pcm1_taco] run loot give @s loot pcm_sustenance:food/taco
+tag @a[tag=pcm1_taco] remove pcm1_taco

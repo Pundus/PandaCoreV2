@@ -5,3 +5,6 @@ function pcm_sustenance:customcrafting/recipes/potato_chips
 function pcm_sustenance:customcrafting/recipes/seaweed_soup
 function pcm_sustenance:customcrafting/recipes/baguette
 function pcm_sustenance:customcrafting/recipes/cookie_pile
+function pcm_sustenance:customcrafting/recipes/apple_pie
+function pcm_sustenance:customcrafting/recipes/mayonnaise
+function pcm_sustenance:customcrafting/recipes/taco
