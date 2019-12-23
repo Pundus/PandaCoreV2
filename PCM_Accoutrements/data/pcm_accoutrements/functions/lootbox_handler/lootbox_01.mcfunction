@@ -38,7 +38,7 @@ execute as @e[type=item,tag=pcm2_strangespawn] run function pcm_accoutrements:lo
 
 execute as @e[type=item,tag=pcm2_unusualspawn] run function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus1
 
-execute as @e[type=item,tag=pcm2_unusualspawn] run function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus2
+#execute as @e[type=item,tag=pcm2_unusualspawn] run function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus2
 
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=4}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_normalspawn] run scoreboard players set @s pcm2_lbsequence 5
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=4}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_strangespawn] run scoreboard players set @s pcm2_lbsequence 5

@@ -7,3 +7,4 @@ execute if score @s PC_RNG matches 4 run function pcm_accoutrements:assign_stran
 execute if score @s PC_RNG matches 3 run function pcm_accoutrements:assign_strange_norename/night_sight
 execute if score @s PC_RNG matches 2 run function pcm_accoutrements:assign_strange_norename/poison_immunity
 execute if score @s PC_RNG matches 1 run function pcm_accoutrements:assign_strange_norename/safe_landing
+function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus2
