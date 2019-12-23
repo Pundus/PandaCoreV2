@@ -1,0 +1,1 @@
+scoreboard objectives add pcm2_lbsequence dummy
