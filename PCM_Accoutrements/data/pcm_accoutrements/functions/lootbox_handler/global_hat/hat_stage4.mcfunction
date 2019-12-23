@@ -1,0 +1,8 @@
+execute if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_normalspawn] run tellraw @a[distance=..5] ["",{"text":"A ","color":"white"},{"nbt":"Item.tag.display.Name","interpret":"true","entity":"@e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_normalspawn]","color":"white"},{"text":" has been unboxed.","color":"white"}]
+execute if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_normalspawn] run playsound minecraft:block.barrel.open player @a[distance=..5] ~ ~ ~ 1 1 1
+
+execute if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_strangespawn] run tellraw @a[distance=..5] ["",{"text":"A ","color":"yellow"},{"nbt":"Item.tag.display.Name","interpret":"true","entity":"@e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_strangespawn]","color":"yellow"},{"text":" has been unboxed!","color":"yellow"}]
+execute if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_strangespawn] run playsound minecraft:block.ender_chest.open player @a[distance=..5] ~ ~ ~ 1 1 1
+
+execute if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_unusualspawn] run tellraw @a ["",{"text":"An ","color":"light_purple"},{"nbt":"Item.tag.display.Name","interpret":"true","entity":"@e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_unusualspawn]","color":"light_purple"},{"text":" has been unboxed!","color":"light_purple"}]
+execute if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_unusualspawn] run playsound minecraft:ui.toast.challenge_complete player @a[distance=..10] ~ ~ ~ 1 1.5 1
