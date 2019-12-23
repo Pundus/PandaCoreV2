@@ -11,6 +11,17 @@ execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet",tag:{pcm2_
 #execute as @a[nbt={Inventory:[{id:"minecraft:white_dye",tag:{pcm2_worn:1}}]},nbt=!{Inventory:[{Slot:103b,id:"minecraft:white_dye",tag:{pcm2_worn:1}}]}] run data remove block -1 0 -1 Items[0].tag.pcm2_worn
 #execute as @a[nbt={Inventory:[{id:"minecraft:white_dye",tag:{pcm2_worn:1}}]},nbt=!{Inventory:[{Slot:103b,id:"minecraft:white_dye",tag:{pcm2_worn:1}}]}] run function pc_root:player_inv_modifier/retrieve/retrieve_inventory
 
+#ENTITY hats
+
+execute as @e[type=!player,nbt={ArmorItems:[{id:"minecraft:golden_helmet",tag:{pcm2_hat:1}}]}] run function pc_root:player_inv_modifier/store/store_entity_helmet
+execute as @e[type=!player,nbt={ArmorItems:[{id:"minecraft:golden_helmet",tag:{pcm2_hat:1}}]}] run data modify block -1 0 -1 Items[0].id set value "minecraft:white_dye"
+execute as @e[type=!player,nbt={ArmorItems:[{id:"minecraft:golden_helmet",tag:{pcm2_hat:1}}]}] run data modify block -1 0 -1 Items[0].tag merge value {pcm2_worn:1}
+execute as @e[type=!player,nbt={ArmorItems:[{id:"minecraft:golden_helmet",tag:{pcm2_hat:1}}]}] run function pc_root:player_inv_modifier/retrieve/retrieve_entity_helmet
+
+
+
+
+
 #correct hats
 
 #ground corrector

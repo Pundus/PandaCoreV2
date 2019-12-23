@@ -1,0 +1,9 @@
+function pcm_accoutrements:strange_fx/disable_strange
+function pcm_accoutrements:strange_fx/item_magnet
+function pcm_accoutrements:strange_fx/creeper_pacifier
+function pcm_accoutrements:strange_fx/fire_walker
+function pcm_accoutrements:strange_fx/fireball_defender
+function pcm_accoutrements:strange_fx/high_jump
+function pcm_accoutrements:strange_fx/night_sight
+function pcm_accoutrements:strange_fx/safe_landing
+function pcm_accoutrements:strange_fx/poison_immunity
