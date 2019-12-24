@@ -1,1 +1,2 @@
 scoreboard objectives add pcm2_lbsequence dummy
+scoreboard objectives add pcm2_killtracker minecraft.custom:minecraft.mob_kills

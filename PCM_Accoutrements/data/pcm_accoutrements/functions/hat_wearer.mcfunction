@@ -26,6 +26,7 @@ execute as @e[type=!player,nbt={ArmorItems:[{id:"minecraft:golden_helmet",tag:{p
 
 #ground corrector
 data modify entity @e[type=minecraft:item,limit=1,nbt={Item:{tag:{pcm2_worn:1}}}] Item.id set value "minecraft:golden_helmet"
+data modify entity @e[type=minecraft:item,limit=1,nbt={Item:{tag:{pcm2_worn:1}}},nbt=!{Item:{Count:1}}] Item.Count set value 1
 data remove entity @e[type=minecraft:item,limit=1,nbt={Item:{tag:{pcm2_worn:1}}}] Item.tag.pcm2_worn
 
 #slot 0 correction
