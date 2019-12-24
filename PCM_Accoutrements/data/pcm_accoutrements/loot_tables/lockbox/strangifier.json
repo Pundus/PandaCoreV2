@@ -1,0 +1,51 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_horse_armor",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:298,PCUUID:298,PCM:2,pcm2_strangifier:1,HideFlags:63}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"text": "Pundus Inc. Hat Strangifier",
+					"color": "yellow",
+					"bold": false,
+					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [{
+					"text": "Drop on the ground with the listed",
+					"color": "gray",
+					"italic": false
+				}, {
+					"text": "hat to apply the strange effect!",
+					"color": "gray",
+					"italic": false
+				}, {
+					"text": "",
+					"color": "gray",
+					"italic": false
+				},{
+					"text": "Cannot be applied to a modified",
+					"color": "gray",
+					"italic": false
+				}, {
+					"text": "hat or a strange-disabled hat.",
+					"color": "gray",
+					"italic": false
+				}]
+			}]
+		}]
+	}]
+}

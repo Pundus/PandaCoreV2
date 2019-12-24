@@ -1,1 +1,96 @@
-{"pools":[{"rolls":1,"entries":[{"type":"item","weight":1,"name":"minecraft:white_dye","functions":[{"function":"set_count","count":1},{"function":"set_nbt","tag":"{CustomModelData:200,PCUUID:200,PCM:2,pcm2_lb:1}"},{"function":"set_name","name":{"text":"Pundus Inc. Lockbox #1","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}},{"function":"set_lore","lore":[{"text":"Drop on the ground with a Key to open!","color":"gray","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]}]}]}]}
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:white_dye",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:200,PCUUID:200,PCM:2,pcm2_lb:1,pcm2_islockbox:1}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"text": "Pundus Inc. Alpha Lockbox",
+					"bold": false,
+					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [{
+					"text": "Drop on the ground with a",
+					"color": "gray",
+					"italic": false
+				}, {
+					"text": "Pundus Inc. Key to open!",
+					"color": "gray",
+					"italic": false
+				}, {
+					"text": "Accoutrements Series #1",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "This lockbox may contain",
+					"color": "gray",
+					"italic": false
+				},{
+					"text": "one of the following:",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"text": "Hot Dogger",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Headstack",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Bear Necessities",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Popeyes",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Zombie Pal",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Cone Head",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"text": "Hats may be of Strange",
+					"color": "dark_purple",
+					"italic": false
+				},
+				{
+					"text": "or Unusual quality!",
+					"color": "dark_purple",
+					"italic": false
+				}]
+			}]
+		}]
+	}]
+}

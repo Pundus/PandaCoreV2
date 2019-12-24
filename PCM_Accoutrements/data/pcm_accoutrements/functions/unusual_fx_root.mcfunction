@@ -25,7 +25,7 @@ execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_love
 
 execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_love:1}}]}] anchored eyes at @s run particle minecraft:heart ^ ^0.9 ^ 0.2 .1 0.2 0 1 force @a[tag=!pcm2_disableunus]
 
-#sparking
-execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_sparking:1}}]}] anchored eyes at @s run particle minecraft:crit ^ ^0.6 ^ 0.25 0 0.25 0 3 force @a[tag=!pcm2_disableunus]
+#impact
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_impact:1}}]}] anchored eyes at @s run particle minecraft:crit ^ ^0.6 ^ 0.25 0 0.25 0 3 force @a[tag=!pcm2_disableunus]
 
-execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_sparking:1}}]}] anchored eyes at @s run particle minecraft:crit ^ ^0.6 ^ 0.25 0 0.25 0 3 force @a[tag=!pcm2_disableunus]
+execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_impact:1}}]}] anchored eyes at @s run particle minecraft:crit ^ ^0.6 ^ 0.25 0 0.25 0 3 force @a[tag=!pcm2_disableunus]

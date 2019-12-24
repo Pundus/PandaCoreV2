@@ -8,6 +8,14 @@ tag @a[tag=pcm2_lootbox_1] remove pcm2_lootbox_1
 execute as @a[tag=pcm2_key] run loot give @s loot pcm_accoutrements:lockbox/lockbox_key
 tag @a[tag=pcm2_key] remove pcm2_key
 
+#strangifier
+execute as @a[tag=pcm2_strangifier] run loot give @s loot pcm_accoutrements:lockbox/strangifier
+tag @a[tag=pcm2_strangifier] remove pcm2_strangifier
+
+#unusualifier
+execute as @a[tag=pcm2_unusualifier] run loot give @s loot pcm_accoutrements:lockbox/unusualifier
+tag @a[tag=pcm2_unusualifier] remove pcm2_unusualifier
+
 
 #hotdogger
 execute as @a[tag=pcm2_hotdogger] run loot give @s loot pcm_accoutrements:hats/hotdogger
