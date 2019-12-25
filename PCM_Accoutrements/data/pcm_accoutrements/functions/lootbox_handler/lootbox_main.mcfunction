@@ -97,6 +97,8 @@ execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6}
 
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=7}] at @s unless entity @e[type=item,nbt={PickupDelay:32767s},distance=..0.5] run tell @a[tag=pcm2_DEBUG] END UNBOX
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=7}] at @s unless entity @e[type=item,nbt={PickupDelay:32767s},distance=..0.5] run kill @s
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=7}] at @s if entity @e[type=item,nbt={PickupDelay:32767s,OnGround:1b},distance=..0.5] run data modify entity @e[type=item,limit=1,sort=nearest,distance=..0.5,nbt={PickupDelay:32767s,OnGround:1b}] PickupDelay set value 10
+
 
 #execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=7}] at @s unless entity @e[type=item,nbt={PickupDelay:32767s},distance=..0.5,tag=pcm2_normalspawn] unless entity @e[type=item,nbt={PickupDelay:32767s},distance=..0.5,tag=pcm2_strangespawn] unless entity @e[type=item,nbt={PickupDelay:32767s},distance=..0.5,tag=pcm2_unusualspawn] run kill @s
 
