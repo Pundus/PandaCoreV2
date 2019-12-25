@@ -1,7 +1,21 @@
-function pc_root:rng/rng6_self
-execute if score @s PC_RNG matches 6 run function pcm_accoutrements:assign_unusual/bubbling
-execute if score @s PC_RNG matches 5 run function pcm_accoutrements:assign_unusual/flaming
-execute if score @s PC_RNG matches 4 run function pcm_accoutrements:assign_unusual/love_in_the_air
-execute if score @s PC_RNG matches 3 run function pcm_accoutrements:assign_unusual/rainbow_sparkles
-execute if score @s PC_RNG matches 2 run function pcm_accoutrements:assign_unusual/rainy_day
-execute if score @s PC_RNG matches 1 run function pcm_accoutrements:assign_unusual/impact
+########function pc_root:rng/rng6_self
+scoreboard players reset @s PC_RNG 
+
+
+execute as @s run function pc_root:rng/rng_large_self
+execute as @s run scoreboard players set pcm2_lbh3u2 PC_RNG 6
+execute as @s run scoreboard players operation @s PC_RNG %= pcm2_lbh3u2 PC_RNG
+
+
+
+
+
+
+
+
+execute if score @s PC_RNG matches 5 run function pcm_accoutrements:assign_unusual/bubbling
+execute if score @s PC_RNG matches 4 run function pcm_accoutrements:assign_unusual/flaming
+execute if score @s PC_RNG matches 3 run function pcm_accoutrements:assign_unusual/love_in_the_air
+execute if score @s PC_RNG matches 2 run function pcm_accoutrements:assign_unusual/rainbow_sparkles
+execute if score @s PC_RNG matches 1 run function pcm_accoutrements:assign_unusual/rainy_day
+execute if score @s PC_RNG matches 0 run function pcm_accoutrements:assign_unusual/impact

@@ -2,6 +2,7 @@ scoreboard objectives remove pcm2_lbsequence
 scoreboard objectives remove pcm2_lbnumber
 scoreboard objectives remove pcm2_SETTINGS
 scoreboard objectives remove pcm2_killtracker
+scoreboard objectives remove pcm2_override
 
 say Uninstalled PCM_Accoutrements.
 

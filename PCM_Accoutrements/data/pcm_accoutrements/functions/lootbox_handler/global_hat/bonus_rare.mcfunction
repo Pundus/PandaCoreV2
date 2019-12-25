@@ -1,4 +1,7 @@
-function pc_root:rng/rng10_self
+########function pc_root:rng/rng10_self
+execute as @s run function pc_root:rng/rng_large_self
+execute as @s run scoreboard players set pcm2_lbbr PC_RNG 10
+execute as @s run scoreboard players operation @s PC_RNG %= pcm2_lbbr PC_RNG
 
 #50 - 25 - 15 - 5 - 5
 
@@ -39,8 +42,8 @@ execute as @s at @s if score @s PC_RNG matches 9 run summon minecraft:item ~ ~ ~
 execute as @s at @s if score @s PC_RNG matches 9 run tell @a[tag=pcm2_DEBUG] BONUS DROP: VILLAGER SPAWN EGG x4
 
 #selfhat
-execute as @s at @s if score @s PC_RNG matches 10 run execute at @s as @p[tag=pcm2_heldstuff] at @s run loot spawn ~ ~ ~ loot pc_root:head_giver
-execute as @s at @s if score @s PC_RNG matches 10 run execute at @s as @p[tag=pcm2_heldstuff] at @s run tell @a[tag=pcm2_DEBUG] BONUS DROP: pc_root:head_giver
+execute as @s at @s if score @s PC_RNG matches 0 run execute at @s as @p[tag=pcm2_heldstuff] at @s run loot spawn ~ ~ ~ loot pc_root:head_giver
+execute as @s at @s if score @s PC_RNG matches 0 run execute at @s as @p[tag=pcm2_heldstuff] at @s run tell @a[tag=pcm2_DEBUG] BONUS DROP: pc_root:head_giver
 
 execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"text":"You've gotten a Rare bonus item!","color":"aqua"}]
 execute as @s at @s run playsound minecraft:block.enchantment_table.use player @p ~ ~ ~ 1 1 1

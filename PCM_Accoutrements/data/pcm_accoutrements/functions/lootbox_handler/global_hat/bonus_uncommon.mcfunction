@@ -1,4 +1,8 @@
-function pc_root:rng/rng10_self
+########function pc_root:rng/rng10_self
+execute as @s run function pc_root:rng/rng_large_self
+execute as @s run scoreboard players set pcm2_lbbu PC_RNG 10
+execute as @s run scoreboard players operation @s PC_RNG %= pcm2_lbbu PC_RNG
+
 
 #50 - 25 - 15 - 5 - 5
 
@@ -52,9 +56,9 @@ execute as @s at @s if score @s PC_RNG matches 9 run loot spawn ~ ~ ~ loot minec
 execute as @s at @s if score @s PC_RNG matches 9 run tell @a[tag=pcm2_DEBUG] BONUS DROP: minecraft:blocks/wither_rose
 
 #fishing treasure
-#execute as @s at @s if score @s PC_RNG matches 10 run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:experience_bottle",Count:4b}}
-execute as @s at @s if score @s PC_RNG matches 10 run loot spawn ~ ~ ~ loot minecraft:gameplay/fishing/treasure
-execute as @s at @s if score @s PC_RNG matches 10 run tell @a[tag=pcm2_DEBUG] BONUS DROP: minecraft:gameplay/fishing/treasure
+#execute as @s at @s if score @s PC_RNG matches 0 run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:experience_bottle",Count:4b}}
+execute as @s at @s if score @s PC_RNG matches 0 run loot spawn ~ ~ ~ loot minecraft:gameplay/fishing/treasure
+execute as @s at @s if score @s PC_RNG matches 0 run tell @a[tag=pcm2_DEBUG] BONUS DROP: minecraft:gameplay/fishing/treasure
 
 execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"text":"You've gotten an Uncommon bonus item!","color":"yellow"}]
 execute as @s at @s run playsound minecraft:entity.player.levelup player @p ~ ~ ~ 1 1 1

@@ -10,17 +10,19 @@
 
 execute at @e[type=armor_stand,tag=pcm2_unbox_marker1] run particle totem_of_undying ~ ~ ~ 0.05 0.05 0.05 .25 25 force @a[distance=..10]
 
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run function pc_root:rng/rng8_self
-
+########execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run function pc_root:rng/rng8_self
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run function pc_root:rng/rng_large_self
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run scoreboard players set pcm2_lbm1 PC_RNG 8
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run scoreboard players operation @s PC_RNG %= pcm2_lbm1 PC_RNG
 
 #FOR NON HAT LOOTBOXES
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=!pcm2_hatlb] run scoreboard players set @s pcm2_lbsequence 99
 
 #is hat?
 
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] if score @s PC_RNG matches 1..8 run scoreboard players set @s pcm2_lbsequence 2
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] if score @s PC_RNG matches 0..7 run scoreboard players set @s pcm2_lbsequence 2
 
-#execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2}] run function pc_root:rng/rng6_self
+########NOT EVER IN USE execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2}] run function pc_root:rng/rng6_self
 
 #GIVE HAT
 
@@ -28,20 +30,20 @@ execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,pcm2_lbnumber=2}] at @s run function pcm_accoutrements:lootbox_handler/lootbox_all/lb2_stage1
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2}] at @s run tell @a[tag=pcm2_DEBUG] UNBOX STAGE 1
 
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,PC_RNG=1..6}] run scoreboard players set @s pcm2_lbsequence 3
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,PC_RNG=0..5}] run scoreboard players set @s pcm2_lbsequence 3
 
 #lock item temporarily
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if entity @e[tag=!pcm2_spawned,type=item,nbt={Item:{tag:{pcm2_hat:1}}},distance=..2] run data modify entity @e[type=item,limit=1,sort=nearest,distance=..2] PickupDelay set value 32767
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},distance=..2] run tp @e[type=item,limit=1,sort=nearest,distance=..2] @s
 
 #rarity
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s run function pcm_accoutrements:lootbox_handler/global_hat/hat_stage2
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s run tell @a[tag=pcm2_DEBUG] UNBOX STAGE 2
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if entity @e[type=item,nbt={PickupDelay:32767s,Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5] run tell @a[tag=pcm2_DEBUG] UNBOX STAGE 2
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if entity @e[type=item,nbt={PickupDelay:32767s,Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5] run function pcm_accoutrements:lootbox_handler/global_hat/hat_stage2
 
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3,PC_RNG=1..100}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},tag=pcm2_normalspawn,distance=..0.5] run scoreboard players set @s pcm2_lbsequence 4
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3,PC_RNG=1..100}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},tag=pcm2_strangespawn,distance=..0.5] run scoreboard players set @s pcm2_lbsequence 4
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3,PC_RNG=1..100}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},tag=pcm2_unusualspawn,distance=..0.5] run particle witch ~ ~ ~ 0.05 0.05 0.05 .25 25 force @a[distance=..10]
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3,PC_RNG=1..100}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},tag=pcm2_unusualspawn,distance=..0.5] run scoreboard players set @s pcm2_lbsequence 4
+#execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if score @s PC_RNG matches 0..99 if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},tag=pcm2_normalspawn,distance=..0.5] run scoreboard players set @s pcm2_lbsequence 4
+#execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if score @s PC_RNG matches 0..99 if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},tag=pcm2_strangespawn,distance=..0.5] run scoreboard players set @s pcm2_lbsequence 4
+#execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if score @s PC_RNG matches 0..99 if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},tag=pcm2_unusualspawn,distance=..0.5] run particle witch ~ ~ ~ 0.05 0.05 0.05 .25 25 force @a[distance=..10]
+#execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if score @s PC_RNG matches 0..99 if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},tag=pcm2_unusualspawn,distance=..0.5] run scoreboard players set @s pcm2_lbsequence 4
 
 
 #stranges
@@ -81,7 +83,10 @@ execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=5}
 
 #BONUS ROUND
 
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6}] at @s run function pc_root:rng/rng100_self
+########execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6}] at @s run function pc_root:rng/rng100_self
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6}] run function pc_root:rng/rng_large_self
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6}] run scoreboard players set pcm2_lbm1 PC_RNG 100
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6}] run scoreboard players operation @s PC_RNG %= pcm2_lbm1 PC_RNG
 
 #execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=..100}] at @s run function pcm_accoutrements:lootbox_handler/global_hat/bonus_round
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=66..}] at @s run function pcm_accoutrements:lootbox_handler/global_hat/bonus_round
