@@ -10,11 +10,11 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:200,PCUUID:200,PCM:2,pcm2_lb:1,pcm2_islockbox:1}"
+				"tag": "{CustomModelData:200,PCUUID:200,PCM:2,pcm2_lb:999,pcm2_islockbox:1}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Alpha Lockbox",
+					"text": "Pundus Inc. Randobox",
 					"bold": false,
 					"italic": false,
 					"underlined": false,
@@ -32,7 +32,7 @@
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "Accoutrements Series #1",
+					"text": "Testing Series #x",
 					"color": "dark_gray",
 					"italic": false
 				},
@@ -51,43 +51,33 @@
 					"italic": false
 				},
 				{
-					"text": "Hot Dogger",
+					"text": "Diamond",
 					"color": "dark_gray",
 					"italic": false
 				},
 				{
-					"text": "Headstack",
+					"text": "Potato",
 					"color": "dark_gray",
 					"italic": false
 				},
 				{
-					"text": "Bear Necessities",
+					"text": "Acacia Pressure Plate",
 					"color": "dark_gray",
 					"italic": false
 				},
 				{
-					"text": "Popeyes",
+					"text": "Emerald",
 					"color": "dark_gray",
 					"italic": false
 				},
 				{
-					"text": "Zombie Pal",
+					"text": "Cobblestone",
 					"color": "dark_gray",
 					"italic": false
 				},
 				{
-					"text": "Cone Head",
+					"text": "Beacon",
 					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "Hats may be of Strange",
-					"color": "dark_purple",
-					"italic": false
-				},
-				{
-					"text": "or Unusual quality!",
-					"color": "dark_purple",
 					"italic": false
 				},
 				{
@@ -96,13 +86,8 @@
 					"italic": false
 				},
 				{
-					"text": "Bonus items may drop when",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"text": "unboxing as well!",
-					"color": "gray",
+					"text": "",
+					"color": "dark_purple",
 					"italic": false
 				}]
 			}]

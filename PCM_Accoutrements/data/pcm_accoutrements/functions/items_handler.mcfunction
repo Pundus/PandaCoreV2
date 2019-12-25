@@ -4,6 +4,10 @@
 execute as @a[tag=pcm2_lootbox_1] run loot give @s loot pcm_accoutrements:lockbox/lockbox_01
 tag @a[tag=pcm2_lootbox_1] remove pcm2_lootbox_1
 
+#lockbox x
+execute as @a[tag=pcm2_lootbox_x] run loot give @s loot pcm_accoutrements:lockbox/lockbox_x
+tag @a[tag=pcm2_lootbox_x] remove pcm2_lootbox_x
+
 #lockbox key
 execute as @a[tag=pcm2_key] run loot give @s loot pcm_accoutrements:lockbox/lockbox_key
 tag @a[tag=pcm2_key] remove pcm2_key

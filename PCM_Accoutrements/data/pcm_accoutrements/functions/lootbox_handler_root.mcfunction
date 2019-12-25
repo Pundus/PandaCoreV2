@@ -1,3 +1,4 @@
 #function pcm_accoutrements:lootbox_handler/convert_to_keys
-function pcm_accoutrements:lootbox_handler/lootbox_01
+#function pcm_accoutrements:lootbox_handler/lootbox_01
+function pcm_accoutrements:lootbox_handler/lootbox_init
 function pcm_accoutrements:lootbox_handler/random_lb_drop

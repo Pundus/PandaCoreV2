@@ -1,3 +1,4 @@
+function pc_root:rng/rng6_self
 execute if score @s PC_RNG matches 1 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/bearnecessities
 execute if score @s PC_RNG matches 2 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/conehead
 execute if score @s PC_RNG matches 3 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/headstack
