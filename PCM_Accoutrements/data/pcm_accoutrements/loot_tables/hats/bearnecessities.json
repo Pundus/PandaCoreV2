@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_bearnecessities:1,HideFlags:62,CustomModelData:202,PCUUID:202,PCM:2,pcm2_hat:1,display:{color:2171169}}"
+				"tag": "{pcm2_series:1,pcm2_bearnecessities:1,HideFlags:62,CustomModelData:202,PCUUID:202,PCM:2,pcm2_hat:1,display:{color:2171169}}"
 			}, {
 				"function": "set_name",
 				"name": {

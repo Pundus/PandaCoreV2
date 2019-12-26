@@ -17,15 +17,15 @@ execute as @s at @s if score @s PC_RNG matches 50..79 run function pcm_accoutrem
 #execute as @s at @s if score @s PC_RNG matches ..99 run function pcm_accoutrements:lootbox_handler/global_hat/bonus_uncommon
 
 #rare
-execute as @s at @s if score @s PC_RNG matches 80..99 run tell @a[tag=pcm2_DEBUG] BONUS DROP: RARE
-execute as @s at @s if score @s PC_RNG matches 80..99 run function pcm_accoutrements:lootbox_handler/global_hat/bonus_rare
+execute as @s at @s if score @s PC_RNG matches 80..89 run tell @a[tag=pcm2_DEBUG] BONUS DROP: RARE
+execute as @s at @s if score @s PC_RNG matches 80..89 run function pcm_accoutrements:lootbox_handler/global_hat/bonus_rare
 
 #strangifiers
-#execute as @s at @s if score @s PC_RNG matches 90..94 run tell @a[tag=pcm2_DEBUG] BONUS DROP: STRANGIFIERS
-#execute as @s at @s if score @s PC_RNG matches 90..94 run function pcm_accoutrements:lootbox_handler/global_hat/bonus_strangifiers
+execute as @s at @s if score @s PC_RNG matches 90..94 run tell @a[tag=pcm2_DEBUG] BONUS DROP: STRANGIFIERS
+execute as @s at @s if score @s PC_RNG matches 90..94 run function pcm_accoutrements:modifier_handlers/strangifier_init
 
 #unusualifiers
-#execute as @s at @s if score @s PC_RNG matches 95..99 run tell @a[tag=pcm2_DEBUG] BONUS DROP: UNUSUALIFIERS
-#execute as @s at @s if score @s PC_RNG matches 95..99 run function pcm_accoutrements:lootbox_handler/global_hat/bonus_unusualifiers
+execute as @s at @s if score @s PC_RNG matches 95..99 run tell @a[tag=pcm2_DEBUG] BONUS DROP: UNUSUALIFIERS
+execute as @s at @s if score @s PC_RNG matches 95..99 run function pcm_accoutrements:modifier_handlers/unusualifier_init
 
 scoreboard players set @s pcm2_lbsequence 7

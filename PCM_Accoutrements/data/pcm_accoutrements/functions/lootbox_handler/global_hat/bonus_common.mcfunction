@@ -33,8 +33,8 @@ execute as @s at @s if score @s PC_RNG matches 5 run loot spawn ~ ~ ~ loot minec
 execute as @s at @s if score @s PC_RNG matches 5 run tell @a[tag=pcm2_DEBUG] BONUS DROP: minecraft:gameplay/hero_of_the_village/farmer_gift
 
 #fletcher
-execute as @s at @s if score @s PC_RNG matches 6 run loot spawn ~ ~ ~ loot minecraft:gameplay/hero_of_the_village/fletcher_gift
-execute as @s at @s if score @s PC_RNG matches 6 run tell @a[tag=pcm2_DEBUG] BONUS DROP: minecraft:gameplay/hero_of_the_village/fletcher_gift
+execute as @s at @s if score @s PC_RNG matches 6 run loot spawn ~ ~ ~ loot minecraft:blocks/bookshelf
+execute as @s at @s if score @s PC_RNG matches 6 run tell @a[tag=pcm2_DEBUG] BONUS DROP: minecraft:blocks/bookshelf
 
 #cartographer
 execute as @s at @s if score @s PC_RNG matches 7 run loot spawn ~ ~ ~ loot minecraft:gameplay/hero_of_the_village/cartographer_gift
@@ -54,4 +54,4 @@ execute as @s at @s if score @s PC_RNG matches 0 run tell @a[tag=pcm2_DEBUG] BON
 
 
 execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"text":"You've gotten a Common bonus item!"}]
-execute as @s at @s run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 1 1 1
+execute as @s at @s run playsound minecraft:ui.button.click player @p ~ ~ ~ 1 1 1

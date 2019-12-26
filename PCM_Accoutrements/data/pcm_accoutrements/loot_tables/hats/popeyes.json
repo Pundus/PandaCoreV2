@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_popeyes:1,HideFlags:62,CustomModelData:205,PCUUID:205,PCM:2,pcm2_hat:1,display:{color:65793}}"
+				"tag": "{pcm2_series:1,pcm2_popeyes:1,HideFlags:62,CustomModelData:205,PCUUID:205,PCM:2,pcm2_hat:1,display:{color:65793}}"
 			}, {
 				"function": "set_name",
 				"name": {

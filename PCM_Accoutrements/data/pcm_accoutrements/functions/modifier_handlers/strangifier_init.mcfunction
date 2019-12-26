@@ -1,4 +1,8 @@
+execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"text":"You've gotten a Strangifier!","color":"yellow"}]
+execute as @s at @s run playsound minecraft:block.enchantment_table.use player @p ~ ~ ~ 1 1 1
+
 execute at @s run loot spawn ~ ~ ~ loot pcm_accoutrements:lockbox/strangifier
+
 execute at @s as @e[type=item,nbt={Item:{tag:{pcm2_strangifier:1}}},nbt=!{Item:{tag:{pcm2_sffx_applied:1}}},limit=1,distance=..0.5] run tag @s add pcm2_js_strangifier
 
 execute at @s as @e[type=item,tag=pcm2_js_strangifier,limit=1,distance=..0.5] run function pcm_accoutrements:modifier_handlers/strangifier_effectslist

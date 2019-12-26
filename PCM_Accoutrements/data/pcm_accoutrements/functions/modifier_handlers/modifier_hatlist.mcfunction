@@ -1,6 +1,11 @@
 #hats
-execute at @s unless score PCM2_HatOverride pcm2_override matches 1.. run function pc_root:rng/rng6_self
-execute at @s unless score PCM2_HatOverride pcm2_override matches 1.. run tell @a[tag=pcm2_DEBUG] BEGIN STRANGIFIER HATS
+#####execute at @s unless score PCM2_HatOverride pcm2_override matches 1.. run function pc_root:rng/rng6_self
+
+execute as @s unless score PCM2_HatOverride pcm2_override matches 1.. run function pc_root:rng/rng_large_self
+execute as @s unless score PCM2_HatOverride pcm2_override matches 1.. run scoreboard players set pcm2_mfh PC_RNG 6
+execute as @s unless score PCM2_HatOverride pcm2_override matches 1.. run scoreboard players operation @s PC_RNG %= pcm2_mfh PC_RNG
+
+execute at @s unless score PCM2_HatOverride pcm2_override matches 1.. run tell @a[tag=pcm2_DEBUG] BEGIN MODIFIER HATS
 
 #hotdogger
 execute at @s if score @s PC_RNG matches 1 run data modify entity @s Item.tag merge value {pcm2_hotdogger:1}
@@ -53,14 +58,19 @@ execute at @s if score PCM2_HatOverride pcm2_override matches 5 run data modify 
 execute at @s if score PCM2_HatOverride pcm2_override matches 5 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Hat: Popeyes","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
 
 #conehead
-execute at @s if score @s PC_RNG matches 6 run data modify entity @s Item.tag merge value {pcm2_conehead:1}
-execute at @s if score @s PC_RNG matches 6 run data modify entity @s Item.tag merge value {pcm2_sfhat_applied:1}
-execute at @s if score @s PC_RNG matches 6 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Hat: Cone Head","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
-execute at @s if score @s PC_RNG matches 6 run tell @a[tag=pcm2_DEBUG] STRANGIFIER: CONE HEAD
+execute at @s if score @s PC_RNG matches 0 run data modify entity @s Item.tag merge value {pcm2_conehead:1}
+execute at @s if score @s PC_RNG matches 0 run data modify entity @s Item.tag merge value {pcm2_sfhat_applied:1}
+execute at @s if score @s PC_RNG matches 0 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Hat: Cone Head","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+execute at @s if score @s PC_RNG matches 0 run tell @a[tag=pcm2_DEBUG] STRANGIFIER: CONE HEAD
 
-execute at @s if score PCM2_HatOverride pcm2_override matches 6 run data modify entity @s Item.tag merge value {pcm2_conehead:1}
-execute at @s if score PCM2_HatOverride pcm2_override matches 6 run data modify entity @s Item.tag merge value {pcm2_sfhat_applied:1}
-execute at @s if score PCM2_HatOverride pcm2_override matches 6 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Hat: Cone Head","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+execute at @s if score PCM2_HatOverride pcm2_override matches 0 run data modify entity @s Item.tag merge value {pcm2_conehead:1}
+execute at @s if score PCM2_HatOverride pcm2_override matches 0 run data modify entity @s Item.tag merge value {pcm2_sfhat_applied:1}
+execute at @s if score PCM2_HatOverride pcm2_override matches 0 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Hat: Cone Head","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+
+execute at @s if score PCM2_HatOverride pcm2_override matches 0.. run data modify entity @s Item.tag merge value {pcm2_modified:1}
+execute at @s if score @s PC_RNG matches 0.. run data modify entity @s Item.tag merge value {pcm2_modified:1}
+
+
 
 scoreboard players reset PCM2_HatOverride pcm2_override
 

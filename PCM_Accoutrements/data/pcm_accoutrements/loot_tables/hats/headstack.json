@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_headstack:1,HideFlags:62,CustomModelData:203,PCUUID:203,PCM:2,pcm2_hat:1}"
+				"tag": "{pcm2_series:1,pcm2_headstack:1,HideFlags:62,CustomModelData:203,PCUUID:203,PCM:2,pcm2_hat:1}"
 			}, {
 				"function": "set_name",
 				"name": {
