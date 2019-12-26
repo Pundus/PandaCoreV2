@@ -4,13 +4,13 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:golden_helmet",
+			"name": "minecraft:leather_helmet",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_hotdogger:1,pcm2_hat:1,HideFlags:62,CustomModelData:201,PCUUID:201,PCM:2}"
+				"tag": "{pcm2_hotdogger:1,pcm2_hat:1,HideFlags:62,CustomModelData:201,PCUUID:201,PCM:2,display:{color:9838624}}"
 			}, {
 				"function": "set_name",
 				"name": {
@@ -36,6 +36,15 @@
 					"color": "gray",
 					"bold": false,
 					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				},
+				{
+					"text": "Dyeable: Trimmings",
+					"color": "dark_gray",
+					"bold": false,
+					"italic": true,
 					"underlined": false,
 					"strikethrough": false,
 					"obfuscated": false

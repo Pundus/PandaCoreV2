@@ -4,13 +4,13 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:golden_helmet",
+			"name": "minecraft:leather_helmet",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_bearnecessities:1,HideFlags:62,CustomModelData:202,PCUUID:202,PCM:2,pcm2_hat:1}"
+				"tag": "{pcm2_bearnecessities:1,HideFlags:62,CustomModelData:202,PCUUID:202,PCM:2,pcm2_hat:1,display:{color:2171169}}"
 			}, {
 				"function": "set_name",
 				"name": {
@@ -28,6 +28,15 @@
 					"color": "gray",
 					"bold": false,
 					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				},
+				{
+					"text": "Dyeable: Coloured Fur",
+					"color": "dark_gray",
+					"bold": false,
+					"italic": true,
 					"underlined": false,
 					"strikethrough": false,
 					"obfuscated": false

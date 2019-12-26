@@ -4,7 +4,7 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:golden_helmet",
+			"name": "minecraft:leather_helmet",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
