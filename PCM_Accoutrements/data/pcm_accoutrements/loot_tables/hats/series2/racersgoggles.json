@@ -10,11 +10,11 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_series:1,pcm2_popeyes:1,HideFlags:62,CustomModelData:205,PCUUID:205,PCM:2,pcm2_hat:1,pcm2_dyeble:1,display:{color:65793}}"
+				"tag": "{pcm2_series:2,pcm2_racersgoggles:1,HideFlags:62,CustomModelData:211,PCUUID:211,PCM:2,pcm2_hat:1,pcm2_dyeble:1,display:{color:16745472}}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Popeyes",
+					"text": "Racer's Goggles",
 					"bold": false,
 					"italic": false,
 					"underlined": false,
@@ -24,7 +24,7 @@
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "O_O",
+					"text": "Protect your eyes for sights",
 					"color": "gray",
 					"bold": false,
 					"italic": false,
@@ -33,7 +33,16 @@
 					"obfuscated": false
 				},
 				{
-					"text": "Dyeable: Pupils",
+					"text": "to see at the speed of light.",
+					"color": "gray",
+					"bold": false,
+					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				},
+				{
+					"text": "Dyeable: Visor",
 					"color": "dark_gray",
 					"bold": false,
 					"italic": true,
@@ -42,7 +51,7 @@
 					"obfuscated": false
 				},
 				{
-					"text": "Default: Black",
+					"text": "Default: Orange",
 					"color": "dark_gray",
 					"bold": false,
 					"italic": true,

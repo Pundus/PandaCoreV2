@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_series:2,pcm2_partyhat:1,HideFlags:62,CustomModelData:208,PCUUID:208,PCM:2,pcm2_hat:1,display:{color:10494498}}"
+				"tag": "{pcm2_series:2,pcm2_partyhat:1,HideFlags:62,CustomModelData:208,PCUUID:208,PCM:2,pcm2_hat:1,pcm2_dyeble:1,display:{color:10494498}}"
 			}, {
 				"function": "set_name",
 				"name": {
@@ -34,6 +34,15 @@
 				},
 				{
 					"text": "Dyeable: Body",
+					"color": "dark_gray",
+					"bold": false,
+					"italic": true,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				},
+				{
+					"text": "Default: Red",
 					"color": "dark_gray",
 					"bold": false,
 					"italic": true,

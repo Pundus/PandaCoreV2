@@ -5,3 +5,4 @@ scoreboard objectives add pcm2_killtracker minecraft.custom:minecraft.mob_kills
 scoreboard objectives add pcm2_override dummy
 
 execute unless score PCM2_Lootbox pcm2_SETTINGS matches 0 run scoreboard players set PCM2_Lootbox pcm2_SETTINGS 1
+execute unless score PCM2_MobHats pcm2_SETTINGS matches 0 run scoreboard players set PCM2_MobHats pcm2_SETTINGS 1

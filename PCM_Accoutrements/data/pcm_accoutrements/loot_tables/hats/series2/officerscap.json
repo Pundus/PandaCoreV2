@@ -10,11 +10,11 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_series:2,pcm2_sergeantspeakedhat:1,HideFlags:62,CustomModelData:209,PCUUID:209,PCM:2,pcm2_hat:1}"
+				"tag": "{pcm2_series:2,pcm2_officerscap:1,HideFlags:62,CustomModelData:219,PCUUID:219,PCM:2,pcm2_hat:1}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Sergeant's Peaked Hat",
+					"text": "Officer's Cap",
 					"bold": false,
 					"italic": false,
 					"underlined": false,
@@ -24,7 +24,15 @@
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "The officer of the watch.",
+					"text": "I fought the law and the law",
+					"color": "gray",
+					"bold": false,
+					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				},{
+					"text": "won.",
 					"color": "gray",
 					"bold": false,
 					"italic": false,

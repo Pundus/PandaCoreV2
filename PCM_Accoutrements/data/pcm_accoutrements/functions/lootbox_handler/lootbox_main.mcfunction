@@ -30,7 +30,7 @@ execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,pcm2_lbnumber=2}] at @s run function pcm_accoutrements:lootbox_handler/lootbox_all/lb2_stage1
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2}] at @s run tell @a[tag=pcm2_DEBUG] UNBOX STAGE 1
 
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,PC_RNG=0..5}] run scoreboard players set @s pcm2_lbsequence 3
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,PC_RNG=0..}] run scoreboard players set @s pcm2_lbsequence 3
 
 #lock item temporarily
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=3}] at @s if entity @e[tag=!pcm2_spawned,type=item,nbt={Item:{tag:{pcm2_hat:1}}},distance=..2] run data modify entity @e[type=item,limit=1,sort=nearest,distance=..2] PickupDelay set value 32767

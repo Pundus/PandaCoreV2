@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:evoker",
+    "minecraft:pillager",
+    "minecraft:vindicator",
+    "minecraft:illusioner",
+    "minecraft:villager",
+    "minecraft:drowned",
+    "minecraft:stray",
+    "minecraft:husk",
+    "minecraft:zombie_pigman",
+    "minecraft:skeleton",
+    "minecraft:vex",
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:wandering_trader",
+    "minecraft:wither_skeleton"
+  ]
+}

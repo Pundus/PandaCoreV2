@@ -5,21 +5,74 @@
 #hotdogger
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_hotdogger:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_hotdogger:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_hotdogger:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_hotdogger:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_hotdogger:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
 #bear
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_bearnecessities:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_bearnecessities:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_bearnecessities:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_bearnecessities:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_bearnecessities:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
 #headstack
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_headstack:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_headstack:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_headstack:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_headstack:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_headstack:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
-#popeyes
+
+#zombiepal
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_zombiepal:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_zombiepal:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_zombiepal:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_zombiepal:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_zombiepal:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
-#zombiepal
+
+#popeyes
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_popeyes:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_popeyes:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_popeyes:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_popeyes:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_popeyes:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
 #conehead
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_conehead:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_conehead:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
 execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_conehead:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_conehead:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_conehead:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#partyhat
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_partyhat:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_partyhat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_partyhat:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_partyhat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_partyhat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#sergeantspeak
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_sergeantspeak:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sergeantspeak:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_sergeantspeak:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sergeantspeak:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sergeantspeak:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#sovietenforcement
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_sovietenforcement:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sovietenforcement:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_sovietenforcement:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sovietenforcement:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sovietenforcement:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#racersgoggles
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_racersgoggles:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_racersgoggles:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_racersgoggles:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_racersgoggles:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_racersgoggles:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#fallenangel
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_fallenangel:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_fallenangel:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_fallenangel:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_fallenangel:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_fallenangel:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#dualhairribbons
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_dualhairribbons:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_dualhairribbons:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_dualhairribbons:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_dualhairribbons:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_dualhairribbons:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#taketheplunge
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_taketheplunge:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_taketheplunge:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_taketheplunge:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_taketheplunge:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_taketheplunge:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#doctorsmirror
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_doctorsmirror:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_doctorsmirror:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_doctorsmirror:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_doctorsmirror:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_doctorsmirror:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#3dglasses
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_3dglasses:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_3dglasses:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_3dglasses:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_3dglasses:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_3dglasses:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#sweettooth
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_sweettooth:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sweettooth:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_sweettooth:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sweettooth:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_sweettooth:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#nou
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_nou:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_nou:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_nou:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_nou:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_nou:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
+
+#officerscap
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_officerscap:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_officerscap:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_svalid
+execute as @s[nbt={Item:{tag:{pcm2_strangifier:1,pcm2_officerscap:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_officerscap:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_officerscap:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hsvalid
 
 #rename
 execute as @s[tag=pcm2_svalid] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:modifier_handlers/strangifier_rename  
@@ -28,28 +81,34 @@ execute as @s[tag=pcm2_svalid] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}
 #apply fx
 
 #creeper
-execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_creeperpacifier:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/creeper_pacifier  
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_creeperpacifier:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/creeper_pacifier
 
 #firewalker
-execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_firewalker:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/fire_walker  
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_firewalker:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/fire_walker
 
 #fireballdefender
-execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_fireballdefender:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/fireball_defender  
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_fireballdefender:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/fireball_defender
 
 #highjump
-execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_highjump:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/high_jump  
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_highjump:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/high_jump
 
 #itemmagnet
-execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_itemmagnet:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/item_magnet  
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_itemmagnet:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/item_magnet
 
 #nightsight
-execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_nightsight:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/night_sight  
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_nightsight:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/night_sight
 
 #poisonimmunity
-execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_poisonimmunity:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/poison_immunity  
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_poisonimmunity:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/poison_immunity
 
 #safelanding
-execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_safelanding:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/safe_landing  
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_safelanding:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/safe_landing
+
+#onepunchman
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_opm:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/one_punch_man
+
+#vindicated
+execute as @s[tag=pcm2_svalid,nbt={Item:{tag:{pcm2_vindicated:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hsvalid] run function pcm_accoutrements:assign_strange_norename/vindicated
 
 #end
 

@@ -1,0 +1,1 @@
+function pcm_accoutrements:mobhats/hat_assigner_root

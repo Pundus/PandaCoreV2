@@ -10,11 +10,11 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_series:1,pcm2_popeyes:1,HideFlags:62,CustomModelData:205,PCUUID:205,PCM:2,pcm2_hat:1,pcm2_dyeble:1,display:{color:65793}}"
+				"tag": "{pcm2_series:2,pcm2_nou:1,HideFlags:62,CustomModelData:218,PCUUID:218,PCM:2,pcm2_hat:1}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Popeyes",
+					"text": "No U",
 					"bold": false,
 					"italic": false,
 					"underlined": false,
@@ -24,28 +24,10 @@
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "O_O",
+					"text": "The modern rebuttal.",
 					"color": "gray",
 					"bold": false,
 					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Dyeable: Pupils",
-					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Default: Black",
-					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
 					"underlined": false,
 					"strikethrough": false,
 					"obfuscated": false

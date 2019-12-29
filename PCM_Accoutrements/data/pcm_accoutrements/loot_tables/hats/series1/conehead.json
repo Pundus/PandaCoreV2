@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{pcm2_series:1,pcm2_conehead:1,HideFlags:62,CustomModelData:206,PCUUID:206,PCM:2,pcm2_hat:1,display:{color:15790320}}"
+				"tag": "{pcm2_series:1,pcm2_conehead:1,HideFlags:62,CustomModelData:206,PCUUID:206,PCM:2,pcm2_hat:1,pcm2_dyeble:1,display:{color:15790320}}"
 			}, {
 				"function": "set_name",
 				"name": {
@@ -34,6 +34,15 @@
 				},
 				{
 					"text": "Dyeable: Stripes",
+					"color": "dark_gray",
+					"bold": false,
+					"italic": true,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				},
+				{
+					"text": "Default: White",
 					"color": "dark_gray",
 					"bold": false,
 					"italic": true,

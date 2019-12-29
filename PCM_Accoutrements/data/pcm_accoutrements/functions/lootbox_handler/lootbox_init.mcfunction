@@ -25,7 +25,7 @@ execute at @e[type=item,nbt={Item:{Count:1b,tag:{pcm2_key:1}},OnGround:1b},tag=!
 execute at @e[type=item,nbt={Item:{Count:1b,tag:{pcm2_key:1}},OnGround:1b},tag=!pcm2_freshkey] if entity @e[type=item,nbt={Item:{Count:1b,tag:{pcm2_lb:999}},OnGround:1b},distance=..2] unless entity @e[type=item,nbt={Item:{Count:1b,tag:{pcm2_key:1}},OnGround:1b},tag=!pcm2_freshkey,distance=0.5..3] run scoreboard players set @e[type=armor_stand,tag=pcm2_unbox_marker1] pcm2_lbsequence 0
 execute at @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=0}] run kill @e[type=item,nbt={Item:{Count:1b,tag:{pcm2_key:1}},OnGround:1b},distance=..2,limit=1]
 execute at @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=0}] run kill @e[type=item,nbt={Item:{Count:1b,tag:{pcm2_lb:999}},OnGround:1b},distance=..2,limit=1]
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,tag=pcm2_lbn_2,scores={pcm2_lbsequence=0}] run scoreboard players set @s pcm2_lbnumber 999
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,tag=pcm2_lbn_x,scores={pcm2_lbsequence=0}] run scoreboard players set @s pcm2_lbnumber 999
 
 
 
