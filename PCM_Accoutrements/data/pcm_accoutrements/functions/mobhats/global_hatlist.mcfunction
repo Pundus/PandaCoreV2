@@ -1,5 +1,5 @@
 execute as @s run function pc_root:rng/rng_large_self
-execute as @s run scoreboard players set pcm2_ghl PC_RNG 11
+execute as @s run scoreboard players set pcm2_ghl PC_RNG 18
 execute as @s run scoreboard players operation @s PC_RNG %= pcm2_ghl PC_RNG
 
 
@@ -85,13 +85,13 @@ execute as @s if score @s PC_RNG matches 15 run tell @a[tag=pcm2_DEBUG] MOBHAT: 
 
 
 #nou
-execute as @s if score @s PC_RNG matches 14 run loot replace entity @s armor.head loot pcm_accoutrements:hats/series2/nou
-execute as @s if score @s PC_RNG matches 14 run tell @a[tag=pcm2_DEBUG] MOBHAT: nou
+execute as @s if score @s PC_RNG matches 16 run loot replace entity @s armor.head loot pcm_accoutrements:hats/series2/nou
+execute as @s if score @s PC_RNG matches 16 run tell @a[tag=pcm2_DEBUG] MOBHAT: nou
 
 
 #officerscap
-execute as @s if score @s PC_RNG matches 15 run loot replace entity @s armor.head loot pcm_accoutrements:hats/series2/officerscap
-execute as @s if score @s PC_RNG matches 15 run tell @a[tag=pcm2_DEBUG] MOBHAT: officerscap
+execute as @s if score @s PC_RNG matches 17 run loot replace entity @s armor.head loot pcm_accoutrements:hats/series2/officerscap
+execute as @s if score @s PC_RNG matches 17 run tell @a[tag=pcm2_DEBUG] MOBHAT: officerscap
 
 
 execute as @s run scoreboard players reset @s PC_RNG 
