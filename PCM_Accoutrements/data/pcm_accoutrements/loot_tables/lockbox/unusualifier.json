@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:297,PCUUID:297,PCM:2,pcm2_unusualifier:1,HideFlags:63,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}]}"
+				"tag": "{CustomModelData:297,PCUUID:297,PCM:2,pcm2_unusualifier:1,pcm2_modifier:1,HideFlags:63,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}]}"
 			}, {
 				"function": "set_name",
 				"name": {
