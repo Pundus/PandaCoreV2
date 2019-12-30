@@ -12,14 +12,14 @@ execute as @s run scoreboard players operation @s PC_RNG %= pcm2_lbh3u1 PC_RNG
 
 
 
-execute if score @s PC_RNG matches 7 run function pcm_accoutrements:assign_strange_norename/creeper_pacifier
-execute if score @s PC_RNG matches 6 run function pcm_accoutrements:assign_strange_norename/fire_walker
-execute if score @s PC_RNG matches 5 run function pcm_accoutrements:assign_strange_norename/fireball_defender
-execute if score @s PC_RNG matches 4 run function pcm_accoutrements:assign_strange_norename/high_jump
-execute if score @s PC_RNG matches 3 run function pcm_accoutrements:assign_strange_norename/item_magnet
-execute if score @s PC_RNG matches 2 run function pcm_accoutrements:assign_strange_norename/night_sight
-execute if score @s PC_RNG matches 1 run function pcm_accoutrements:assign_strange_norename/poison_immunity
-execute if score @s PC_RNG matches 0 run function pcm_accoutrements:assign_strange_norename/safe_landing
-execute if score @s PC_RNG matches 8 run function pcm_accoutrements:assign_strange_norename/vindicated
-execute if score @s PC_RNG matches 9 run function pcm_accoutrements:assign_strange_norename/one_punch_man
+execute if score @s PC_RNG matches 0 run function pcm_accoutrements:assign_strange/creeper_pacifier
+execute if score @s PC_RNG matches 1 run function pcm_accoutrements:assign_strange/fire_walker
+execute if score @s PC_RNG matches 2 run function pcm_accoutrements:assign_strange/fireball_defender
+execute if score @s PC_RNG matches 3 run function pcm_accoutrements:assign_strange/high_jump
+execute if score @s PC_RNG matches 4 run function pcm_accoutrements:assign_strange/item_magnet
+execute if score @s PC_RNG matches 5 run function pcm_accoutrements:assign_strange/night_sight
+execute if score @s PC_RNG matches 6 run function pcm_accoutrements:assign_strange/poison_immunity
+execute if score @s PC_RNG matches 7 run function pcm_accoutrements:assign_strange/safe_landing
+execute if score @s PC_RNG matches 8 run function pcm_accoutrements:assign_strange/vindicated
+execute if score @s PC_RNG matches 9 run function pcm_accoutrements:assign_strange/one_punch_man
 function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus2
