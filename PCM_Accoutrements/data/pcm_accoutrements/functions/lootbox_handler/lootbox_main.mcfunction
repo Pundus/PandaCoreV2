@@ -28,6 +28,7 @@ execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1}
 
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,pcm2_lbnumber=1}] at @s run function pcm_accoutrements:lootbox_handler/lootbox_all/lb1_stage1
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,pcm2_lbnumber=2}] at @s run function pcm_accoutrements:lootbox_handler/lootbox_all/lb2_stage1
+execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,pcm2_lbnumber=3}] at @s run function pcm_accoutrements:lootbox_handler/lootbox_all/lb3_stage1
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2}] at @s run tell @a[tag=pcm2_DEBUG] UNBOX STAGE 1
 
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=2,PC_RNG=0..}] run scoreboard players set @s pcm2_lbsequence 3

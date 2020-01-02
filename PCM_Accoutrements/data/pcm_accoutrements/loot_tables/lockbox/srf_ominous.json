@@ -4,17 +4,17 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:white_dye",
+			"name": "minecraft:enchanted_book",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:299,PCUUID:299,PCM:2,pcm2_key:1}"
+				"tag": "{CustomModelData:292,PCUUID:292,PCM:2,pcm2_srf_ominous:1,HideFlags:63}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Key",
+					"text": "Pundus Inc. Special Requisition Form (Ominous)",
 					"color": "yellow",
 					"bold": false,
 					"italic": false,
@@ -25,21 +25,13 @@
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Used to open Lockboxes!",
+					"text": "Place in your offhand to submit a",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}, {
-					"text": "Throw on ground with lockbox to open.",
+					"text": "requisition for an Ominous rarity hat!",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}]
 			}]
 		}]

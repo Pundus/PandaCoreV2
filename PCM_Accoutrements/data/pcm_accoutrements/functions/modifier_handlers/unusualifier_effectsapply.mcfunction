@@ -25,6 +25,18 @@ execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_dr:1}}}] at @s as @e[typ
 #witches
 execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_witch:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_unusual/witches_familiar  
 
+#positive_charge
+execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_poscharge:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_unusual/positive_charge  
+
+#ancient_runes
+execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_runes:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_unusual/ancient_runes  
+
+#darkheart
+execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_darkheart:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_unusual/darkheart  
+
+#ember_rage
+execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_emberrage:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_unusual/ember_rage  
+
 #end`
 
 execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unusualifier:1}}}] if entity @e[type=item,nbt={Item:{tag:{pcm2_modified:1,pcm2_hat:1,pcm2_unusual:1}}},distance=..0.5,limit=1] run playsound minecraft:block.portal.travel player @p ~ ~ ~ 1 1 1

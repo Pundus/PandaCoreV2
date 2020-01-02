@@ -1,0 +1,39 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:291,PCUUID:291,PCM:2,pcm2_srf_occult:1,HideFlags:63}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"text": "Pundus Inc. Special Requisition Form (Occult)",
+					"color": "red",
+					"bold": false,
+					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [{
+					"text": "Place in your offhand to submit a",
+					"color": "gray",
+					"italic": false
+				}, {
+					"text": "requisition for an Occult rarity hat!",
+					"color": "gray",
+					"italic": false
+				}]
+			}]
+		}]
+	}]
+}

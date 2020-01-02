@@ -8,6 +8,10 @@ tag @a[tag=pcm2_lootbox_1] remove pcm2_lootbox_1
 execute as @a[tag=pcm2_lootbox_2] run loot give @s loot pcm_accoutrements:lockbox/lockbox_02
 tag @a[tag=pcm2_lootbox_2] remove pcm2_lootbox_2
 
+#lockbox 2
+execute as @a[tag=pcm2_lootbox_3] run loot give @s loot pcm_accoutrements:lockbox/lockbox_03
+tag @a[tag=pcm2_lootbox_3] remove pcm2_lootbox_3
+
 #lockbox x
 execute as @a[tag=pcm2_lootbox_x] run loot give @s loot pcm_accoutrements:lockbox/lockbox_x
 tag @a[tag=pcm2_lootbox_x] remove pcm2_lootbox_x
@@ -27,6 +31,18 @@ tag @a[tag=pcm2_unusualifier] remove pcm2_unusualifier
 #undyer
 execute as @a[tag=pcm2_undyer] run loot give @s loot pcm_accoutrements:lockbox/undyer
 tag @a[tag=pcm2_undyer] remove pcm2_undyer
+
+#srf obscure
+execute as @a[tag=pcm2_requisition_form_1] run loot give @s loot pcm_accoutrements:lockbox/srf_obscure
+tag @a[tag=pcm2_requisition_form_1] remove pcm2_requisition_form_1
+
+#srf ominous
+execute as @a[tag=pcm2_requisition_form_2] run loot give @s loot pcm_accoutrements:lockbox/srf_ominous
+tag @a[tag=pcm2_requisition_form_2] remove pcm2_requisition_form_2
+
+#srf occult
+execute as @a[tag=pcm2_requisition_form_3] run loot give @s loot pcm_accoutrements:lockbox/srf_occult
+tag @a[tag=pcm2_requisition_form_3] remove pcm2_requisition_form_3
 
 
 #hotdogger
@@ -102,5 +118,61 @@ execute as @a[tag=pcm2_officerscap] run loot give @s loot pcm_accoutrements:hats
 tag @a[tag=pcm2_officerscap] remove pcm2_officerscap
 
 #hellshorns
-execute as @a[tag=pcm2_hellshorns] run loot give @s loot pcm_accoutrements:hats/hellshorns
+execute as @a[tag=pcm2_hellshorns] run loot give @s loot pcm_accoutrements:hats/series3/hellshorns
 tag @a[tag=pcm2_hellshorns] remove pcm2_hellshorns
+
+#frankensteinbolts
+execute as @a[tag=pcm2_frankensteinbolts] run loot give @s loot pcm_accoutrements:hats/series3/frankensteinbolts
+tag @a[tag=pcm2_frankensteinbolts] remove pcm2_frankensteinbolts
+
+#cranialexposure
+execute as @a[tag=pcm2_cranialexposure] run loot give @s loot pcm_accoutrements:hats/series3/cranialexposure
+tag @a[tag=pcm2_cranialexposure] remove pcm2_cranialexposure
+
+#zombiestack
+execute as @a[tag=pcm2_zombiestack] run loot give @s loot pcm_accoutrements:hats/series3/zombiestack
+tag @a[tag=pcm2_zombiestack] remove pcm2_zombiestack
+
+#reapershood
+execute as @a[tag=pcm2_reapershood] run loot give @s loot pcm_accoutrements:hats/series3/reapershood
+tag @a[tag=pcm2_reapershood] remove pcm2_reapershood
+
+#thephantom
+execute as @a[tag=pcm2_thephantom] run loot give @s loot pcm_accoutrements:hats/series3/thephantom
+tag @a[tag=pcm2_thephantom] remove pcm2_thephantom
+
+#assimilation
+execute as @a[tag=pcm2_assimilation] run loot give @s loot pcm_accoutrements:hats/series3/assimilation
+tag @a[tag=pcm2_assimilation] remove pcm2_assimilation
+
+#vampiricalcloak
+execute as @a[tag=pcm2_vampiricalcloak] run loot give @s loot pcm_accoutrements:hats/series3/vampiricalcloak
+tag @a[tag=pcm2_vampiricalcloak] remove pcm2_vampiricalcloak
+
+#sapphireseer
+execute as @a[tag=pcm2_sapphireseer] run loot give @s loot pcm_accoutrements:hats/series3/sapphireseer
+tag @a[tag=pcm2_sapphireseer] remove pcm2_sapphireseer
+
+#sixfeetunder
+execute as @a[tag=pcm2_sixfeetunder] run loot give @s loot pcm_accoutrements:hats/series3/sixfeetunder
+tag @a[tag=pcm2_sixfeetunder] remove pcm2_sixfeetunder
+
+#atoymakerstoy
+execute as @a[tag=pcm2_atoymakerstoy] run loot give @s loot pcm_accoutrements:hats/series3/atoymakerstoy
+tag @a[tag=pcm2_atoymakerstoy] remove pcm2_atoymakerstoy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

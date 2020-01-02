@@ -4,17 +4,17 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:white_dye",
+			"name": "minecraft:leather_helmet",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:299,PCUUID:299,PCM:2,pcm2_key:1}"
+				"tag": "{pcm2_series:3,pcm2_ominous:1,pcm2_cranialexposure:1,HideFlags:62,CustomModelData:221,PCUUID:221,PCM:2,pcm2_hat:1}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Key",
+					"text": "Cranial Exposure",
 					"color": "yellow",
 					"bold": false,
 					"italic": false,
@@ -25,15 +25,24 @@
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Used to open Lockboxes!",
+					"text": "Ominous Accoutrement",
+					"color": "gold",
+					"bold": false,
+					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				},
+				{
+					"text": "For the Zombies to see, but",
 					"color": "gray",
 					"bold": false,
 					"italic": false,
 					"underlined": false,
 					"strikethrough": false,
 					"obfuscated": false
-				}, {
-					"text": "Throw on ground with lockbox to open.",
+				},{
+					"text": "hopefully not to reach.",
 					"color": "gray",
 					"bold": false,
 					"italic": false,

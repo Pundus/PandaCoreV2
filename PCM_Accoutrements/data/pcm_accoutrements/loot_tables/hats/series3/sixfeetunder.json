@@ -4,18 +4,18 @@
 		"entries": [{
 			"type": "item",
 			"weight": 1,
-			"name": "minecraft:white_dye",
+			"name": "minecraft:leather_helmet",
 			"functions": [{
 				"function": "set_count",
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:299,PCUUID:299,PCM:2,pcm2_key:1}"
+				"tag": "{pcm2_series:3,pcm2_ordinary:1,pcm2_sixfeetunder:1,HideFlags:62,CustomModelData:228,PCUUID:228,PCM:2,pcm2_hat:1}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Key",
-					"color": "yellow",
+					"text": "Six Feet Under",
+					"color": "green",
 					"bold": false,
 					"italic": false,
 					"underlined": false,
@@ -25,15 +25,23 @@
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Used to open Lockboxes!",
+					"text": "Ordinary Accoutrement",
+					"color": "dark_green",
+					"bold": false,
+					"italic": false,
+					"underlined": false,
+					"strikethrough": false,
+					"obfuscated": false
+				},{
+					"text": "Not literally, unless you are",
 					"color": "gray",
 					"bold": false,
 					"italic": false,
 					"underlined": false,
 					"strikethrough": false,
 					"obfuscated": false
-				}, {
-					"text": "Throw on ground with lockbox to open.",
+				},{
+					"text": "very tall!",
 					"color": "gray",
 					"bold": false,
 					"italic": false,

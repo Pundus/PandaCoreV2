@@ -9,3 +9,5 @@ function pcm_accoutrements:strange_fx/safe_landing
 function pcm_accoutrements:strange_fx/poison_immunity
 function pcm_accoutrements:strange_fx/vindicated
 function pcm_accoutrements:strange_fx/one_punch_man
+function pcm_accoutrements:strange_fx/evasive_manoeuvres
+function pcm_accoutrements:strange_fx/counter_strike

@@ -1,8 +1,8 @@
 #effects
-execute at @s unless score PCM2_HatOverride pcm2_override matches 0.. run function pc_root:rng/rng6_self
+#execute at @s unless score PCM2_HatOverride pcm2_override matches 0.. run function pc_root:rng/rng6_self
 
 execute as @s unless score PCM2_HatOverride pcm2_override matches 0.. run function pc_root:rng/rng_large_self
-execute as @s unless score PCM2_HatOverride pcm2_override matches 0.. run scoreboard players set pcm2_ufe PC_RNG 8
+execute as @s unless score PCM2_HatOverride pcm2_override matches 0.. run scoreboard players set pcm2_ufe PC_RNG 12
 execute as @s unless score PCM2_HatOverride pcm2_override matches 0.. run scoreboard players operation @s PC_RNG %= pcm2_ufe PC_RNG
 
 execute at @s unless score PCM2_UFXOverride pcm2_override matches 0.. run tell @a[tag=pcm2_DEBUG] BEGIN UNUSUALIFER EFFECTS
@@ -103,7 +103,53 @@ execute at @s if score PCM2_UFXOverride pcm2_override matches 7 run data modify 
 execute at @s if score PCM2_UFXOverride pcm2_override matches 7 run data modify entity @s Item.tag.display merge value {color:11600070}
 execute at @s if score PCM2_UFXOverride pcm2_override matches 7 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Witches Familiar","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
 
+#positive_charge
+execute at @s if score @s PC_RNG matches 8 run data modify entity @s Item.tag merge value {pcm2_unus_poscharge:1}
+execute at @s if score @s PC_RNG matches 8 run data modify entity @s Item.tag merge value {pcm2_uffx_applied:1}
+execute at @s if score @s PC_RNG matches 8 run data modify entity @s Item.tag.display merge value {color:1819421}
+execute at @s if score @s PC_RNG matches 8 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Positive Charge","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+execute at @s if score @s PC_RNG matches 8 run tell @a[tag=pcm2_DEBUG] UNUSUALIFER: POSITIVE CHARGE
 
+execute at @s if score PCM2_UFXOverride pcm2_override matches 8 run data modify entity @s Item.tag merge value {pcm2_unus_poscharge:1}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 8 run data modify entity @s Item.tag merge value {pcm2_uffx_applied:1}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 8 run data modify entity @s Item.tag.display merge value {color:1819421}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 8 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Positive Charge","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+
+#ancient_runes
+execute at @s if score @s PC_RNG matches 9 run data modify entity @s Item.tag merge value {pcm2_unus_runes:1}
+execute at @s if score @s PC_RNG matches 9 run data modify entity @s Item.tag merge value {pcm2_uffx_applied:1}
+execute at @s if score @s PC_RNG matches 9 run data modify entity @s Item.tag.display merge value {color:10855845}
+execute at @s if score @s PC_RNG matches 9 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Ancient Runes","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+execute at @s if score @s PC_RNG matches 9 run tell @a[tag=pcm2_DEBUG] UNUSUALIFER: ANCIENT RUNES
+
+execute at @s if score PCM2_UFXOverride pcm2_override matches 9 run data modify entity @s Item.tag merge value {pcm2_unus_runes:1}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 9 run data modify entity @s Item.tag merge value {pcm2_uffx_applied:1}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 9 run data modify entity @s Item.tag.display merge value {color:10855845}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 9 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Ancient Runes","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+
+#darkheart
+execute at @s if score @s PC_RNG matches 10 run data modify entity @s Item.tag merge value {pcm2_unus_darkheart:1}
+execute at @s if score @s PC_RNG matches 10 run data modify entity @s Item.tag merge value {pcm2_uffx_applied:1}
+execute at @s if score @s PC_RNG matches 10 run data modify entity @s Item.tag.display merge value {color:7935253}
+execute at @s if score @s PC_RNG matches 10 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Darkheart","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+execute at @s if score @s PC_RNG matches 10 run tell @a[tag=pcm2_DEBUG] UNUSUALIFER: DARKHEART
+
+execute at @s if score PCM2_UFXOverride pcm2_override matches 10 run data modify entity @s Item.tag merge value {pcm2_unus_darkheart:1}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 10 run data modify entity @s Item.tag merge value {pcm2_uffx_applied:1}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 10 run data modify entity @s Item.tag.display merge value {color:7935253}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 10 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Darkheart","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+
+#ember_rage
+execute at @s if score @s PC_RNG matches 11 run data modify entity @s Item.tag merge value {pcm2_unus_emberrage:1}
+execute at @s if score @s PC_RNG matches 11 run data modify entity @s Item.tag merge value {pcm2_uffx_applied:1}
+execute at @s if score @s PC_RNG matches 11 run data modify entity @s Item.tag.display merge value {color:16765771}
+execute at @s if score @s PC_RNG matches 11 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Ember Rage","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+execute at @s if score @s PC_RNG matches 11 run tell @a[tag=pcm2_DEBUG] UNUSUALIFER: EMBER RAGE
+
+execute at @s if score PCM2_UFXOverride pcm2_override matches 11 run data modify entity @s Item.tag merge value {pcm2_unus_emberrage:1}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 11 run data modify entity @s Item.tag merge value {pcm2_uffx_applied:1}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 11 run data modify entity @s Item.tag.display merge value {color:16765771}
+execute at @s if score PCM2_UFXOverride pcm2_override matches 11 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Ember Rage","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
 
 
 

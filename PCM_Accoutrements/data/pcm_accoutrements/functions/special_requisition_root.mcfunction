@@ -1,0 +1,1 @@
+function pcm_accoutrements:special_requisition/srf_basechecker

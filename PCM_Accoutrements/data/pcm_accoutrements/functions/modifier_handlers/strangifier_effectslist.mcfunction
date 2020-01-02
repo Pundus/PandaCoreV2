@@ -2,7 +2,7 @@
 #####execute at @s unless score PCM2_HatOverride pcm2_override matches 1.. run function pc_root:rng/rng8_self
 
 execute as @s unless score PCM2_HatOverride pcm2_override matches 1.. run function pc_root:rng/rng_large_self
-execute as @s unless score PCM2_HatOverride pcm2_override matches 1.. run scoreboard players set pcm2_sfe PC_RNG 10
+execute as @s unless score PCM2_HatOverride pcm2_override matches 1.. run scoreboard players set pcm2_sfe PC_RNG 12
 execute as @s unless score PCM2_HatOverride pcm2_override matches 1.. run scoreboard players operation @s PC_RNG %= pcm2_sfe PC_RNG
 
 execute at @s unless score PCM2_SFXOverride pcm2_override matches 1.. run tell @a[tag=pcm2_DEBUG] BEGIN STRANGIFIER EFFECTS
@@ -126,6 +126,46 @@ execute at @s if score PCM2_SFXOverride pcm2_override matches 9 run data modify 
 #execute at @s if score PCM2_SFXOverride pcm2_override matches 9 run data modify entity @s Item.tag merge value {pcm2_sffx_applied:1}
 execute at @s if score PCM2_SFXOverride pcm2_override matches 9 run data modify entity @s Item.tag.display merge value {color:131586}
 execute at @s if score PCM2_SFXOverride pcm2_override matches 9 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Vindicated","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+
+#evasive manoeuvres
+execute at @s if score @s PC_RNG matches 10 run data modify entity @s Item.tag merge value {pcm2_evasive:1}
+#execute at @s if score @s PC_RNG matches 10 run data modify entity @s Item.tag merge value {pcm2_sffx_applied:1}
+execute at @s if score @s PC_RNG matches 10 run data modify entity @s Item.tag.display merge value {color:16762013}
+execute at @s if score @s PC_RNG matches 10 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Evasive Manoeuvres","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+execute at @s if score @s PC_RNG matches 10 run tell @a[tag=pcm2_DEBUG] STRANGIFIER: EVASIVE MANOEUVRES
+
+execute at @s if score PCM2_SFXOverride pcm2_override matches 10 run data modify entity @s Item.tag merge value {pcm2_evasive:1}
+#execute at @s if score PCM2_SFXOverride pcm2_override matches 10 run data modify entity @s Item.tag merge value {pcm2_sffx_applied:1}
+execute at @s if score PCM2_SFXOverride pcm2_override matches 10 run data modify entity @s Item.tag.display merge value {color:16762013}
+execute at @s if score PCM2_SFXOverride pcm2_override matches 10 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Evasive Manoeuvres","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+
+#counter-strike
+execute at @s if score @s PC_RNG matches 11 run data modify entity @s Item.tag merge value {pcm2_counterstrike:1}
+#execute at @s if score @s PC_RNG matches 11 run data modify entity @s Item.tag merge value {pcm2_sffx_applied:1}
+execute at @s if score @s PC_RNG matches 11 run data modify entity @s Item.tag.display merge value {color:16158208}
+execute at @s if score @s PC_RNG matches 11 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Counter-Strike","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+execute at @s if score @s PC_RNG matches 11 run tell @a[tag=pcm2_DEBUG] STRANGIFIER: COUNTER-STRIKE
+
+execute at @s if score PCM2_SFXOverride pcm2_override matches 11 run data modify entity @s Item.tag merge value {pcm2_counterstrike:1}
+#execute at @s if score PCM2_SFXOverride pcm2_override matches 11 run data modify entity @s Item.tag merge value {pcm2_sffx_applied:1}
+execute at @s if score PCM2_SFXOverride pcm2_override matches 11 run data modify entity @s Item.tag.display merge value {color:16158208}
+execute at @s if score PCM2_SFXOverride pcm2_override matches 11 run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Effect: Counter-Strike","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 execute at @s if score PCM2_SFXOverride pcm2_override matches 0.. run data modify entity @s Item.tag merge value {pcm2_sffx_applied:1}
 execute at @s if score @s PC_RNG matches 0.. run data modify entity @s Item.tag merge value {pcm2_sffx_applied:1}

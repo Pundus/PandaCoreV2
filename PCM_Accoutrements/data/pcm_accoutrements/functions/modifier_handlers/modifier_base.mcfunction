@@ -1,5 +1,26 @@
 #validity
 
+#UNIVERSAL
+execute as @s[nbt={Item:{tag:{pcm2_modifier:1,pcm2_universalmod:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_mvalid
+execute as @s[nbt={Item:{tag:{pcm2_modifier:1,pcm2_universalmod:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hmvalid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #hotdogger
 execute as @s[nbt={Item:{tag:{pcm2_modifier:1,pcm2_hotdogger:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_hotdogger:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_mvalid
 execute as @s[nbt={Item:{tag:{pcm2_modifier:1,pcm2_hotdogger:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_hotdogger:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_hotdogger:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hmvalid
@@ -71,6 +92,17 @@ execute as @s[nbt={Item:{tag:{pcm2_modifier:1,pcm2_nou:1}}}] at @s if entity @e[
 #officerscap
 execute as @s[nbt={Item:{tag:{pcm2_modifier:1,pcm2_officerscap:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_officerscap:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] at @s run tag @s add pcm2_mvalid
 execute as @s[nbt={Item:{tag:{pcm2_modifier:1,pcm2_officerscap:1}}}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_officerscap:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] as @e[type=item,nbt={Item:{tag:{pcm2_hat:1,pcm2_officerscap:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1] run tag @s add pcm2_hmvalid
+
+
+
+
+
+
+
+
+
+
+
 
 #rename and apply [UNUSUAL]
 execute as @s[nbt={Item:{tag:{pcm2_unusualifier:1}}},tag=pcm2_mvalid] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm2_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:modifier_handlers/unusualifier_rename  

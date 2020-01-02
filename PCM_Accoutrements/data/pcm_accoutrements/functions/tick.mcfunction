@@ -8,3 +8,4 @@ execute if score PCM2_MobHats pcm2_SETTINGS matches 1 run function pcm_accoutrem
 function pcm_accoutrements:pancrafter_handler
 function pcm_accoutrements:modifier_handlers_root
 function pcm_accoutrements:undyer_root
+function pcm_accoutrements:special_requisition_root

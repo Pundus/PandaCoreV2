@@ -10,18 +10,18 @@ execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_rainbow:1}}}] anchored eyes at
 
 #rainy day
 execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_rd:1}}]}] anchored eyes at @s run particle poof ~ ~3 ~ 0.15 0 0.15 0.01 3 force @a[tag=!pcm2_disableunus]
-execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_rd:1}}]}] anchored eyes at @s run particle splash ~ ~2.75 ~ 0.2 0 0.2 0.05 2 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_rd:1}}]}] anchored eyes at @s run particle minecraft:falling_water ~ ~2.75 ~ 0.2 0 0.2 0.05 2 force @a[tag=!pcm2_disableunus]
 
 execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_rd:1}}}] at @s anchored feet positioned ~ ~2.5 ~ run particle poof ^-0.5 ^ ^ 0.1 0 0.1 0 1 force @a[tag=!pcm2_disableunus]
-execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_rd:1}}}] at @s anchored feet positioned ~ ~2.5 ~ run particle splash ^-0.5 ^ ^ 0.1 0 0.1 0.05 1 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_rd:1}}}] at @s anchored feet positioned ~ ~2.5 ~ run particle minecraft:falling_water ^-0.5 ^ ^ 0.1 0 0.1 0.05 1 force @a[tag=!pcm2_disableunus]
 execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_rd:1}}]}] at @s anchored feet positioned ~ ~2.5 ~ run particle poof ^0.5 ^ ^ 0.1 0 0.1 0 1 force @a[tag=!pcm2_disableunus]
-execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_rd:1}}]}] at @s anchored feet positioned ~ ~2.5 ~ run particle splash ^0.5 ^ ^ 0.1 0 0.1 0.05 1 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_rd:1}}]}] at @s anchored feet positioned ~ ~2.5 ~ run particle minecraft:falling_water ^0.5 ^ ^ 0.1 0 0.1 0.05 1 force @a[tag=!pcm2_disableunus]
 
 execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_rd:1}}]}] anchored eyes at @s run particle poof ~ ~3 ~ 0.15 0 0.15 0.01 3 force @a[tag=!pcm2_disableunus]
-execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_rd:1}}]}] anchored eyes at @s run particle splash ~ ~2.75 ~ 0.2 0 0.2 0.05 2 force @a[tag=!pcm2_disableunus]
+execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_rd:1}}]}] anchored eyes at @s run particle minecraft:falling_water ~ ~2.75 ~ 0.2 0 0.2 0.05 2 force @a[tag=!pcm2_disableunus]
 
 execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_rd:1}}}] anchored eyes at @s run particle poof ~ ~2 ~ 0.15 0 0.15 0.01 3 force @a[tag=!pcm2_disableunus,distance=..10]
-execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_rd:1}}}] anchored eyes at @s run particle splash ~ ~1.75 ~ 0.2 0 0.2 0.05 2 force @a[tag=!pcm2_disableunus,distance=..10]
+execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_rd:1}}}] anchored eyes at @s run particle minecraft:falling_water ~ ~1.75 ~ 0.2 0 0.2 0.05 2 force @a[tag=!pcm2_disableunus,distance=..10]
 
 #bubbles
 execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_bubbling:1}}]}] anchored eyes at @s run particle minecraft:bubble ^ ^0.6 ^ 0.2 0.1 0.2 0 5 force @a[tag=!pcm2_disableunus]
@@ -87,5 +87,51 @@ execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_dr:1}}]}] anchored e
 
 execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_dr:1}}}] anchored eyes at @s run particle poof ~ ~2 ~ 0.15 0 0.15 0.01 3 force @a[tag=!pcm2_disableunus,distance=..10]
 execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_dr:1}}}] anchored eyes at @s run loot spawn ~ ~1.75 ~ loot pcm_accoutrements:diamond_rain
+
+#positivecharge
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_poscharge:1}}]}] anchored eyes at @s run particle minecraft:composter ^ ^0.6 ^ 0.25 0.1 0.25 0 3 force @a[tag=!pcm2_disableunus]
+
+execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_poscharge:1}}}] at @s anchored feet positioned ~ ~0.8 ~ run particle minecraft:composter ^-0.5 ^ ^ 0.15 0.1 0.15 0 1 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_poscharge:1}}]}] at @s anchored feet positioned ~ ~0.8 ~ run particle minecraft:composter ^0.5 ^ ^ 0.15 0.1 0.15 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_poscharge:1}}]}] anchored eyes at @s run particle minecraft:composter ^ ^0.6 ^ 0.25 0.1 0.25 0 3 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_poscharge:1}}}] anchored eyes at @s run particle minecraft:composter ~ ~.3 ~ 0.25 0.1 0.25 0 3 force @a[tag=!pcm2_disableunus,distance=..10]
+
+#ancientrunes
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_runes:1}}]}] anchored eyes at @s run particle minecraft:enchant ^ ^0.6 ^ 0.25 0.1 0.25 0 2 force @a[tag=!pcm2_disableunus]
+
+execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_runes:1}}}] at @s anchored feet positioned ~ ~0.8 ~ run particle minecraft:enchant ^-0.5 ^ ^ 0.15 0.1 0.15 0 1 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_runes:1}}]}] at @s anchored feet positioned ~ ~0.8 ~ run particle minecraft:enchant ^0.5 ^ ^ 0.15 0.1 0.15 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_runes:1}}]}] anchored eyes at @s run particle minecraft:enchant ^ ^0.6 ^ 0.25 0.1 0.25 0 2 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_runes:1}}}] anchored eyes at @s run particle minecraft:enchant ~ ~.3 ~ 0.25 0.1 0.25 0 2 force @a[tag=!pcm2_disableunus,distance=..10]
+
+#darkheart
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_darkheart:1}}]}] anchored eyes at @s run particle minecraft:damage_indicator ^ ^0.1 ^ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_darkheart:1}}}] at @s anchored feet positioned ~ ~0.75 ~ run particle minecraft:damage_indicator ^-0.5 ^ ^ 0.15 0 0.15 0 1 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_darkheart:1}}]}] at @s anchored feet positioned ~ ~0.75 ~ run particle minecraft:damage_indicator ^0.5 ^ ^ 0.15 0 0.15 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_darkheart:1}}]}] anchored eyes at @s run particle minecraft:damage_indicator ^ ^0.1 ^ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_darkheart:1}}}] anchored eyes at @s run particle minecraft:damage_indicator ~ ~.2 ~ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus,distance=..10]
+
+#emberrage
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_emberrage:1}}]}] anchored eyes at @s run particle minecraft:lava ^ ^0.6 ^ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_emberrage:1}}}] at @s anchored feet positioned ~ ~0.8 ~ run particle minecraft:lava ^-0.5 ^ ^ 0.15 0 0.15 0 1 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_emberrage:1}}]}] at @s anchored feet positioned ~ ~0.8 ~ run particle minecraft:lava ^0.5 ^ ^ 0.15 0 0.15 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_emberrage:1}}]}] anchored eyes at @s run particle minecraft:lava ^ ^0.6 ^ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_emberrage:1}}}] anchored eyes at @s run particle minecraft:lava ~ ~.3 ~ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus,distance=..10]
+
+
+
+
+
+
 
 
