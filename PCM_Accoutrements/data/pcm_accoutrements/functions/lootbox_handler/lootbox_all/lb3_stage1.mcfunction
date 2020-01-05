@@ -1,7 +1,7 @@
 ########function pc_root:rng/rng6_self
 function pc_root:rng/rng_large_self
-scoreboard players set pcm2_lbm2 PC_RNG 31
-scoreboard players operation @s PC_RNG %= pcm2_lbm2 PC_RNG
+scoreboard players set pcm2_lbm3 PC_RNG 31
+scoreboard players operation @s PC_RNG %= pcm2_lbm3 PC_RNG
 
 execute if score @s PC_RNG matches 0 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series3/thephantom
 execute if score @s PC_RNG matches 1 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series3/assimilation

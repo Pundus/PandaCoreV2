@@ -14,50 +14,55 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Hot Dogger",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"translate": "pcm2.items.hats.hotdogger.name",
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "There's been an explosion",
+				"lore": [[{
+					"translate": "pcm2.items.lore.prefix.series",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"text": "1",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.accoutrement",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.hotdogger.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}, {
-					"text": "at the hot dog factory!",
+					"translate": "pcm2.items.hats.hotdogger.lore2",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
+				[
 				{
-					"text": "Dyeable: Trimmings",
+					"translate": "pcm2.items.lore.prefix.dyeable",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.trimmings",
+					"color": "dark_gray",
+					"italic": false
+				}
+				],
+				[
 				{
-					"text": "Default: Red",
+					"translate": "pcm2.items.lore.prefix.default",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				}]
+					"italic": false
+				},{
+					"translate": "color.minecraft.red",
+					"color": "dark_gray",
+					"italic": false
+				}
+				]
+				]
 			}]
 		}]
 	}]

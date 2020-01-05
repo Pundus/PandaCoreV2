@@ -14,32 +14,24 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Frankenstein Bolts",
+					"translate": "pcm2.items.hats.frankensteinbolts.name",
 					"color": "green",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Ordinary Accoutrement",
-					"color": "dark_green",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},{
-					"text": "The monster had no name.",
+				"lore": [[{
+                    "translate": "pcm2.items.lore.grade.ordinary",
+                    "color": "dark_green",
+                    "italic": false
+                },{
+                    "translate": "pcm2.items.lore.accoutrement",
+                    "color": "dark_green",
+                    "italic": false
+                }],{
+					"translate": "pcm2.items.hats.frankensteinbolts.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}]
 			}]
 		}]

@@ -1,0 +1,29 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/occult",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.overlord.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.overlord.desc"
+        },
+        "icon": {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{CustomModelData:247}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_imp": {
+      "trigger": "minecraft:impossible"}
+    },
+	"rewards": {
+	"experience": 250,
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

@@ -14,42 +14,38 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Hat Unusualifier",
+					"translate": "pcm2.items.systems.unusualifier.name",
 					"color": "light_purple",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Drop on the ground with the listed",
+					"translate": "pcm2.items.systems.modifier.lore1",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "hat to apply the unusual effect!",
+					"translate": "pcm2.items.systems.modifier.lore2",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "Universal unusualifiers can be",
+					"translate": "pcm2.items.systems.modifier.lore3b",
 					"color": "gray",
 					"italic": false
 				},{
-					"text": "applied to any hat!",
+					"translate": "pcm2.items.systems.modifier.lore4",
 					"color": "gray",
 					"italic": false
 				},{
-					"text": "",
+					"translate": "",
 					"color": "gray",
 					"italic": false
 				},{
-					"text": "Cannot be applied to a modified",
+					"translate": "pcm2.items.systems.modifier.lore5",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "hat or a strange-disabled hat.",
+					"translate": "pcm2.items.systems.modifier.lore6",
 					"color": "gray",
 					"italic": false
 				}]

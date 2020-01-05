@@ -14,40 +14,28 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Vampirical Cloak",
+					"translate": "pcm2.items.hats.vampiricalcloak.name",
 					"color": "blue",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Obscure Accoutrement",
+				"lore": [[{
+					"translate": "pcm2.items.lore.grade.obscure",
 					"color": "dark_blue",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},{
-					"text": "All good vampires look",
+					"translate": "pcm2.items.lore.accoutrement",
+					"color": "dark_blue",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.vampiricalcloak.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},{
-					"text": "fashionable.",
+					"translate": "pcm2.items.hats.vampiricalcloak.lore2",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}]
 			}]
 		}]

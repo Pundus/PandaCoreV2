@@ -1,0 +1,11 @@
+#lockbox 5 contents
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.medal_coal.name","italic":false,"color":"dark_green"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.medal_iron.name","italic":false,"color":"dark_green"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.medal_gold.name","italic":false,"color":"dark_green"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.medal_diamond.name","italic":false,"color":"dark_green"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.medal_emerald.name","italic":false,"color":"dark_blue"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.coronet_coal.name","italic":false,"color":"dark_blue"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.coronet_iron.name","italic":false,"color":"dark_blue"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.coronet_gold.name","italic":false,"color":"gold"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.coronet_diamond.name","italic":false,"color":"gold"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.coronet_emerald.name","italic":false,"color":"dark_red"}'

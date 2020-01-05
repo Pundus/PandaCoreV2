@@ -1,0 +1,44 @@
+{
+  "parent": "pcm_accoutrements:accoutrements/hat_taker",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "pcm2.advancements.trader_hat.name"
+    },
+    "description": {
+      "translate": "pcm2.advancements.trader_hat.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "pcm2_killtradehat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader",
+                    "equipment": {
+                        "head": {
+                            "item": "minecraft:leather_horse_armor",
+                            "nbt": "{pcm2_hat:1}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+	"requirements": [
+    [
+      "pcm2_killtradehat"
+    ]
+  ],
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

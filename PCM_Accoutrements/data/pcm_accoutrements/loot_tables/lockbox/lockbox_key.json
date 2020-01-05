@@ -14,32 +14,28 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Key",
+					"translate": "pcm2.items.lootbox.key.name",
 					"color": "yellow",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Used to open Lockboxes!",
+					"translate": "pcm2.items.lootbox.key.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}, {
-					"text": "Throw on ground with lockbox to open.",
+					"text": " ",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
+				},{
+					"translate": "pcm2.items.lootbox.key.lore2",
+					"color": "gray",
+					"italic": false
+				}, {
+					"translate": "pcm2.items.lootbox.key.lore3",
+					"color": "gray",
+					"italic": false
 				}]
 			}]
 		}]

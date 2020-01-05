@@ -1,0 +1,47 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_helmet",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pcm2_series:5,pcm2_ominous:1,pcm2_coronet_diamond:1,HideFlags:62,CustomModelData:246,PCUUID:246,PCM:2,pcm2_hat:1}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pcm2.items.hats.coronet_diamond.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [[{
+					"translate": "pcm2.items.lore.grade.ominous",
+					"color": "gold",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.accoutrement",
+					"color": "gold",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.coronet_diamond.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.hats.coronet_diamond.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.hats.coronet_diamond.lore3",
+					"color": "gray",
+					"italic": false
+				}]
+			}]
+		}]
+	}]
+}

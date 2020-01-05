@@ -14,120 +14,30 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Spooky Skeletons Accoutrements Package",
+					"translate": "pcm2.items.lootbox.lootbox3.name",
 					"color": "yellow",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Drop on the ground with a",
+					"translate": "pcm2.items.lootbox.info1",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "Pundus Inc. Key to open!",
-					"color": "gray",
-					"italic": false
-				}, {
-					"text": "Accoutrements Series #3",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "This package may contain",
+					"translate": "pcm2.items.lootbox.info2",
 					"color": "gray",
 					"italic": false
 				},{
-					"text": "one of the following:",
+					"text": " ",
 					"color": "gray",
 					"italic": false
-				},
-				{
-					"text": "Hell's Horns",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "Frankenstein Bolts",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "Six Feet Under",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "A Toymaker's Toy",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "Sapphire Seeker",
-					"color": "dark_blue",
-					"italic": false
-				},
-				{
-					"text": "Vampirical Cloak",
-					"color": "dark_blue",
-					"italic": false
-				},
-				{
-					"text": "Zombie Stack",
-					"color": "dark_blue",
-					"italic": false
-				},
-				{
-					"text": "Reaper's Hood",
-					"color": "gold",
-					"italic": false
-				},
-				{
-					"text": "Cranial Exposure",
-					"color": "gold",
-					"italic": false
-				},
-				{
-					"text": "The Phantom",
-					"color": "dark_red",
-					"italic": false
-				},
-				{
-					"text": "Assimilation",
-					"color": "dark_red",
-					"italic": false
-				},
-				{
-					"text": "Hats may be of Strange",
-					"color": "dark_purple",
-					"italic": false
-				},
-				{
-					"text": "or Unusual quality!",
-					"color": "dark_purple",
-					"italic": false
-				},
-				{
-					"text": "",
-					"color": "dark_purple",
-					"italic": false
-				},
-				{
-					"text": "Bonus items may drop when",
+				},{
+					"translate": "pcm2.items.lootbox.basic1",
 					"color": "gray",
 					"italic": false
-				},
-				{
-					"text": "unboxing as well!",
+				}, {
+					"translate": "pcm2.items.lootbox.basic2",
 					"color": "gray",
 					"italic": false
 				}]

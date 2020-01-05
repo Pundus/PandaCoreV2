@@ -8,9 +8,17 @@ tag @a[tag=pcm2_lootbox_1] remove pcm2_lootbox_1
 execute as @a[tag=pcm2_lootbox_2] run loot give @s loot pcm_accoutrements:lockbox/lockbox_02
 tag @a[tag=pcm2_lootbox_2] remove pcm2_lootbox_2
 
-#lockbox 2
+#lockbox 3
 execute as @a[tag=pcm2_lootbox_3] run loot give @s loot pcm_accoutrements:lockbox/lockbox_03
 tag @a[tag=pcm2_lootbox_3] remove pcm2_lootbox_3
+
+#lockbox 4
+execute as @a[tag=pcm2_lootbox_4] run loot give @s loot pcm_accoutrements:lockbox/lockbox_04
+tag @a[tag=pcm2_lootbox_4] remove pcm2_lootbox_4
+
+#lockbox 4
+execute as @a[tag=pcm2_lootbox_5] run loot give @s loot pcm_accoutrements:lockbox/lockbox_05
+tag @a[tag=pcm2_lootbox_5] remove pcm2_lootbox_5
 
 #lockbox x
 execute as @a[tag=pcm2_lootbox_x] run loot give @s loot pcm_accoutrements:lockbox/lockbox_x
@@ -28,21 +36,39 @@ tag @a[tag=pcm2_strangifier] remove pcm2_strangifier
 execute as @a[tag=pcm2_unusualifier] run loot give @s loot pcm_accoutrements:lockbox/unusualifier
 tag @a[tag=pcm2_unusualifier] remove pcm2_unusualifier
 
+#strangifier universal
+execute as @a[tag=pcm2_strangifier_uni] run scoreboard players set PCM2_Universal pcm2_override 1
+execute as @a[tag=pcm2_strangifier_uni] run function pcm_accoutrements:modifier_handlers/strangifier_init
+tag @a[tag=pcm2_strangifier_uni] remove pcm2_strangifier_uni
+
+#unusualifier universal
+execute as @a[tag=pcm2_unusualifier_uni] run scoreboard players set PCM2_Universal pcm2_override 1
+execute as @a[tag=pcm2_unusualifier_uni] run function pcm_accoutrements:modifier_handlers/unusualifier_init
+tag @a[tag=pcm2_unusualifier_uni] remove pcm2_unusualifier_uni
+
 #undyer
 execute as @a[tag=pcm2_undyer] run loot give @s loot pcm_accoutrements:lockbox/undyer
 tag @a[tag=pcm2_undyer] remove pcm2_undyer
 
 #srf obscure
-execute as @a[tag=pcm2_requisition_form_1] run loot give @s loot pcm_accoutrements:lockbox/srf_obscure
-tag @a[tag=pcm2_requisition_form_1] remove pcm2_requisition_form_1
+execute as @a[tag=pcm2_srf_1] run loot give @s loot pcm_accoutrements:lockbox/srf_obscure
+tag @a[tag=pcm2_srf_1] remove pcm2_srf_1
 
 #srf ominous
-execute as @a[tag=pcm2_requisition_form_2] run loot give @s loot pcm_accoutrements:lockbox/srf_ominous
-tag @a[tag=pcm2_requisition_form_2] remove pcm2_requisition_form_2
+execute as @a[tag=pcm2_srf_2] run loot give @s loot pcm_accoutrements:lockbox/srf_ominous
+tag @a[tag=pcm2_srf_2] remove pcm2_srf_2
 
 #srf occult
-execute as @a[tag=pcm2_requisition_form_3] run loot give @s loot pcm_accoutrements:lockbox/srf_occult
-tag @a[tag=pcm2_requisition_form_3] remove pcm2_requisition_form_3
+execute as @a[tag=pcm2_srf_3] run loot give @s loot pcm_accoutrements:lockbox/srf_occult
+tag @a[tag=pcm2_srf_3] remove pcm2_srf_3
+
+#replacement form
+execute as @a[tag=pcm2_replacement_form] run loot give @s loot pcm_accoutrements:lockbox/replacement_form
+tag @a[tag=pcm2_replacement_form] remove pcm2_replacement_form
+
+#basic pack
+execute as @a[tag=pcm2_basic_pack] run loot give @s loot pcm_accoutrements:lockbox/basic_pack
+tag @a[tag=pcm2_basic_pack] remove pcm2_basic_pack
 
 
 #hotdogger
@@ -160,6 +186,78 @@ tag @a[tag=pcm2_sixfeetunder] remove pcm2_sixfeetunder
 #atoymakerstoy
 execute as @a[tag=pcm2_atoymakerstoy] run loot give @s loot pcm_accoutrements:hats/series3/atoymakerstoy
 tag @a[tag=pcm2_atoymakerstoy] remove pcm2_atoymakerstoy
+
+#simplesombrero
+execute as @a[tag=pcm2_simplesombrero] run loot give @s loot pcm_accoutrements:hats/series4/simplesombrero
+tag @a[tag=pcm2_simplesombrero] remove pcm2_simplesombrero
+
+#chapeauclaque
+execute as @a[tag=pcm2_chapeauclaque] run loot give @s loot pcm_accoutrements:hats/series4/chapeauclaque
+tag @a[tag=pcm2_chapeauclaque] remove pcm2_chapeauclaque
+
+#bandedblacktophat
+execute as @a[tag=pcm2_bandedblacktophat] run loot give @s loot pcm_accoutrements:hats/series4/bandedblacktophat
+tag @a[tag=pcm2_bandedblacktophat] remove pcm2_bandedblacktophat
+
+#beebobblehat
+execute as @a[tag=pcm2_beebobblehat] run loot give @s loot pcm_accoutrements:hats/series4/beebobblehat
+tag @a[tag=pcm2_beebobblehat] remove pcm2_beebobblehat
+
+#greyknitbeanie
+execute as @a[tag=pcm2_greyknitbeanie] run loot give @s loot pcm_accoutrements:hats/series4/greyknitbeanie
+tag @a[tag=pcm2_greyknitbeanie] remove pcm2_greyknitbeanie
+
+#classicfrenchberet
+execute as @a[tag=pcm2_classicfrenchberet] run loot give @s loot pcm_accoutrements:hats/series4/classicfrenchberet
+tag @a[tag=pcm2_classicfrenchberet] remove pcm2_classicfrenchberet
+
+#woolyflatcap
+execute as @a[tag=pcm2_woolyflatcap] run loot give @s loot pcm_accoutrements:hats/series4/woolyflatcap
+tag @a[tag=pcm2_woolyflatcap] remove pcm2_woolyflatcap
+
+#whitedottedbowtie
+execute as @a[tag=pcm2_whitedottedbowtie] run loot give @s loot pcm_accoutrements:hats/series4/whitedottedbowtie
+tag @a[tag=pcm2_whitedottedbowtie] remove pcm2_whitedottedbowtie
+
+#medal_coal
+execute as @a[tag=pcm2_medal_coal] run loot give @s loot pcm_accoutrements:hats/series5/medal_coal
+tag @a[tag=pcm2_medal_coal] remove pcm2_medal_coal
+
+#medal_iron
+execute as @a[tag=pcm2_medal_iron] run loot give @s loot pcm_accoutrements:hats/series5/medal_iron
+tag @a[tag=pcm2_medal_iron] remove pcm2_medal_iron
+
+#medal_gold
+execute as @a[tag=pcm2_medal_gold] run loot give @s loot pcm_accoutrements:hats/series5/medal_gold
+tag @a[tag=pcm2_medal_gold] remove pcm2_medal_gold
+
+#medal_diamond
+execute as @a[tag=pcm2_medal_diamond] run loot give @s loot pcm_accoutrements:hats/series5/medal_diamond
+tag @a[tag=pcm2_medal_diamond] remove pcm2_medal_diamond
+
+#medal_emerald
+execute as @a[tag=pcm2_medal_emerald] run loot give @s loot pcm_accoutrements:hats/series5/medal_emerald
+tag @a[tag=pcm2_medal_emerald] remove pcm2_medal_emerald
+
+#coronet_coal
+execute as @a[tag=pcm2_coronet_coal] run loot give @s loot pcm_accoutrements:hats/series5/coronet_coal
+tag @a[tag=pcm2_coronet_coal] remove pcm2_coronet_coal
+
+#coronet_iron
+execute as @a[tag=pcm2_coronet_iron] run loot give @s loot pcm_accoutrements:hats/series5/coronet_iron
+tag @a[tag=pcm2_coronet_iron] remove pcm2_coronet_iron
+
+#coronet_gold
+execute as @a[tag=pcm2_coronet_gold] run loot give @s loot pcm_accoutrements:hats/series5/coronet_gold
+tag @a[tag=pcm2_coronet_gold] remove pcm2_coronet_gold
+
+#coronet_diamond
+execute as @a[tag=pcm2_coronet_diamond] run loot give @s loot pcm_accoutrements:hats/series5/coronet_diamond
+tag @a[tag=pcm2_coronet_diamond] remove pcm2_coronet_diamond
+
+#coronet_emerald
+execute as @a[tag=pcm2_coronet_emerald] run loot give @s loot pcm_accoutrements:hats/series5/coronet_emerald
+tag @a[tag=pcm2_coronet_emerald] remove pcm2_coronet_emerald
 
 
 

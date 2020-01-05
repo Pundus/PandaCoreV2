@@ -1,0 +1,45 @@
+{
+  "parent": "pcm_accoutrements:accoutrements/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_horse_armor",
+      "nbt": "{CustomModelData:204}"
+    },
+    "title": {
+      "translate": "pcm2.advancements.hat_taker.name"
+    },
+    "description": {
+      "translate": "pcm2.advancements.hat_taker.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "pcm2_killmobhat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#pcm_accoutrements:hat_wearers",
+                    "equipment": {
+                        "head": {
+                            "item": "minecraft:leather_horse_armor",
+                            "nbt": "{pcm2_hat:1}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+	"requirements": [
+    [
+      "pcm2_killmobhat"
+    ]
+  ],
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

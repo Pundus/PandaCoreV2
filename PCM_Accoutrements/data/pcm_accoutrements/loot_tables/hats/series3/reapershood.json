@@ -14,61 +14,49 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Reaper's Hood",
+					"translate": "pcm2.items.hats.reapershood.name",
 					"color": "yellow",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Ominous Accoutrement",
+				"lore": [[{
+					"translate": "pcm2.items.lore.grade.ominous",
 					"color": "gold",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.accoutrement",
+					"color": "gold",
+					"italic": false
+				}],
 				{
-					"text": "Blend with the dark, not to be",
+					"translate": "pcm2.items.hats.reapershood.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
 				{
-					"text": "seen by mere mortals.",
+					"translate": "pcm2.items.hats.reapershood.lore2",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
-				{
-					"text": "Dyeable: Hood",
+				[{
+					"translate": "pcm2.items.lore.prefix.dyeable",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Default: Black",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.hood",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				}]
+					"italic": false
+				}],
+				[{
+					"translate": "pcm2.items.lore.prefix.default",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "color.minecraft.black",
+					"color": "dark_gray",
+					"italic": false
+				}]]
 			}]
 		}]
 	}]

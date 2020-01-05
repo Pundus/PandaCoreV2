@@ -9,3 +9,4 @@ function pcm_accoutrements:pancrafter_handler
 function pcm_accoutrements:modifier_handlers_root
 function pcm_accoutrements:undyer_root
 function pcm_accoutrements:special_requisition_root
+function pcm_accoutrements:special_hats_root

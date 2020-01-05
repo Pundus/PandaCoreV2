@@ -1,0 +1,42 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/grand_opening",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.hat_upgrade.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.hat_upgrade.desc"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book",
+            "nbt": "{CustomModelData:292}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_getsrf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_book",
+            "nbt": "{pcm2_issrf:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_getsrf"
+	  ]
+    ],
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

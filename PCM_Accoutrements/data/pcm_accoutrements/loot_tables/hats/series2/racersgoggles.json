@@ -14,51 +14,51 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Racer's Goggles",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"translate": "pcm2.items.hats.racersgoggles.name",
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Protect your eyes for sights",
-					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "to see at the speed of light.",
-					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Dyeable: Visor",
+				"lore": [[{
+					"translate": "pcm2.items.lore.prefix.series",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
+				},{
+					"text": "2",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.accoutrement",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.racersgoggles.lore1",
+					"color": "gray",
+					"italic": false
 				},
 				{
-					"text": "Default: Orange",
+					"translate": "pcm2.items.hats.racersgoggles.lore2",
+					"color": "gray",
+					"italic": false
+				},
+				[{
+					"translate": "pcm2.items.lore.prefix.dyeable",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				}]
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.visor",
+					"color": "dark_gray",
+					"italic": false
+				}],
+				[{
+					"translate": "pcm2.items.lore.prefix.default",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "color.minecraft.orange",
+					"color": "dark_gray",
+					"italic": false
+				}]]
 			}]
 		}]
 	}]

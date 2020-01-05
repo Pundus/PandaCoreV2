@@ -37,6 +37,12 @@ execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_evasive:1}}}] at @s as @e[typ
 #counterstrike
 execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_counterstrike:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_strange/counter_strike
 
+#unwitherable
+execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unwitherable:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_strange/unwitherable
+
+#mindseye
+execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_mindseye:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_strange/minds_eye
+
 #end
 
 execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_strangifier:1}}}] if entity @e[type=item,nbt={Item:{tag:{pcm2_modified:1,pcm2_hat:1,pcm2_strange:1}}},distance=..0.5,limit=1] run playsound minecraft:item.trident.thunder player @p ~ ~ ~ 1 1 1

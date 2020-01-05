@@ -14,42 +14,38 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Hat Strangifier",
+					"translate": "pcm2.items.systems.strangifier.name",
 					"color": "yellow",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Drop on the ground with the listed",
+					"translate": "pcm2.items.systems.modifier.lore1",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "hat to apply the strange effect!",
+					"translate": "pcm2.items.systems.modifier.lore2",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "Universal strangifiers can be",
+					"translate": "pcm2.items.systems.modifier.lore3a",
 					"color": "gray",
 					"italic": false
 				},{
-					"text": "applied to any hat!",
-					"color": "gray",
-					"italic": false
-				}, {
-					"text": "",
+					"translate": "pcm2.items.systems.modifier.lore4",
 					"color": "gray",
 					"italic": false
 				},{
-					"text": "Cannot be applied to a modified",
+					"translate": "",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.systems.modifier.lore5",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "hat or a strange-disabled hat.",
+					"translate": "pcm2.items.systems.modifier.lore6",
 					"color": "gray",
 					"italic": false
 				}]

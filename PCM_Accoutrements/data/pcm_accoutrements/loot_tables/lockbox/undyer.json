@@ -14,22 +14,18 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Hat Undyer",
+					"translate": "pcm2.items.systems.undyer.name",
 					"color": "aqua",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Drop on the ground with a hat",
+					"translate": "pcm2.items.systems.undyer.lore1",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "to remove the applied dye!",
+					"translate": "pcm2.items.systems.undyer.lore2",
 					"color": "gray",
 					"italic": false
 				}]

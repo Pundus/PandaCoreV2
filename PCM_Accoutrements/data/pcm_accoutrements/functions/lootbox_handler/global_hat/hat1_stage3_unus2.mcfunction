@@ -3,7 +3,7 @@ scoreboard players reset @s PC_RNG
 
 
 execute as @s run function pc_root:rng/rng_large_self
-execute as @s run scoreboard players set pcm2_lbh3u2 PC_RNG 12
+execute as @s run scoreboard players set pcm2_lbh3u2 PC_RNG 14
 execute as @s run scoreboard players operation @s PC_RNG %= pcm2_lbh3u2 PC_RNG
 
 
@@ -25,3 +25,5 @@ execute if score @s PC_RNG matches 8 run function pcm_accoutrements:assign_unusu
 execute if score @s PC_RNG matches 9 run function pcm_accoutrements:assign_unusual/ancient_runes
 execute if score @s PC_RNG matches 10 run function pcm_accoutrements:assign_unusual/darkheart
 execute if score @s PC_RNG matches 11 run function pcm_accoutrements:assign_unusual/ember_rage
+execute if score @s PC_RNG matches 12 run function pcm_accoutrements:assign_unusual/arcane_rage
+execute if score @s PC_RNG matches 13 run function pcm_accoutrements:assign_unusual/sparkletime

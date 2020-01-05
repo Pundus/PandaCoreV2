@@ -14,40 +14,28 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Zombie Stack",
-					"color": "blue",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"translate": "pcm2.items.hats.zombiestack.name",
+					"color": "blue", 
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Obscure Accoutrement",
+				"lore": [[{
+					"translate": "pcm2.items.lore.grade.obscure",
 					"color": "dark_blue",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},{
-					"text": "Is there something on my",
+					"translate": "pcm2.items.lore.accoutrement",
+					"color": "dark_blue",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.zombiestack.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},{
-					"text": "head?",
+					"translate": "pcm2.items.hats.zombiestack.lore2",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}]
 			}]
 		}]

@@ -1,0 +1,42 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/grand_opening",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.occult.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.occult.desc"
+        },
+        "icon": {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{CustomModelData:224,display:{color:16777215}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_getoccult": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_occult:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_getoccult"
+    ]
+  ],
+    "rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

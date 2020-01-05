@@ -1,0 +1,43 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/root",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.the_box.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.the_box.desc"
+        },
+        "icon": {
+            "item": "minecraft:white_dye",
+            "nbt": "{CustomModelData:200}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_getbox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_dye",
+            "nbt": "{pcm2_islockbox:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_getbox"
+    ]
+  ],
+    "rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_key",
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

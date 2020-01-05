@@ -128,6 +128,26 @@ execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_emberrage:1}}]}] anc
 
 execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_emberrage:1}}}] anchored eyes at @s run particle minecraft:lava ~ ~.3 ~ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus,distance=..10]
 
+#arcane_attack
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_arcaneattack:1}}]}] anchored eyes at @s run particle minecraft:enchanted_hit ^ ^0.5 ^ 0.25 0 0.25 0 2 force @a[tag=!pcm2_disableunus]
+
+execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_arcaneattack:1}}}] at @s anchored feet positioned ~ ~0.75 ~ run particle minecraft:enchanted_hit ^-0.5 ^ ^ 0.15 0 0.15 0 1 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_arcaneattack:1}}]}] at @s anchored feet positioned ~ ~0.75 ~ run particle minecraft:enchanted_hit ^0.5 ^ ^ 0.15 0 0.15 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_arcaneattack:1}}]}] anchored eyes at @s run particle minecraft:enchanted_hit ^ ^0.2 ^ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_arcaneattack:1}}}] anchored eyes at @s run particle minecraft:enchanted_hit ~ ~.4 ~ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus,distance=..10]
+
+#sparkletime
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{pcm2_unus_sparkletime:1}}]}] anchored eyes at @s run particle minecraft:instant_effect ^ ^0.5 ^ 0.25 0 0.25 0 2 force @a[tag=!pcm2_disableunus]
+
+execute as @a[gamemode=!spectator,nbt={SelectedItem:{tag:{pcm2_unus_sparkletime:1}}}] at @s anchored feet positioned ~ ~0.75 ~ run particle minecraft:instant_effect ^-0.5 ^ ^ 0.15 0 0.15 0 1 force @a[tag=!pcm2_disableunus]
+execute as @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{pcm2_unus_sparkletime:1}}]}] at @s anchored feet positioned ~ ~0.75 ~ run particle minecraft:instant_effect ^0.5 ^ ^ 0.15 0 0.15 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=!player,nbt={ArmorItems:[{tag:{pcm2_unus_sparkletime:1}}]}] anchored eyes at @s run particle minecraft:instant_effect ^ ^0.2 ^ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus]
+
+execute as @e[type=item,nbt={Item:{tag:{pcm2_unus_sparkletime:1}}}] anchored eyes at @s run particle minecraft:instant_effect ~ ~.4 ~ 0.25 0 0.25 0 1 force @a[tag=!pcm2_disableunus,distance=..10]
+
 
 
 

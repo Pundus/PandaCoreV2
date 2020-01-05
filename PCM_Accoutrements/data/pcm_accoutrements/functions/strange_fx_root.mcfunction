@@ -11,3 +11,5 @@ function pcm_accoutrements:strange_fx/vindicated
 function pcm_accoutrements:strange_fx/one_punch_man
 function pcm_accoutrements:strange_fx/evasive_manoeuvres
 function pcm_accoutrements:strange_fx/counter_strike
+function pcm_accoutrements:strange_fx/unwitherable
+function pcm_accoutrements:strange_fx/minds_eye

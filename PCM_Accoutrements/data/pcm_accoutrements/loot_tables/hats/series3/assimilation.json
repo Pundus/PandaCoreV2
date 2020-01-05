@@ -14,52 +14,44 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Assimilation",
+					"translate": "pcm2.items.hats.assimilation.name",
 					"color": "red",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Occult Accoutrement",
+				"lore": [[{
+					"translate": "pcm2.items.lore.grade.occult",
 					"color": "dark_red",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.accoutrement",
+					"color": "dark_red",
+					"italic": false
+				}],
 				{
-					"text": "Resistance is Futile.",
+					"translate": "pcm2.items.hats.assimilation.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
-				{
-					"text": "Dyeable: Eyepiece",
+				[{
+					"translate": "pcm2.items.lore.prefix.dyeable",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Default: Orange",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.eyepiece",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				}]
+					"italic": false
+				}],
+				[{
+					"translate": "pcm2.items.lore.prefix.default",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "color.minecraft.orange",
+					"color": "dark_gray",
+					"italic": false
+				}]]
 			}]
 		}]
 	}]

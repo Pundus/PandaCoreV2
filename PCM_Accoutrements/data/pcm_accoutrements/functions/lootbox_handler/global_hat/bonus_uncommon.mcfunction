@@ -60,5 +60,5 @@ execute as @s at @s if score @s PC_RNG matches 9 run tell @a[tag=pcm2_DEBUG] BON
 execute as @s at @s if score @s PC_RNG matches 0 run loot spawn ~ ~ ~ loot minecraft:gameplay/fishing/treasure
 execute as @s at @s if score @s PC_RNG matches 0 run tell @a[tag=pcm2_DEBUG] BONUS DROP: minecraft:gameplay/fishing/treasure
 
-execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"text":"You've gotten an Uncommon bonus item!","color":"yellow"}]
+execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"translate":"pcm2.unboxing.bonus.uncommon","color":"yellow"}]
 execute as @s at @s run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 1 1 1

@@ -1,0 +1,12 @@
+#lockbox 3 contents
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.hellshorns.name","italic":false,"color":"dark_green"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.frankensteinbolts.name","italic":false,"color":"dark_green"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.sixfeetunder.name","italic":false,"color":"dark_green"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.atoymakerstoy.name","italic":false,"color":"dark_green"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.sapphireseer.name","italic":false,"color":"dark_blue"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.vampiricalcloak.name","italic":false,"color":"dark_blue"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.zombiestack.name","italic":false,"color":"dark_blue"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.reapershood.name","italic":false,"color":"gold"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.cranialexposure.name","italic":false,"color":"gold"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.thephantom.name","italic":false,"color":"dark_red"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.assimilation.name","italic":false,"color":"dark_red"}'

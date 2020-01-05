@@ -37,6 +37,12 @@ execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_darkheart:1}}}] at @s as
 #ember_rage
 execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_emberrage:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_unusual/ember_rage  
 
+#arcane_attack
+execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_arcaneattack:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_unusual/arcane_attack  
+
+#sparkletime
+execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unus_sparkletime:1}}}] at @s as @e[type=item,nbt={Item:{tag:{pcm2_hat:1}}},nbt=!{Item:{tag:{pcm2_nostrange:1}}},nbt=!{Item:{tag:{pcm_modified:1}}},distance=..0.5,limit=1,tag=pcm2_hmvalid] run function pcm_accoutrements:assign_unusual/sparkletime  
+
 #end`
 
 execute as @s[tag=pcm2_mvalid,nbt={Item:{tag:{pcm2_unusualifier:1}}}] if entity @e[type=item,nbt={Item:{tag:{pcm2_modified:1,pcm2_hat:1,pcm2_unusual:1}}},distance=..0.5,limit=1] run playsound minecraft:block.portal.travel player @p ~ ~ ~ 1 1 1

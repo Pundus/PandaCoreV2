@@ -10,26 +10,22 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{CustomModelData:293,PCUUID:293,PCM:2,pcm2_srf_obscure:1,HideFlags:63}"
+				"tag": "{CustomModelData:293,PCUUID:293,PCM:2,pcm2_srf_obscure:1,HideFlags:63,pcm2_issrf:1}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Special Requisition Form (Obscure)",
+					"translate": "pcm2.items.systems.srf.obscure.name",
 					"color": "blue",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Place in your offhand to submit a",
+					"translate": "pcm2.items.systems.srf.all.lore1",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "requisition for an Obscure rarity hat!",
+					"translate": "pcm2.items.systems.srf.obscure.lore2",
 					"color": "gray",
 					"italic": false
 				}]

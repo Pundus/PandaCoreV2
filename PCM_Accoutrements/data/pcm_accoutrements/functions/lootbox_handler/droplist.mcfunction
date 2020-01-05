@@ -1,5 +1,5 @@
 function pc_root:rng/rng_large_self
-execute as @s run scoreboard players set pcm2_rlbd PC_RNG 19
+execute as @s run scoreboard players set pcm2_rlbd PC_RNG 24
 execute as @s run scoreboard players operation @s PC_RNG %= pcm2_rlbd PC_RNG
 #
 #execute if score @s PC_RNG matches 1..90 run loot give ~ ~ ~ loot pcm_accoutrements:lockbox/lockbox_01
@@ -22,9 +22,13 @@ execute if score @s PC_RNG matches 7..11 run tell @a[tag=pcm2_DEBUG] LBDROP: BOX
 execute if score @s PC_RNG matches 12..16 run tag @s add pcm2_lootbox_3
 execute if score @s PC_RNG matches 12..16 run tell @a[tag=pcm2_DEBUG] LBDROP: BOX3
 
+execute if score @s PC_RNG matches 17..21 run tag @s add pcm2_lootbox_4
+execute if score @s PC_RNG matches 17..21 run tell @a[tag=pcm2_DEBUG] LBDROP: BOX4
 
-execute if score @s PC_RNG matches 17.. run tag @s add pcm2_key
-execute if score @s PC_RNG matches 17.. run tell @a[tag=pcm2_DEBUG] LBDROP: KEY
+
+execute if score @s PC_RNG matches 22.. run tag @s add pcm2_key
+execute if score @s PC_RNG matches 22.. run advancement grant @s only pcm_accoutrements:accoutrements/key_victory
+execute if score @s PC_RNG matches 22.. run tell @a[tag=pcm2_DEBUG] LBDROP: KEY
 
 
 #execute if score @s PC_RNG matches 1..100 run tag @e[type=item,nbt={PickupDelay:32767s,Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5] add pcm2_normalspawn

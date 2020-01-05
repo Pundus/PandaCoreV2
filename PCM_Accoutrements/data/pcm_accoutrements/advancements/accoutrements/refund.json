@@ -1,0 +1,28 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/grand_opening",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.refund.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.refund.desc"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book",
+            "nbt": "{CustomModelData:289}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_imp": {
+      "trigger": "minecraft:impossible"}
+    },
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

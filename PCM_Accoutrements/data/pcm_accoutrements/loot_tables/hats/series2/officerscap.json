@@ -14,31 +14,31 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Officer's Cap",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"translate": "pcm2.items.hats.officerscap.name",
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "I fought the law and the law",
-					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+				"lore": [[{
+					"translate": "pcm2.items.lore.prefix.series",
+					"color": "dark_gray",
+					"italic": false
 				},{
-					"text": "won.",
+					"text": "2",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.accoutrement",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.officerscap.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
+				},{
+					"translate": "pcm2.items.hats.officerscap.lore2",
+					"color": "gray",
+					"italic": false
 				}]
 			}]
 		}]

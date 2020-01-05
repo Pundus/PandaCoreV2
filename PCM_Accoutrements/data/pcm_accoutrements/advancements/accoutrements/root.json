@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.root.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.root.desc"
+        },
+        "icon": {
+            "item": "minecraft:leather_horse_armor",
+            "nbt": "{CustomModelData:232,display:{color:16777215}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/light_gray_wool.png"
+    },
+    "criteria": {
+        "pcm2_gethat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_hat:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_gethat"
+    ]
+  ],
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

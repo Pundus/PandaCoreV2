@@ -14,32 +14,32 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Fallen Angel",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"translate": "pcm2.items.hats.fallenangel.name",
+					"italic": false 
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "There but for the grace of",
+				"lore": [[{
+					"translate": "pcm2.items.lore.prefix.series",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"text": "2",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.accoutrement",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.fallenangel.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
 				{
-					"text": "God go I.",
+					"translate": "pcm2.items.hats.fallenangel.lore2",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}]
 			}]
 		}]

@@ -14,42 +14,46 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Cone Head",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"translate": "pcm2.items.hats.conehead.name",
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Stay safe and stop traffic!",
+				"lore": [[{
+					"translate": "pcm2.items.lore.prefix.series",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"text": "1",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.accoutrement",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.conehead.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
-				{
-					"text": "Dyeable: Stripes",
+				[{
+					"translate": "pcm2.items.lore.prefix.dyeable",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Default: White",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.stripes",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				}]
+					"italic": false
+				}],
+				[{
+					"translate": "pcm2.items.lore.prefix.default",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "color.minecraft.white",
+					"color": "dark_gray",
+					"italic": false
+				}]]
 			}]
 		}]
 	}]

@@ -14,32 +14,24 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "A Toymaker's Toy",
+					"translate": "pcm2.items.hats.atoymakerstoy.name",
 					"color": "green",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Ordinary Accoutrement",
+				"lore": [[{
+					"translate": "pcm2.items.lore.grade.ordinary",
 					"color": "dark_green",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},{
-					"text": "Wound up and ready to go!",
+					"translate": "pcm2.items.lore.accoutrement",
+					"color": "dark_green",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.atoymakerstoy.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}]
 			}]
 		}]

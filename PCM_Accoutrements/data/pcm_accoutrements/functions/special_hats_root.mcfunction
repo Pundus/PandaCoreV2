@@ -1,0 +1,1 @@
+function pcm_accoutrements:special_hats/vampirical_cloak_handler

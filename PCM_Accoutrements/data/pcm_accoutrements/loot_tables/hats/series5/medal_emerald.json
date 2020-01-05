@@ -1,0 +1,64 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:leather_helmet",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{pcm2_imp_medal:1,pcm2_series:5,pcm2_obscure:1,pcm2_medal_emerald:1,HideFlags:62,CustomModelData:242,PCUUID:242,PCM:2,pcm2_hat:1,pcm2_dyeble:1,display:{color:7171437}}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pcm2.items.hats.medal_emerald.name",
+					"color": "blue",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [[{
+					"translate": "pcm2.items.lore.grade.obscure",
+					"color": "dark_blue",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.accoutrement",
+					"color": "dark_blue",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.medal_emerald.lore1",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.hats.medal_emerald.lore2",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.hats.medal_emerald.lore3",
+					"color": "gray",
+					"italic": false
+				},[{
+					"translate": "pcm2.items.lore.prefix.dyeable",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.neck_ribbon",
+					"color": "dark_gray",
+					"italic": false
+				}],
+				[{
+					"translate": "pcm2.items.lore.prefix.default",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "color.minecraft.gray",
+					"color": "dark_gray",
+					"italic": false
+				}]]
+			}]
+		}]
+	}]
+}

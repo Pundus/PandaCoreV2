@@ -1,0 +1,28 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/the_box",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.grand_opening.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.grand_opening.desc"
+        },
+        "icon": {
+            "item": "minecraft:white_dye",
+            "nbt": "{CustomModelData:294}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_imp": {
+      "trigger": "minecraft:impossible"}
+    },
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

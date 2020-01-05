@@ -1,0 +1,28 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/grand_opening",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.paintful_regrets.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.paintful_regrets.desc"
+        },
+        "icon": {
+            "item": "minecraft:white_dye",
+            "nbt": "{CustomModelData:296,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}]}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_imp": {
+      "trigger": "minecraft:impossible"}
+    },
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

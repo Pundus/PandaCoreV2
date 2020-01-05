@@ -14,52 +14,44 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "The Phantom",
+					"translate": "pcm2.items.hats.thephantom.name",
 					"color": "red",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Occult Accoutrement",
-					"color": "dark_red",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
+				"lore": [[{
+                    "translate": "pcm2.items.lore.grade.occult",
+                    "color": "dark_red",
+                    "italic": false
+                },{
+                    "translate": "pcm2.items.lore.accoutrement",
+                    "color": "dark_red",
+                    "italic": false
+                }],
 				{
-					"text": "Paper faces on parade.",
+					"translate": "pcm2.items.hats.thephantom.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
-				{
-					"text": "Dyeable: Mask",
+				[{
+					"translate": "pcm2.items.lore.prefix.dyeable",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Default: White",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.mask",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				}]
+					"italic": false
+				}],
+				[{
+					"translate": "pcm2.items.lore.prefix.default",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "color.minecraft.white",
+					"color": "dark_gray",
+					"italic": false
+				}]]
 			}]
 		}]
 	}]

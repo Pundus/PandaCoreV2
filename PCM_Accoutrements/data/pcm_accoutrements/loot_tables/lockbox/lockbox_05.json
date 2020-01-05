@@ -1,0 +1,47 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:white_dye",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:287,PCUUID:287,PCM:2,pcm2_lb:5,pcm2_islockbox:1}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pcm2.items.lootbox.lootbox5.name",
+					"color": "yellow",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [{
+					"translate": "pcm2.items.lootbox.info1",
+					"color": "gray",
+					"italic": false
+				}, {
+					"translate": "pcm2.items.lootbox.info2",
+					"color": "gray",
+					"italic": false
+				},{
+					"text": " ",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lootbox.basic1",
+					"color": "gray",
+					"italic": false
+				}, {
+					"translate": "pcm2.items.lootbox.basic2",
+					"color": "gray",
+					"italic": false
+				}]
+			}]
+		}]
+	}]
+}

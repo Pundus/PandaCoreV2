@@ -14,41 +14,29 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Cranial Exposure",
+					"translate": "pcm2.items.hats.cranialexposure.name",
 					"color": "yellow",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Ominous Accoutrement",
+				"lore": [[{
+					"translate": "pcm2.items.lore.grade.ominous",
 					"color": "gold",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "For the Zombies to see, but",
-					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},{
-					"text": "hopefully not to reach.",
+					"translate": "pcm2.items.lore.accoutrement",
+					"color": "gold",
+					"italic": false
+				}],
+				{
+					"translate": "pcm2.items.hats.cranialexposure.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
+				},{
+					"translate": "pcm2.items.hats.cranialexposure.lore2",
+					"color": "gray",
+					"italic": false
 				}]
 			}]
 		}]

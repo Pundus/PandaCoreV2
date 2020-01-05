@@ -1,0 +1,35 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{CustomModelData:289,PCUUID:289,PCM:2,pcm2_replacement_form:1,HideFlags:63,pcm2_generic_hat_giver:1}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "pcm2.items.systems.replacement_form.name",
+					"color": "white",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [{
+					"translate": "pcm2.items.systems.replacement_form.lore1",
+					"color": "gray",
+					"italic": false
+				}, {
+					"translate": "pcm2.items.systems.replacement_form.lore2",
+					"color": "gray",
+					"italic": false
+				}]
+			}]
+		}]
+	}]
+}

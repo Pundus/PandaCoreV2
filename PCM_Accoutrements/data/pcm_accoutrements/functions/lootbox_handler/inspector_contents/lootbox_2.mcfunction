@@ -1,0 +1,13 @@
+#lockbox 2 contents
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.partyhat.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.sergeantspeak.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.sovietenforcement.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.racersgoggles.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.fallenangel.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.dualhairribbons.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.taketheplunge.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.doctorsmirror.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.3dglasses.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.sweettooth.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.nou.name","italic":false,"color":"dark_gray"}'
+data modify block -1 0 -1 Items[0].tag.display.Lore append value '{"translate":"pcm2.items.hats.officerscap.name","italic":false,"color":"dark_gray"}'

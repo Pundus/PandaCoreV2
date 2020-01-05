@@ -14,42 +14,46 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Party Hat",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"translate": "pcm2.items.hats.partyhat.name",
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Become the life of the party!",
+				"lore": [[{
+					"translate": "pcm2.items.lore.prefix.series",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"text": "2",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.accoutrement",
+					"color": "dark_gray",
+					"italic": false
+				}],{
+					"translate": "pcm2.items.hats.partyhat.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
-				{
-					"text": "Dyeable: Body",
+				[{
+					"translate": "pcm2.items.lore.prefix.dyeable",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Default: Red",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.body",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				}]
+					"italic": false
+				}],
+				[{
+					"translate": "pcm2.items.lore.prefix.default",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "color.minecraft.red",
+					"color": "dark_gray",
+					"italic": false
+				}]]
 			}]
 		}]
 	}]

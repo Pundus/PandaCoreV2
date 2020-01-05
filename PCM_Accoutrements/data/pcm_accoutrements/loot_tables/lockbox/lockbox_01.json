@@ -14,94 +14,29 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Pundus Inc. Alpha Lockbox",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"translate": "pcm2.items.lootbox.lootbox1.name",
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [{
-					"text": "Drop on the ground with a",
+					"translate": "pcm2.items.lootbox.info1",
 					"color": "gray",
 					"italic": false
 				}, {
-					"text": "Pundus Inc. Key to open!",
-					"color": "gray",
-					"italic": false
-				}, {
-					"text": "Accoutrements Series #1",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "This lockbox may contain",
+					"translate": "pcm2.items.lootbox.info2",
 					"color": "gray",
 					"italic": false
 				},{
-					"text": "one of the following:",
+					"text": " ",
 					"color": "gray",
 					"italic": false
-				},
-				{
-					"text": "Hot Dogger",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "Headstack",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "Bear Necessities",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "Popeyes",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "Zombie Pal",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "Cone Head",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"text": "Hats may be of Strange",
-					"color": "dark_purple",
-					"italic": false
-				},
-				{
-					"text": "or Unusual quality!",
-					"color": "dark_purple",
-					"italic": false
-				},
-				{
-					"text": "",
-					"color": "dark_purple",
-					"italic": false
-				},
-				{
-					"text": "Bonus items may drop when",
+				},{
+					"translate": "pcm2.items.lootbox.basic1",
 					"color": "gray",
 					"italic": false
-				},
-				{
-					"text": "unboxing as well!",
+				}, {
+					"translate": "pcm2.items.lootbox.basic2",
 					"color": "gray",
 					"italic": false
 				}]

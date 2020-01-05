@@ -1,0 +1,51 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/occult",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.the_collector.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.the_collector.desc"
+        },
+        "icon": {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{CustomModelData:243}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_getallgrade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_occult:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_ominous:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_obscure:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_ordinary:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_getallgrade"
+    ]
+  ],
+    "rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

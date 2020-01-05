@@ -3,7 +3,7 @@ scoreboard players reset @s PC_RNG
 
 
 execute as @s run function pc_root:rng/rng_large_self
-execute as @s run scoreboard players set pcm2_lbh3u1 PC_RNG 12
+execute as @s run scoreboard players set pcm2_lbh3u1 PC_RNG 14
 execute as @s run scoreboard players operation @s PC_RNG %= pcm2_lbh3u1 PC_RNG
 
 
@@ -24,4 +24,6 @@ execute if score @s PC_RNG matches 8 run function pcm_accoutrements:assign_stran
 execute if score @s PC_RNG matches 9 run function pcm_accoutrements:assign_strange/one_punch_man
 execute if score @s PC_RNG matches 10 run function pcm_accoutrements:assign_strange/evasive_manoeuvres
 execute if score @s PC_RNG matches 11 run function pcm_accoutrements:assign_strange/counter_strike
+execute if score @s PC_RNG matches 12 run function pcm_accoutrements:assign_strange/unwitherable
+execute if score @s PC_RNG matches 13 run function pcm_accoutrements:assign_strange/minds_eye
 function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus2

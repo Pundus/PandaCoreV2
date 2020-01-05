@@ -14,61 +14,49 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Hell's Horns",
+					"translate": "pcm2.items.hats.hellshorns.name",
 					"color": "green",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Ordinary Accoutrement",
-					"color": "dark_green",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
+				"lore": [[{
+                    "translate": "pcm2.items.lore.grade.ordinary",
+                    "color": "dark_green",
+                    "italic": false
+                },{
+                    "translate": "pcm2.items.lore.accoutrement",
+                    "color": "dark_green",
+                    "italic": false
+                }],
 				{
-					"text": "Dancing with the devil in",
+					"translate": "pcm2.items.hats.hellshorns.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
 				{
-					"text": "the pale moonlight.",
+					"translate": "pcm2.items.hats.hellshorns.lore2",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},
-				{
-					"text": "Dyeable: Horns",
+				[{
+					"translate": "pcm2.items.lore.prefix.dyeable",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},
-				{
-					"text": "Default: Red",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.dyeable_zone.horns",
 					"color": "dark_gray",
-					"bold": false,
-					"italic": true,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				}]
+					"italic": false
+				}],
+				[{
+					"translate": "pcm2.items.lore.prefix.default",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "color.minecraft.red",
+					"color": "dark_gray",
+					"italic": false
+				}]]
 			}]
 		}]
 	}]

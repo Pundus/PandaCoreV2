@@ -1,5 +1,7 @@
-execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"text":"You've gotten an Unusualifier!","color":"light_purple"}]
+execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"translate":"pcm2.unboxing.bonus.unusualifier","color":"light_purple"}]
 execute as @s at @s run playsound minecraft:ui.toast.challenge_complete player @a[distance=..5] ~ ~ ~ 1 1 1
+
+execute as @s[type=player] at @s run advancement grant @s only pcm_accoutrements:accoutrements/modifier
 
 execute at @s run loot spawn ~ ~ ~ loot pcm_accoutrements:lockbox/unusualifier
 

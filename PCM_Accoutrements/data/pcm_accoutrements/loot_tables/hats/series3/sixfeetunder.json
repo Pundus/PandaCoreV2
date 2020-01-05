@@ -14,40 +14,28 @@
 			}, {
 				"function": "set_name",
 				"name": {
-					"text": "Six Feet Under",
+					"translate": "pcm2.items.hats.sixfeetunder.name",
 					"color": "green",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}
 			}, {
 				"function": "set_lore",
-				"lore": [{
-					"text": "Ordinary Accoutrement",
-					"color": "dark_green",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
-				},{
-					"text": "Not literally, unless you are",
+				"lore": [[{
+                    "translate": "pcm2.items.lore.grade.ordinary",
+                    "color": "dark_green",
+                    "italic": false
+                },{
+                    "translate": "pcm2.items.lore.accoutrement",
+                    "color": "dark_green",
+                    "italic": false
+                }],{
+					"translate": "pcm2.items.hats.sixfeetunder.lore1",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				},{
-					"text": "very tall!",
+					"translate": "pcm2.items.hats.sixfeetunder.lore2",
 					"color": "gray",
-					"bold": false,
-					"italic": false,
-					"underlined": false,
-					"strikethrough": false,
-					"obfuscated": false
+					"italic": false
 				}]
 			}]
 		}]
