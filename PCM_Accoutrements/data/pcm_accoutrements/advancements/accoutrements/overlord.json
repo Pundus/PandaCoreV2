@@ -21,7 +21,7 @@
       "trigger": "minecraft:impossible"}
     },
 	"rewards": {
-	"experience": 250,
+	"experience": 5000,
         "loot": [
             "pcm_accoutrements:lockbox/lockbox_05"
         ]
