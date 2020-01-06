@@ -6,4 +6,4 @@ scoreboard players set PCM_Accoutrements PC_Modules 2
 
 function pcm_accoutrements:scoreboard_setup
 
-execute unless score PCM_PanCrafter PC_Modules matches 99 run say PCM_ACCOUTREMENTS ERROR: PandaCore Module PCM_PanCrafter not found! Required for crafting keys!
+execute unless score PCM_PanCrafter PC_Modules matches 99 run say PCM_ACCOUTREMENTS ERROR: PandaCore Module PCM_PanCrafter not found!

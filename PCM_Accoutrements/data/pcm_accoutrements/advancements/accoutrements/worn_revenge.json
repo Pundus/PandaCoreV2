@@ -1,0 +1,45 @@
+{
+  "parent": "pcm_accoutrements:accoutrements/hat_taker",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_horse_armor",
+      "nbt": "{CustomModelData:228}"
+    },
+    "title": {
+      "translate": "pcm2.advancements.worn_revenge.name"
+    },
+    "description": {
+      "translate": "pcm2.advancements.worn_revenge.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "pcm2_killedbymobhat": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "#pcm_accoutrements:hat_wearers",
+                    "equipment": {
+                        "head": {
+                            "item": "minecraft:leather_horse_armor",
+                            "nbt": "{pcm2_hat:1}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+	"requirements": [
+    [
+      "pcm2_killedbymobhat"
+    ]
+  ],
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}
