@@ -47,3 +47,5 @@ execute as @s at @s if score @s PC_RNG matches 0 run execute at @s as @p[tag=pcm
 
 execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"translate":"pcm2.unboxing.bonus.rare","color":"aqua"}]
 execute as @s at @s run playsound minecraft:entity.player.levelup player @p ~ ~ ~ 1 1 1
+
+scoreboard players reset pcm2_lbbr PC_RNG

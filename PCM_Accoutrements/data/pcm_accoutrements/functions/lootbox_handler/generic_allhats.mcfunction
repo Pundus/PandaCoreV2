@@ -35,3 +35,5 @@ execute if score @s PC_RNG matches 22 run tag @s add pcm2_greyknitbeanie
 execute if score @s PC_RNG matches 23 run tag @s add pcm2_classicfrenchberet
 execute if score @s PC_RNG matches 24 run tag @s add pcm2_woolyflatcap
 execute if score @s PC_RNG matches 25 run tag @s add pcm2_whitedottedbowtie
+
+scoreboard players reset pcm2_gahgf PC_RNG

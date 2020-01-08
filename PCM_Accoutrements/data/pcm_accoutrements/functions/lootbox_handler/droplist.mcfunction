@@ -32,3 +32,6 @@ execute if score @s PC_RNG matches 22.. run tell @a[tag=pcm2_DEBUG] LBDROP: KEY
 
 
 #execute if score @s PC_RNG matches 1..100 run tag @e[type=item,nbt={PickupDelay:32767s,Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5] add pcm2_normalspawn
+
+
+scoreboard players reset pcm2_rlbd PC_RNG

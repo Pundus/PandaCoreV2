@@ -27,3 +27,5 @@ execute if score @s PC_RNG matches 11 run function pcm_accoutrements:assign_stra
 execute if score @s PC_RNG matches 12 run function pcm_accoutrements:assign_strange/unwitherable
 execute if score @s PC_RNG matches 13 run function pcm_accoutrements:assign_strange/minds_eye
 function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus2
+
+scoreboard players reset pcm2_lbh3u1 PC_RNG

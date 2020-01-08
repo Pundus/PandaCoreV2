@@ -10,7 +10,7 @@
 #execute at @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_fireballdefender:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run tag @e[type=small_fireball,distance=..2,limit=1,sort=nearest,tag=!pcm2_fbtag] add pcm2_fbtag
 
 
-execute at @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_fireballdefender:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run kill @e[type=fireball,distance=..5,limit=1,sort=nearest]
-execute at @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_fireballdefender:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run kill @e[type=small_fireball,distance=..5,limit=1,sort=nearest]
+execute at @s run kill @e[type=fireball,distance=..5,limit=1,sort=nearest]
+execute at @s run kill @e[type=small_fireball,distance=..5,limit=1,sort=nearest]
 
 

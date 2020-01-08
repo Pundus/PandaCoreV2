@@ -62,3 +62,6 @@ execute as @s at @s if score @s PC_RNG matches 0 run tell @a[tag=pcm2_DEBUG] BON
 
 execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"translate":"pcm2.unboxing.bonus.uncommon","color":"yellow"}]
 execute as @s at @s run playsound minecraft:entity.experience_orb.pickup player @p ~ ~ ~ 1 1 1
+
+scoreboard players reset pcm2_lbbu PC_RNG
+

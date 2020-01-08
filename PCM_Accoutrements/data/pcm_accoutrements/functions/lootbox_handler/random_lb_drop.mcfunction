@@ -18,3 +18,4 @@ execute as @a[tag=pcm2_randdrop3] at @s run scoreboard players reset @s pcm2_kil
 execute as @a[tag=pcm2_randdrop3] at @s run tag @s remove pcm2_randdrop1
 execute as @a[tag=pcm2_randdrop3] at @s run tag @s remove pcm2_randdrop3
 
+scoreboard players reset pcm2_rlbd PC_RNG

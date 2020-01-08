@@ -12,3 +12,4 @@ execute if score @s PC_RNG matches 5 run loot spawn ~ ~ ~ loot pcm_accoutrements
 execute if score @s PC_RNG matches 6 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series4/woolyflatcap
 execute if score @s PC_RNG matches 7 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series4/whitedottedbowtie
 
+scoreboard players reset pcm2_lbm4 PC_RNG

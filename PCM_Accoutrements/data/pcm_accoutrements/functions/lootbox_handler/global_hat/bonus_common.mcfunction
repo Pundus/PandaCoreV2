@@ -62,3 +62,5 @@ execute as @s at @s if score @s PC_RNG matches 10..12 run tell @a[tag=pcm2_DEBUG
 
 execute as @s at @s run tellraw @p[tag=pcm2_heldstuff] ["",{"translate":"pcm2.unboxing.bonus.common"}]
 execute as @s at @s run playsound minecraft:ui.button.click player @p ~ ~ ~ 1 1 1
+
+scoreboard players reset pcm2_lbbc PC_RNG

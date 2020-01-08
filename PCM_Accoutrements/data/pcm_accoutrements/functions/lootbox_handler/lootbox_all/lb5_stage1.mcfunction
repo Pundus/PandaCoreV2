@@ -18,3 +18,4 @@ execute if score @s PC_RNG matches 18..21 run loot spawn ~ ~ ~ loot pcm_accoutre
 execute if score @s PC_RNG matches 22..25 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series5/medal_iron
 execute if score @s PC_RNG matches 26..29 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series5/medal_coal
 
+scoreboard players reset pcm2_lbm5 PC_RNG

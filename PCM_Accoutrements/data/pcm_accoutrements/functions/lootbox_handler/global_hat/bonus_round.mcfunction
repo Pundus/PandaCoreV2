@@ -29,3 +29,5 @@ execute as @s at @s if score @s PC_RNG matches 95..99 run tell @a[tag=pcm2_DEBUG
 execute as @s at @s if score @s PC_RNG matches 95..99 run function pcm_accoutrements:modifier_handlers/unusualifier_init
 
 scoreboard players set @s pcm2_lbsequence 7
+
+scoreboard players reset pcm2_lbbr PC_RNG

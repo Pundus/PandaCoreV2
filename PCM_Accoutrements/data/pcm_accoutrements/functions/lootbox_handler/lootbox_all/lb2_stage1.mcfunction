@@ -16,3 +16,4 @@ execute if score @s PC_RNG matches 9 run loot spawn ~ ~ ~ loot pcm_accoutrements
 execute if score @s PC_RNG matches 10 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series2/nou
 execute if score @s PC_RNG matches 11 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series2/officerscap
 
+scoreboard players reset pcm2_lbm2 PC_RNG

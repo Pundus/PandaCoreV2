@@ -11,6 +11,7 @@
 execute at @e[type=armor_stand,tag=pcm2_unbox_marker1] run particle totem_of_undying ~ ~ ~ 0.05 0.05 0.05 .25 25 force @a[distance=..10]
 
 ########execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run function pc_root:rng/rng8_self
+
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run function pc_root:rng/rng_large_self
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run scoreboard players set pcm2_lbm1 PC_RNG 8
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=1},tag=pcm2_hatlb] run scoreboard players operation @s PC_RNG %= pcm2_lbm1 PC_RNG
@@ -112,6 +113,7 @@ execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=7}
 
 #tag @a[nbt=!{SelectedItem:{tag:{pcm2_islockbox:1}}},nbt=!{SelectedItem:{tag:{pcm2_key:1}}}] remove pcm2_heldstuff
 
+scoreboard players reset pcm2_lbm1 PC_RNG
 
 
 #FOR NON HAT LOOTBOXES CONT

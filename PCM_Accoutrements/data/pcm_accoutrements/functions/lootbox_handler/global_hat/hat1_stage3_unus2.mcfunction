@@ -27,3 +27,5 @@ execute if score @s PC_RNG matches 10 run function pcm_accoutrements:assign_unus
 execute if score @s PC_RNG matches 11 run function pcm_accoutrements:assign_unusual/ember_rage
 execute if score @s PC_RNG matches 12 run function pcm_accoutrements:assign_unusual/arcane_rage
 execute if score @s PC_RNG matches 13 run function pcm_accoutrements:assign_unusual/sparkletime
+
+scoreboard players reset pcm2_lbh3u2 PC_RNG

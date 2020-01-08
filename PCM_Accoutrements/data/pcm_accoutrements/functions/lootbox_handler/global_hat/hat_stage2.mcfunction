@@ -18,3 +18,5 @@ execute if score @s PC_RNG matches 90..99 run tell @a[tag=pcm2_DEBUG] RARITY: UN
 execute if score @s PC_RNG matches 0..99 run tag @e[type=item,nbt={PickupDelay:32767s,Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5] add pcm2_spawned
 
 execute as @s if score @s PC_RNG matches 0..99 run scoreboard players set @s pcm2_lbsequence 4
+
+scoreboard players reset pcm2_lbh2 PC_RNG

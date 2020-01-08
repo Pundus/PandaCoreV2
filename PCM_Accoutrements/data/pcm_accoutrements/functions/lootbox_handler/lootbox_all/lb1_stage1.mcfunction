@@ -10,3 +10,4 @@ execute if score @s PC_RNG matches 3 run loot spawn ~ ~ ~ loot pcm_accoutrements
 execute if score @s PC_RNG matches 4 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series1/zombiepal
 execute if score @s PC_RNG matches 5 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series1/popeyes
 
+scoreboard players reset pcm2_lbm1 PC_RNG

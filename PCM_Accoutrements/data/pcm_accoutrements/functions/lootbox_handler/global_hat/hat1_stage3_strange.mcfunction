@@ -27,3 +27,6 @@ execute if score @s PC_RNG matches 10 run function pcm_accoutrements:assign_stra
 execute if score @s PC_RNG matches 11 run function pcm_accoutrements:assign_strange/counter_strike
 execute if score @s PC_RNG matches 12 run function pcm_accoutrements:assign_strange/unwitherable
 execute if score @s PC_RNG matches 13 run function pcm_accoutrements:assign_strange/minds_eye
+
+scoreboard players reset pcm2_lbh3s PC_RNG
+

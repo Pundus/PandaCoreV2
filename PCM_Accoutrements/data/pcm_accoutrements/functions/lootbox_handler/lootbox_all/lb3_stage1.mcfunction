@@ -15,3 +15,4 @@ execute if score @s PC_RNG matches 19..22 run loot spawn ~ ~ ~ loot pcm_accoutre
 execute if score @s PC_RNG matches 23..26 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series3/hellshorns
 execute if score @s PC_RNG matches 27..30 run loot spawn ~ ~ ~ loot pcm_accoutrements:hats/series3/sixfeetunder
 
+scoreboard players reset pcm2_lbm3 PC_RNG
