@@ -34,4 +34,4 @@ data modify entity @e[type=minecraft:item,limit=1,nbt={Item:{tag:{pcm2_worn:1}}}
 data modify entity @e[type=minecraft:item,limit=1,nbt={Item:{tag:{pcm2_worn:1}}},nbt=!{Item:{Count:1}}] Item.Count set value 1
 data remove entity @e[type=minecraft:item,limit=1,nbt={Item:{tag:{pcm2_worn:1}}}] Item.tag.pcm2_worn
 
-execute as @a[nbt={Inventory:[{id:"minecraft:leather_horse_armor",tag:{pcm2_worn:1}}]}] run function pcm_accoutrements:hat_unwearer
+execute as @a[nbt={Inventory:[{id:"minecraft:leather_horse_armor",tag:{pcm2_worn:1}}]},nbt=!{Inventory:[{Slot:103b,id:"minecraft:leather_horse_armor",tag:{pcm2_hat:1}}]}] run function pcm_accoutrements:hat_unwearer
