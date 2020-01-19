@@ -1,8 +1,8 @@
 # Set up stuff in the chunk
 # Only replace block if it doesn't already exist, to prevent data loss
-execute unless block 1 0 1 minecraft:jukebox run setblock 1 0 1 minecraft:jukebox{RecordItem:{id:"minecraft:comparator",Count:1,tag:{}}}
+#execute unless block 1 0 1 minecraft:jukebox run setblock 1 0 1 minecraft:jukebox{RecordItem:{id:"minecraft:comparator",Count:1,tag:{}}}
 # Set NBT for block in case the data dissapeared
-execute unless data block 1 0 1 RecordItem.tag run data modify block 1 0 1 RecordItem set value {id:"minecraft:comparator",Count:1,tag:{}}
+#execute unless data block 1 0 1 RecordItem.tag run data modify block 1 0 1 RecordItem set value {id:"minecraft:comparator",Count:1,tag:{}}
 # Workaround for bug causing us to not being able to replace existing command blocks
 #setblock -30000000 0 1601 minecraft:stone
 #execute in overworld run setblock -30000000 0 1601 minecraft:repeating_command_block[facing=north]{Command:"function #phi.core:overworld_bp_tick",auto:1b}

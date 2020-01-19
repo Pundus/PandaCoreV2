@@ -1,8 +1,6 @@
 function pc_root:player_inv_modifier/shulker_clear
 
-# Reset list:
-data modify block 1 0 1 RecordItem.tag.pc_root.pim.slot15 set value []
-
-data modify block 1 0 1 RecordItem.tag.pc_root.pim.slot15 append from entity @s Inventory[{Slot:15b}]
-data modify block 1 0 1 RecordItem.tag.pc_root.pim.slot15[0].Slot set value 0b
-data modify block -1 0 -1 Items set from block 1 0 1 RecordItem.tag.pc_root.pim.slot15
+data remove storage pc_root:slot_15 ItemStore
+data modify storage pc_root:slot_15 ItemStore insert 0 from entity @s Inventory[{Slot:15b}]
+data modify storage pc_root:slot_15 ItemStore[0].Slot set value 0b
+data modify block -1 0 -1 Items set from storage pc_root:slot_15 ItemStore
