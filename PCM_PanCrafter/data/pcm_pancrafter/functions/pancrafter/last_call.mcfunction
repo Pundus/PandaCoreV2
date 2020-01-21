@@ -34,5 +34,7 @@ execute as @e[type=armor_stand,name=pcr_pancrafter] at @s if block ~ ~ ~ minecra
 execute as @e[type=armor_stand,name=pcr_pancrafter] at @s if block ~ ~ ~ minecraft:chest unless block ~ ~ ~ minecraft:chest{Items: [{Slot: 25b}]} run replaceitem block ~ ~ ~ container.25 minecraft:black_stained_glass_pane{display: {Name: "{\"text\":\" \"}"}, pc_contraband: 1b}
 execute as @e[type=armor_stand,name=pcr_pancrafter] at @s if block ~ ~ ~ minecraft:chest unless block ~ ~ ~ minecraft:chest{Items: [{Slot: 26b}]} run replaceitem block ~ ~ ~ container.26 minecraft:black_stained_glass_pane{display: {Name: "{\"text\":\" \"}"}, pc_contraband: 1b}
 execute as @e[type=armor_stand,name=pcr_pancrafter] store result entity @s NoBasePlate byte 1 run tag @s list
+execute as @e[type=armor_stand,name=pcr_pancrafter] if entity @s[nbt={NoBasePlate:0b}] at @s unless block ~ ~ ~ minecraft:chest run data remove entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:chest"}},limit=1] Item.tag
+execute as @e[type=armor_stand,name=pcr_pancrafter] if entity @s[nbt={NoBasePlate:0b}] at @s unless block ~ ~ ~ minecraft:chest run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:crafting_table",Count:1b}}
 execute as @e[type=armor_stand,name=pcr_pancrafter] if entity @s[nbt={NoBasePlate:0b}] at @s unless block ~ ~ ~ minecraft:chest run kill @s
-execute as @e[type=armor_stand,name=pcr_pancrafter,nbt={HandItems: [{}, {id: "minecraft:crafting_table", Count: 1b}]}] unless block ~ ~ ~ minecraft:chest run data merge entity @s {HandItems: [{}, {}]}
+#execute as @e[type=armor_stand,name=pcr_pancrafter,nbt={HandItems: [{}, {id: "minecraft:crafting_table", Count: 1b}]}] unless block ~ ~ ~ minecraft:chest run data merge entity @s {HandItems: [{}, {}]}
