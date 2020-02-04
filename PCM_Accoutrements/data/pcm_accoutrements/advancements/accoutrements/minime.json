@@ -1,0 +1,27 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/grand_opening",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.minime.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.minime.desc"
+        },
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_imp": {
+      "trigger": "minecraft:impossible"}
+    },
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

@@ -1,4 +1,3 @@
-function pcm_accoutrements:strange_fx/disable_strange
 execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_itemmagnet:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/item_magnet
 execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_creeperpacifier:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/creeper_pacifier
 execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_firewalker:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/fire_walker
@@ -13,3 +12,7 @@ execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_evasive:1}}]},nbt=!{Inventory
 execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_counterstrike:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/counter_strike
 execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_unwitherable:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/unwitherable
 execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_mindseye:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/minds_eye
+execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_sprinter:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/sprinter
+execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_phelpsian:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/phelpsian
+execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_grounded:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/grounded
+execute as @a[nbt={Inventory:[{Slot:103b,tag:{pcm2_dr:1}}]},nbt=!{Inventory:[{Slot:103b,tag:{pcm2_nostrange:1}}]}] run function pcm_accoutrements:strange_fx/dead_restoration

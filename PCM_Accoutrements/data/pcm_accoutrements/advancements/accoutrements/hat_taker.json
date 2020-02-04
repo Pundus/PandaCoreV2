@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:leather_horse_armor",
-      "nbt": "{CustomModelData:204}"
+      "nbt": "{CustomModelData:201}"
     },
     "title": {
       "translate": "pcm2.advancements.hat_taker.name"

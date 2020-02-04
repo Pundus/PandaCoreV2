@@ -9,7 +9,7 @@
         },
         "icon": {
             "item": "minecraft:white_dye",
-            "nbt": "{CustomModelData:200}"
+            "nbt": "{CustomModelData:295}"
         },
         "frame": "task",
         "show_toast": true,

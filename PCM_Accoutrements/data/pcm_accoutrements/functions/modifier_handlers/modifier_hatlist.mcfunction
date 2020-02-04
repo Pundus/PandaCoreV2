@@ -267,5 +267,6 @@ execute at @s if score @s PC_RNG matches 0.. run data modify entity @s Item.tag 
 
 
 scoreboard players reset PCM2_Universal pcm2_override
+scoreboard players reset pcm2_mfhu PC_RNG
 
 

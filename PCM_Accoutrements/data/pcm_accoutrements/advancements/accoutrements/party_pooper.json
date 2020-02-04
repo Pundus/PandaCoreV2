@@ -1,0 +1,45 @@
+{
+  "parent": "pcm_accoutrements:accoutrements/hat_taker",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_horse_armor",
+      "nbt": "{CustomModelData:208}"
+    },
+    "title": {
+      "translate": "pcm2.advancements.party_pooper.name"
+    },
+    "description": {
+      "translate": "pcm2.advancements.party_pooper.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+        "pcm2_killparty": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#pcm_accoutrements:hat_wearers",
+                    "equipment": {
+                        "head": {
+                            "item": "minecraft:leather_horse_armor",
+                            "nbt": "{pcm2_hat:1,pcm2_partyhat:1}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+	"requirements": [
+    [
+      "pcm2_killparty"
+    ]
+  ],
+	"rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

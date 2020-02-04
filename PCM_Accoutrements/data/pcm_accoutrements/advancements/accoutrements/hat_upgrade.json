@@ -1,5 +1,5 @@
 {
- "parent": "pcm_accoutrements:accoutrements/grand_opening",
+ "parent": "pcm_accoutrements:accoutrements/the_box",
     "display": {
         "title": {
             "translate": "pcm2.advancements.hat_upgrade.name"

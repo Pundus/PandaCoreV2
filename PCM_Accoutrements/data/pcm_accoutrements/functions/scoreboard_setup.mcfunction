@@ -7,3 +7,9 @@ scoreboard objectives add pcm2_dmgtracker minecraft.custom:minecraft.damage_take
 
 execute unless score PCM2_Lootbox pcm2_SETTINGS matches 0 run scoreboard players set PCM2_Lootbox pcm2_SETTINGS 1
 execute unless score PCM2_MobHats pcm2_SETTINGS matches 0 run scoreboard players set PCM2_MobHats pcm2_SETTINGS 1
+execute unless score PCM2_Unusual pcm2_SETTINGS matches 0 run scoreboard players set PCM2_Unusual pcm2_SETTINGS 1
+execute unless score PCM2_Strange pcm2_SETTINGS matches 0 run scoreboard players set PCM2_Strange pcm2_SETTINGS 1
+
+execute unless score PCM2_UnusualStrange pcm2_SETTINGS matches 0 run scoreboard players set PCM2_UnusualStrange pcm2_SETTINGS 1
+execute unless score PCM2_BonusDrops pcm2_SETTINGS matches 0 run scoreboard players set PCM2_BonusDrops pcm2_SETTINGS 1
+

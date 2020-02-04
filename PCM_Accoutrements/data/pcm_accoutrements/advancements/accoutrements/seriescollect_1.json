@@ -1,0 +1,57 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/root",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.seriescollect_1.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.seriescollect_1.desc"
+        },
+        "icon": {
+            "item": "minecraft:white_dye",
+            "nbt": "{CustomModelData:200}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_s1collect": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_bearnecessities:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_conehead:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_headstack:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_hotdogger:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_popeyes:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_zombiepal:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_s1collect"
+    ]
+  ],
+    "rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

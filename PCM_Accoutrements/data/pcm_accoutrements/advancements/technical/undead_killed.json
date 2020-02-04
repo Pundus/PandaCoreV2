@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_horse_armor",
+      "nbt": "{CustomModelData:201}"
+    },
+    "title": {
+      "translate": "pcm2.advancements.hat_taker.name"
+    },
+    "description": {
+      "translate": "pcm2.advancements.hat_taker.desc"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+        "pcm2_tech_undead": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#pcm_accoutrements:undead"
+                   
+                }
+            }
+        }
+    },
+	"requirements": [
+    [
+      "pcm2_tech_undead"
+    ]
+  ]
+}

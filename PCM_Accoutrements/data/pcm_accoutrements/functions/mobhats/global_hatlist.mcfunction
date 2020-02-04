@@ -110,4 +110,5 @@ execute as @s if score @s PC_RNG matches 25 run loot replace entity @s armor.hea
 execute as @s if score @s PC_RNG matches 25 run tell @a[tag=pcm2_DEBUG] MOBHAT: whitedottedbowtie
 
 
+execute as @s run scoreboard players reset pcm2_ghl PC_RNG 
 execute as @s run scoreboard players reset @s PC_RNG 

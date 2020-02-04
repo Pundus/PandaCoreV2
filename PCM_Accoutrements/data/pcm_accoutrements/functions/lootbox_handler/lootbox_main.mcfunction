@@ -57,10 +57,10 @@ execute as @e[type=item,tag=pcm2_strangespawn] run tell @a[tag=pcm2_DEBUG] UNBOX
 
 #unusuals
 
-execute as @e[type=item,tag=pcm2_unusualspawn] run function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus1
+execute if score PCM2_UnusualStrange pcm2_SETTINGS matches 1 as @e[type=item,tag=pcm2_unusualspawn] run function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus1
 execute as @e[type=item,tag=pcm2_unusualspawn] run tell @a[tag=pcm2_DEBUG] UNBOX STAGE 3-UNUS
 
-#execute as @e[type=item,tag=pcm2_unusualspawn] run function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus2
+execute if score PCM2_UnusualStrange pcm2_SETTINGS matches 0 as @e[type=item,tag=pcm2_unusualspawn] run function pcm_accoutrements:lootbox_handler/global_hat/hat1_stage3_unus2
 
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=4}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_normalspawn] run scoreboard players set @s pcm2_lbsequence 5
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=4}] at @s if entity @e[type=item,nbt={Item:{tag:{pcm2_hat:1}},OnGround:1b},distance=..0.5,tag=pcm2_strangespawn] run scoreboard players set @s pcm2_lbsequence 5
@@ -93,10 +93,11 @@ execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6}
 execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6}] run scoreboard players operation @s PC_RNG %= pcm2_lbm1 PC_RNG
 
 #execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=..100}] at @s run function pcm_accoutrements:lootbox_handler/global_hat/bonus_round
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=66..}] at @s run function pcm_accoutrements:lootbox_handler/global_hat/bonus_round
+execute if score PCM2_BonusDrops pcm2_SETTINGS matches 1 as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=66..}] at @s run function pcm_accoutrements:lootbox_handler/global_hat/bonus_round
 
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=..65}] at @s run tell @a[tag=pcm2_DEBUG] SKIP BONUS
-execute as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=..65}] at @s run scoreboard players set @s pcm2_lbsequence 7
+execute if score PCM2_BonusDrops pcm2_SETTINGS matches 1 as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=..65}] at @s run tell @a[tag=pcm2_DEBUG] SKIP BONUS
+execute if score PCM2_BonusDrops pcm2_SETTINGS matches 1 as @e[type=armor_stand,tag=pcm2_unbox_marker1,scores={pcm2_lbsequence=6,PC_RNG=..65}] at @s run scoreboard players set @s pcm2_lbsequence 7
+execute if score PCM2_BonusDrops pcm2_SETTINGS matches 0 as @e[type=armor_stand,tag=pcm2_unbox_marker1] at @s run scoreboard players set @s pcm2_lbsequence 7
 
 
 

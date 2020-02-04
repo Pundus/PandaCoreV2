@@ -18,3 +18,4 @@ execute as @s run data modify block -1 0 -1 Items[0].tag.display.Lore append val
 
 execute as @s run function pc_root:player_inv_modifier/retrieve/retrieve_offhand_noreplace
 
+execute as @s run title @s actionbar {"translate":"pcm2.ui.description_close"}

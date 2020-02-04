@@ -10,3 +10,4 @@ execute if score @s PC_RNG matches 1 run tag @s add pcm2_vampiricalcloak
 execute if score @s PC_RNG matches 2 run tag @s add pcm2_sapphireseer
 
 
+execute as @s run scoreboard players reset pcm2_srfg1 PC_RNG 
