@@ -1,0 +1,100 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:crossbow",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_isgun:1b,arsenal_gun:\"p90\",PCUUID:4100,CustomModelData:4100,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.gun.p90.name",
+					"color": "green",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [
+					[{
+						"translate": "arsenal.item.rarity.military",
+						"color": "green",
+						"italic": false
+					}, {
+						"translate": "arsenal.item.type.pdw",
+						"italic": false
+					}],
+					{
+						"translate": "arsenal.item.gun.p90.dsc1",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.gun.p90.dsc2",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.gun.p90.dsc3",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.divider",
+						"color": "gray",
+						"italic": false
+					},
+					[{
+						"translate": "arsenal.item.stats.cartridge",
+						"color": "gray",
+						"italic": false
+					}, {
+						"translate": "arsenal.item.cartridge.fn57",
+						"color": "gray",
+						"italic": false
+					}],
+					{
+						"translate": "arsenal.item.stats.rounds.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.recoil.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.range.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.damage.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.piercing.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.divider",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.attachments",
+						"color": "gray",
+						"italic": false
+					}
+				]
+			}]
+		}]
+	}]
+}
