@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_isgun:1b,arsenal_gun:\"p90\",PCUUID:4100,CustomModelData:4100,arsenal_justspawned:1b}"
+				"tag": "{isarsenalitem:1b,attach_muzzle:0b,attach_optics:0b,attach_underbarrel:0b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ammo:0,arsenal_isgun:1b,arsenal_gun:\"p90\",PCUUID:4100,CustomModelData:4100,arsenal_justspawned:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:32s}]}"
 			}, {
 				"function": "set_name",
 				"name": {
@@ -84,12 +84,37 @@
 						"italic": false
 					},
 					{
+						"translate": "arsenal.item.stats.loudness.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.rof.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
 						"translate": "arsenal.item.divider",
 						"color": "gray",
 						"italic": false
 					},
 					{
 						"translate": "arsenal.item.attachments.attachments",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.muzzle.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.optics.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.ub.tech",
 						"color": "gray",
 						"italic": false
 					}

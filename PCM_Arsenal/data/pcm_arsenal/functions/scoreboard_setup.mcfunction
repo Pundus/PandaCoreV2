@@ -8,3 +8,15 @@ scoreboard objectives add ARS_SET_Recoil dummy
 scoreboard objectives add ARS_SET_Range dummy
 scoreboard objectives add ARS_SET_Damage dummy
 scoreboard objectives add ARS_SET_Piercing dummy
+scoreboard objectives add ARS_SET_Loudness dummy
+scoreboard objectives add ARS_SET_RoF dummy
+scoreboard objectives add ARS_SET_Muzzle dummy
+scoreboard objectives add ARS_SET_Optics dummy
+scoreboard objectives add ARS_SET_UB dummy
+
+
+scoreboard objectives add ARS_MaxRounds dummy
+scoreboard objectives add ARS_CurRounds dummy
+scoreboard objectives add ARS_TotalMags dummy
+
+scoreboard objectives add FiredGun minecraft.used:minecraft.crossbow
