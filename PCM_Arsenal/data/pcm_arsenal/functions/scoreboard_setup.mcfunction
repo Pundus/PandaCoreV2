@@ -17,6 +17,8 @@ scoreboard objectives add ARS_SET_ReloadT dummy
 
 scoreboard objectives add ARS_TEMP_Rnds dummy
 
+scoreboard objectives add ARS_ItemLookTime dummy
+
 
 scoreboard objectives add ARS_MaxRounds dummy
 scoreboard objectives add ARS_CurRounds dummy

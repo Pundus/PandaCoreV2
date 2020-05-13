@@ -16,6 +16,11 @@ execute as @a[tag=mag_p90_used] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:guns
 execute as @a[tag=mag_p90_used] run schedule function pcm_arsenal:spawn/guns/smg/p90/p90_mag_init 1t
 tag @a[tag=mag_p90_used] remove mag_p90_used
 
+#Fn p90 Mag infinite
+execute as @a[tag=mag_p90_inf] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:guns/smg/p90/p90_mag_inf
+execute as @a[tag=mag_p90_inf] run schedule function pcm_arsenal:spawn/guns/smg/p90/p90_mag_init 1t
+tag @a[tag=mag_p90_inf] remove mag_p90_inf
+
 
 
 schedule function pcm_arsenal:spawn_items 1s

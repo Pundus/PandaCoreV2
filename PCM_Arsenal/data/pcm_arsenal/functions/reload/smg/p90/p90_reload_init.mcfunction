@@ -6,13 +6,13 @@ execute as @s store result score @s ARS_TotalMags run clear @s enchanted_book{ar
 #replaceoffhand with reloading model
 
 #Store the gun
-execute as @s run function pc_root:player_inv_modifier/store/store_offhand
+execute as @s[scores={ARS_ReloadProg=0}] run function pc_root:player_inv_modifier/store/store_offhand
 
 #Change the gun's item ID to a enchanted book.
 data modify block -1 0 -1 Items[0].id set value "minecraft:enchanted_book"
 
 #Retrieve
-execute as @s run function pc_root:player_inv_modifier/retrieve/retrieve_offhand
+execute as @s[scores={ARS_ReloadProg=0}] run function pc_root:player_inv_modifier/retrieve/retrieve_offhand
 
 
 #if it's more than one then were good

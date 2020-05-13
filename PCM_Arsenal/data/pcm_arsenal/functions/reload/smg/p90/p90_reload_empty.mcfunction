@@ -1,4 +1,4 @@
-#Fuck fuck fuck fuck this sees if its a p90 and then does the thing shit
+#Handles the FULL reload of a P90
 
 #store the gun
 execute as @s run function pc_root:player_inv_modifier/store/store_offhand
@@ -6,7 +6,7 @@ execute as @s run function pc_root:player_inv_modifier/store/store_offhand
 #bullet
 
 #clear mags
-clear @s enchanted_book{arsenal_halfmag:0b,arsenal_mag:"p90"} 1
+clear @s enchanted_book{arsenal_infmag:0b,arsenal_halfmag:0b,arsenal_mag:"p90"} 1
 
 #clear the offhand
 replaceitem entity @s weapon.offhand air
