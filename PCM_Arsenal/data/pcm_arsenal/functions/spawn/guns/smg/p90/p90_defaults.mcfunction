@@ -20,3 +20,5 @@ scoreboard players set P90 ARS_SET_Muzzle 1
 scoreboard players set P90 ARS_SET_Optics 1
 
 scoreboard players set P90 ARS_SET_UB 0
+
+scoreboard players set P90 ARS_SET_ReloadT 43

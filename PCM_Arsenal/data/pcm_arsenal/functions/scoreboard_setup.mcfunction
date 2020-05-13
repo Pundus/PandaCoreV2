@@ -13,10 +13,14 @@ scoreboard objectives add ARS_SET_RoF dummy
 scoreboard objectives add ARS_SET_Muzzle dummy
 scoreboard objectives add ARS_SET_Optics dummy
 scoreboard objectives add ARS_SET_UB dummy
+scoreboard objectives add ARS_SET_ReloadT dummy
+
+scoreboard objectives add ARS_TEMP_Rnds dummy
 
 
 scoreboard objectives add ARS_MaxRounds dummy
 scoreboard objectives add ARS_CurRounds dummy
 scoreboard objectives add ARS_TotalMags dummy
+scoreboard objectives add ARS_ReloadProg dummy
 
 scoreboard objectives add FiredGun minecraft.used:minecraft.crossbow

@@ -1,2 +1,3 @@
 #This function will run every tick
-function pcm_gametweaks:systems_root
+function pcm_arsenal:reload/reload_core
+function pcm_arsenal:guns_initialize
