@@ -3,6 +3,9 @@
 #Unrelated: Arrows impact.
 function pcm_arsenal:arrows_handler/impact/on_hit
 
+#clear arrows that rebound
+function pcm_arsenal:arrows_handler/impact/rebound
+
 
 #Modify the data of untagged arrows, then tag them.
 

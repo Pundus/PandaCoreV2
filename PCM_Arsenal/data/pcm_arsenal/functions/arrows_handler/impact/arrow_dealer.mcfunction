@@ -17,5 +17,5 @@ execute as @s at @s positioned ~ 0 ~ if entity @e[type=minecraft:armor_stand,dis
 #wool
 execute as @s at @s positioned ~ 0 ~ if entity @e[type=minecraft:armor_stand,distance=..1,scores={ARS_BlockID=3},tag=ARS_ImpactCheck] at @s run playsound minecraft:impact.glass player @a[distance=..32] ~ ~ ~ 1 1
 
-
+#particles
 execute as @s at @s run function pcm_arsenal:arrows_handler/impact/hitspark
