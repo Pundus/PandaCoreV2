@@ -21,3 +21,6 @@ schedule function pcm_arsenal:lookat_name/look_detector 2t
 
 #load the itemlocker system
 schedule function pcm_arsenal:pickup_module/pickup_loop 3t
+
+#load the decayer
+schedule function pcm_arsenal:arrows_handler/decay/decayer 4t

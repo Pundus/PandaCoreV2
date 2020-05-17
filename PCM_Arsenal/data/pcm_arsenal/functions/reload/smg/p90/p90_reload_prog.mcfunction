@@ -3,9 +3,33 @@
 #start counting
 scoreboard players add @s ARS_ReloadProg 1
 
-#play the reload sound (one is full audio one is not)
-execute as @s[scores={ARS_ReloadProg=1}] at @s run playsound minecraft:p90_reload player @s ~ ~ ~ 100 1 1
-execute as @s[scores={ARS_ReloadProg=1}] at @s run playsound minecraft:p90_reload player @a[distance=0.01..16] ~ ~ ~ 1 1 1
+#replaceoffhand with reloading model
 
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_ammo:0}}]}] if score @s ARS_ReloadProg > P90 ARS_SET_ReloadT run function pcm_arsenal:reload/smg/p90/p90_reload_empty
-execute as @s[nbt=!{Inventory:[{Slot:-106b,tag:{arsenal_ammo:0}}]}] if score @s ARS_ReloadProg > P90 ARS_SET_ReloadT run function pcm_arsenal:reload/smg/p90/p90_reload_semi
+#make a shulker
+function pcm_arsenal:modified_pim/create_shulker
+
+#Store the gun
+execute as @s[scores={ARS_ReloadProg=1}] run function pcm_arsenal:modified_pim/store_offhand
+
+#Change the gun's item ID to a enchanted book.
+data modify block ~ 0 ~ Items[0].id set value "minecraft:enchanted_book"
+
+#Retrieve
+execute as @s[scores={ARS_ReloadProg=1}] run function pcm_arsenal:modified_pim/retrieve_offhand
+
+#delet shulk
+function pcm_arsenal:modified_pim/ram_clear
+
+
+#play the reload sound (one is full audio one is not)
+execute as @s[scores={ARS_ReloadProg=1}] at @s run playsound minecraft:p90.reload player @s ~ ~ ~ 100 1 1
+execute as @s[scores={ARS_ReloadProg=1}] at @s run playsound minecraft:p90.reload player @a[distance=0.01..16] ~ ~ ~ 1 1 1
+
+#if gun is completely out
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_ammo:0}}]}] at @s if score @s ARS_ReloadProg > P90 ARS_SET_ReloadT run function pcm_arsenal:reload/smg/p90/p90_reload_empty
+
+#if gun is completely full
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_ammo:50}}]}] at @s if score @s ARS_ReloadProg > P90 ARS_SET_ReloadT run function pcm_arsenal:reload/smg/p90/p90_unload
+
+#if gun is half full
+execute as @s[nbt=!{Inventory:[{Slot:-106b,tag:{arsenal_ammo:0}}]},nbt=!{Inventory:[{Slot:-106b,tag:{arsenal_ammo:50}}]}] at @s if score @s ARS_ReloadProg > P90 ARS_SET_ReloadT run function pcm_arsenal:reload/smg/p90/p90_reload_semi

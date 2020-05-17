@@ -23,4 +23,4 @@ tag @a[tag=mag_p90_inf] remove mag_p90_inf
 
 
 
-schedule function pcm_arsenal:spawn_items 1s
+schedule function pcm_arsenal:spawn_items 10t

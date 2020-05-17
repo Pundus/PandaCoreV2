@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{arsenal_loaded:0b,isarsenalitem:1b,attach_muzzle:0b,muzzle_id:\"none\",attach_optics:0b,optics_id:\"none\",attach_underbarrel:0b,underbarrel_id:\"none\",HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ammo:0,arsenal_isgun:1b,arsenal_gun:\"p90\",PCUUID:4100,CustomModelData:4100,arsenal_justspawned:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:32s}]}"
+				"tag": "{arsenal_guntype:\"PDW\",arsenal_loaded:0b,isarsenalitem:1b,attach_muzzle:0b,muzzle_id:\"none\",attach_optics:0b,optics_id:\"none\",attach_underbarrel:0b,underbarrel_id:\"none\",HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ammo:0,arsenal_isgun:1b,arsenal_gun:\"p90\",PCUUID:4100,CustomModelData:4100,arsenal_justspawned:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:32s}]}"
 			}, {
 				"function": "set_name",
 				"name": {
@@ -95,6 +95,11 @@
 					},
 					{
 						"translate": "arsenal.item.stats.reloadt.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.force.tech",
 						"color": "gray",
 						"italic": false
 					},

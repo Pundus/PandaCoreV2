@@ -1,10 +1,16 @@
 #If the player is holding an empty gun, this command runs
 
+#Create the temporary box
+function pcm_arsenal:modified_pim/create_shulker
+
 #Store the gun
-execute as @s run function pc_root:player_inv_modifier/store/store_mainhand
+function pcm_arsenal:modified_pim/store_mainhand
 
 #Change the gun's item ID to an enchanted book.
-data modify block -1 0 -1 Items[0].id set value "minecraft:enchanted_book"
+data modify block ~ 0 ~ Items[0].id set value "minecraft:enchanted_book"
 
 #Retrieve
-execute as @s run function pc_root:player_inv_modifier/retrieve/retrieve_mainhand
+function pcm_arsenal:modified_pim/retrieve_mainhand
+
+#Clear Shulker
+function pcm_arsenal:modified_pim/ram_clear

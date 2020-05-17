@@ -11,5 +11,9 @@ execute as @s store result score @s ARS_CurRounds run data get entity @s Selecte
 #Gun Disambiguation
 
 #P90
-execute as @s[nbt={SelectedItem:{tag:{arsenal_gun:"p90"}}}] run function pcm_arsenal:guns/smg/p90/p90_handler
+execute as @s[nbt={SelectedItem:{tag:{arsenal_gun:"p90"}}}] at @s run function pcm_arsenal:guns/smg/p90_handler
 
+
+
+#End of the Line!
+scoreboard players reset @s ARS_FiredGun

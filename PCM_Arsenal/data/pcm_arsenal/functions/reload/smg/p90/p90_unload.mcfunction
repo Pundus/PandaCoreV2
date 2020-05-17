@@ -1,19 +1,16 @@
-#Handles the FULL reload of a gun
+#If the gun is full, unload it
 
-#make a shulky
+#make a shulker
 function pcm_arsenal:modified_pim/create_shulker
 
 #store the gun
 function pcm_arsenal:modified_pim/store_offhand
 
-#reload global functions
-function pcm_arsenal:reload/reload_global
+#unload global functions
+function pcm_arsenal:reload/unload_global
 
-#bullet
-function pcm_arsenal:bullet_loader/bullet_loader_core
-
-#clear mags
-clear @s enchanted_book{arsenal_infmag:0b,arsenal_halfmag:0b,arsenal_mag:"p90"} 1
+#give a full mag back
+tag @s add mag_p90
 
 #clear the offhand
 replaceitem entity @s weapon.offhand air
