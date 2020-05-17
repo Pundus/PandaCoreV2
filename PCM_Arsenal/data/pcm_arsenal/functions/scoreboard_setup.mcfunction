@@ -15,6 +15,7 @@ scoreboard objectives add ARS_SET_Optics dummy
 scoreboard objectives add ARS_SET_UB dummy
 scoreboard objectives add ARS_SET_ReloadT dummy
 scoreboard objectives add ARS_SET_Force dummy
+scoreboard objectives add ARS_SET_DropS dummy
 
 scoreboard objectives add ARS_TEMP_Rnds dummy
 

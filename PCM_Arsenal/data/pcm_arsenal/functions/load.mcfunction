@@ -24,3 +24,9 @@ schedule function pcm_arsenal:pickup_module/pickup_loop 3t
 
 #load the decayer
 schedule function pcm_arsenal:arrows_handler/decay/decayer 4t
+
+# load teams
+schedule function pcm_arsenal:teams/teams_create 5t
+
+# load killzones
+schedule function pcm_arsenal:kill_zone/root 6t

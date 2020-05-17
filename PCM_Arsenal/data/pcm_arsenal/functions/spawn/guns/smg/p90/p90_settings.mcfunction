@@ -12,6 +12,7 @@ execute store result entity @s Item.tag.arsenal_loudness byte 1 run scoreboard p
 execute store result entity @s Item.tag.arsenal_rof byte 1 run scoreboard players get P90 ARS_SET_RoF
 execute store result entity @s Item.tag.arsenal_reloadt byte 1 run scoreboard players get P90 ARS_SET_ReloadT
 execute store result entity @s Item.tag.arsenal_force byte 1 run scoreboard players get P90 ARS_SET_Force
+execute store result entity @s Item.tag.arsenal_drops byte 1 run scoreboard players get P90 ARS_SET_DropS
 execute store result entity @s Item.tag.arsenal_muzzle_able byte 1 run scoreboard players get P90 ARS_SET_Muzzle
 execute store result entity @s Item.tag.arsenal_optics_able byte 1 run scoreboard players get P90 ARS_SET_Optics
 execute store result entity @s Item.tag.arsenal_ub_able byte 1 run scoreboard players get P90 ARS_SET_UB

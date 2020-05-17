@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:wool"
+    "#minecraft:wool",
+    "#minecraft:carpets"
   ]
 }

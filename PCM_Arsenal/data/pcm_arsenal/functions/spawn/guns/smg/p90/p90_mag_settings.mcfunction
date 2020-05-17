@@ -4,12 +4,16 @@
 function pcm_arsenal:modified_pim/create_sign
 
 ###########
+execute as @s[nbt={Item:{tag:{arsenal_halfmag:1b}}}] store result entity @s Item.tag.arsenal_ammo int 1 run scoreboard players get @p[tag=semireload_p90] ARS_TEMP_Rnds
 
 execute store result entity @s Item.tag.arsenal_magrounds int 1 run scoreboard players get P90 ARS_SET_Rounds
 execute as @s[nbt={Item:{tag:{arsenal_halfmag:1b}}}] store result score @s ARS_TEMP_Rnds run data get entity @s Item.tag.arsenal_ammo
 
+tag @a[tag=semireload_p90] remove semireload_p90
+
 #rounds 
 execute as @s[nbt={Item:{tag:{arsenal_halfmag:0b}}}] run data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.rounds","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Rounds"}},{"translate": "arsenal.item.stats.outof","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Rounds"}},{"translate": "arsenal.stats.rounds.rounds","color": "gray","italic": false}]'
+
 execute as @s[nbt={Item:{tag:{arsenal_halfmag:1b}}}] run data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.rounds","color": "gray","italic": false},{"score":{"name":"@e[nbt={Item:{tag:{arsenal_halfmag:1b,arsenal_justspawned:1b}}}]","objective":"ARS_TEMP_Rnds"}},{"translate": "arsenal.item.stats.outof","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Rounds"}},{"translate": "arsenal.stats.rounds.rounds","color": "gray","italic": false}]'
 
 #Remove the justspawned

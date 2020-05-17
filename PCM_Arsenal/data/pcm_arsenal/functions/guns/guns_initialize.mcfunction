@@ -1,5 +1,7 @@
 #This function loops, and will start up the disambiguation sequence. Player must have shot a gun.
 
+#scoreboard setup
+
 execute as @a[scores={ARS_FiredGun=1..},nbt={SelectedItem:{tag:{arsenal_isgun:1b}}}] run function pcm_arsenal:guns/guns_disambiguation
 
 
