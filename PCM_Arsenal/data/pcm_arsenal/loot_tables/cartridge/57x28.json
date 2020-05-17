@@ -1,0 +1,46 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_iscrt:1b,arsenal_crt:\"57x28\",PCUUID:4700,CustomModelData:4700,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.crt.57x28.name",
+					"color": "green",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [
+					[{
+						"translate": "arsenal.item.rarity.military",
+						"color": "green",
+						"italic": false
+					}, {
+						"translate": "arsenal.item.type.cartridge",
+						"italic": false
+					}],
+					{
+						"translate": "arsenal.item.crt.57x28.dsc1",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.crt.57x28.dsc2",
+						"color": "gray",
+						"italic": false
+					}
+				]
+			}]
+		}]
+	}]
+}

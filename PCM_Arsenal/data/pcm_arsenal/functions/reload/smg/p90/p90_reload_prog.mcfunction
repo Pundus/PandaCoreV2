@@ -6,19 +6,19 @@ scoreboard players add @s ARS_ReloadProg 1
 #replaceoffhand with reloading model
 
 #make a shulker
-function pcm_arsenal:modified_pim/create_shulker
+execute as @s[scores={ARS_ReloadProg=1}] at @s run function pcm_arsenal:modified_pim/create_shulker
 
 #Store the gun
-execute as @s[scores={ARS_ReloadProg=1}] run function pcm_arsenal:modified_pim/store_offhand
+execute as @s[scores={ARS_ReloadProg=1}] at @s run function pcm_arsenal:modified_pim/store_offhand
 
 #Change the gun's item ID to a enchanted book.
-data modify block ~ 0 ~ Items[0].id set value "minecraft:enchanted_book"
+execute as @s[scores={ARS_ReloadProg=1}] at @s run data modify block ~ 0 ~ Items[0].id set value "minecraft:enchanted_book"
 
 #Retrieve
-execute as @s[scores={ARS_ReloadProg=1}] run function pcm_arsenal:modified_pim/retrieve_offhand
+execute as @s[scores={ARS_ReloadProg=1}] at @s run function pcm_arsenal:modified_pim/retrieve_offhand
 
 #delet shulk
-function pcm_arsenal:modified_pim/ram_clear
+execute as @s[scores={ARS_ReloadProg=1}] at @s run function pcm_arsenal:modified_pim/ram_clear
 
 
 #play the reload sound (one is full audio one is not)

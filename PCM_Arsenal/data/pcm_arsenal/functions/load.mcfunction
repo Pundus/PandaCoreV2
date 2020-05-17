@@ -30,3 +30,13 @@ schedule function pcm_arsenal:teams/teams_create 5t
 
 # load killzones
 schedule function pcm_arsenal:kill_zone/root 6t
+
+# load cart to mag system
+schedule function pcm_arsenal:cart_to_mag/detector 7t
+
+# load mag to cart system
+schedule function pcm_arsenal:half_mag/detector 8t
+
+
+
+

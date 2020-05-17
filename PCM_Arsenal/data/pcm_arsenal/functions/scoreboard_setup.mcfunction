@@ -18,6 +18,7 @@ scoreboard objectives add ARS_SET_Force dummy
 scoreboard objectives add ARS_SET_DropS dummy
 
 scoreboard objectives add ARS_TEMP_Rnds dummy
+scoreboard objectives add ARS_TEMP_Cart dummy
 
 scoreboard objectives add ARS_ItemLookTime dummy
 scoreboard objectives add ARS_ArrowLife dummy
@@ -30,3 +31,7 @@ scoreboard objectives add ARS_TotalMags dummy
 scoreboard objectives add ARS_ReloadProg dummy
 
 scoreboard objectives add ARS_FiredGun minecraft.used:minecraft.crossbow
+
+
+scoreboard objectives add Kills totalKillCount
+scoreboard objectives add Health health

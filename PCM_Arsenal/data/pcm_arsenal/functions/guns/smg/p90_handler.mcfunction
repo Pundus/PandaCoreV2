@@ -8,7 +8,7 @@ function pcm_arsenal:modified_pim/create_shulker
 function pcm_arsenal:modified_pim/store_mainhand
 
 #Play the gunshot sound
-execute as @s[nbt=!{SelectedItem:{tags:{arsenal_suppressed:1b}}}] at @s run playsound minecraft:p90.shoot player @a ~ ~ ~ 5 1 0
+execute as @s[nbt=!{SelectedItem:{tags:{arsenal_suppressed:1b}}}] at @s run playsound minecraft:p90.shoot player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={SelectedItem:{tags:{arsenal_suppressed:1b}}}] at @s run function pcm_arsenal:global/sound/suppressed/762
 
 # Sound

@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{gun_class:\"pdw\",arsenal_infmag:0b,arsenal_halfmag:0b,isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ismag:1b,arsenal_mag:\"p90\",PCUUID:4500,CustomModelData:4500,arsenal_justspawned:1b}"
+				"tag": "{arsenal_infmag:0b,arsenal_halfmag:0b,isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ismag:1b,arsenal_mag:\"p90\",PCUUID:4500,CustomModelData:4500,arsenal_justspawned:1b}"
 			}, {
 				"function": "set_name",
 				"name": {
