@@ -1,7 +1,7 @@
 # Smoke and Fire particles.
 
-execute as @s at @s anchored eyes run particle minecraft:smoke ^ ^-.5 ^1 0 0 0 0.01 1 force @a[distance=..15]
-execute as @s at @s anchored eyes run particle minecraft:flame ^ ^-.5 ^1 0 0 0 0.01 1 force @a[distance=..15]
+execute as @s at @s anchored eyes run particle minecraft:smoke ^-0.25 ^-.4 ^1 0 0 0 0.01 1 force @a[distance=..15]
+execute as @s at @s anchored eyes run particle minecraft:flame ^-0.25 ^-.4 ^1 0 0 0 0.01 1 force @a[distance=..15]
 
 execute as @s at @s run function pcm_arsenal:global/particle/lighting
 

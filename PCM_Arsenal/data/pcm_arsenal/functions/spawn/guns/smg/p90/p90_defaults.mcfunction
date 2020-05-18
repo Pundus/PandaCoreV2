@@ -13,7 +13,7 @@ scoreboard players set P90 ARS_SET_Piercing 3
 
 scoreboard players set P90 ARS_SET_Loudness 2
 
-scoreboard players set P90 ARS_SET_RoF 20
+scoreboard players set P90 ARS_SET_RoF 200
 
 scoreboard players set P90 ARS_SET_Muzzle 1
 

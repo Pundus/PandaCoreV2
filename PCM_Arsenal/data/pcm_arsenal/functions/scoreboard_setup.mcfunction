@@ -29,6 +29,7 @@ scoreboard objectives add ARS_MaxRounds dummy
 scoreboard objectives add ARS_CurRounds dummy
 scoreboard objectives add ARS_TotalMags dummy
 scoreboard objectives add ARS_ReloadProg dummy
+scoreboard objectives add ARS_RateDelay dummy
 
 scoreboard objectives add ARS_FiredGun minecraft.used:minecraft.crossbow
 

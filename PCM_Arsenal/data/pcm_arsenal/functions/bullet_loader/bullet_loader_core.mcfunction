@@ -15,3 +15,4 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_isgun:1b}}]},tag=offhandg
 
 #Scan the mainhand (shooting).
 execute as @s[nbt={SelectedItem:{tag:{arsenal_isgun:1b}}},tag=mainhandgunrep] at @s run function pcm_arsenal:bullet_loader/bullet_settings_mainhand
+

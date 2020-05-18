@@ -37,6 +37,7 @@ schedule function pcm_arsenal:cart_to_mag/detector 7t
 # load mag to cart system
 schedule function pcm_arsenal:half_mag/detector 8t
 
-
+# load the shell SFX system
+schedule function pcm_arsenal:shell_drop_sfx/shell_drop_disam 9t
 
 

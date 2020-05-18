@@ -9,7 +9,7 @@ execute store result entity @s Item.tag.arsenal_range int 1 run scoreboard playe
 execute store result entity @s Item.tag.arsenal_damage int 1 run scoreboard players get P90 ARS_SET_Damage
 execute store result entity @s Item.tag.arsenal_piercing byte 1 run scoreboard players get P90 ARS_SET_Piercing
 execute store result entity @s Item.tag.arsenal_loudness byte 1 run scoreboard players get P90 ARS_SET_Loudness
-execute store result entity @s Item.tag.arsenal_rof byte 1 run scoreboard players get P90 ARS_SET_RoF
+execute store result entity @s Item.tag.arsenal_rof int 1 run scoreboard players get P90 ARS_SET_RoF
 execute store result entity @s Item.tag.arsenal_reloadt byte 1 run scoreboard players get P90 ARS_SET_ReloadT
 execute store result entity @s Item.tag.arsenal_force byte 1 run scoreboard players get P90 ARS_SET_Force
 execute store result entity @s Item.tag.arsenal_drops byte 1 run scoreboard players get P90 ARS_SET_DropS
