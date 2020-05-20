@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_iscrt:1b,arsenal_crt:\"57x28\",PCUUID:4700,CustomModelData:4700,arsenal_justspawned:1b}"
+				"tag": "{arsenal_phys_obj:1b,arsenal_phys_grab:\"case_small\",arsenal_phys_drop:\"case_small\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_iscrt:1b,arsenal_crt:\"57x28\",PCUUID:4700,CustomModelData:4700,arsenal_justspawned:1b}"
 			}, {
 				"function": "set_name",
 				"name": {

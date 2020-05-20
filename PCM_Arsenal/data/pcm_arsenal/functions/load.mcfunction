@@ -40,4 +40,5 @@ schedule function pcm_arsenal:half_mag/detector 8t
 # load the shell SFX system
 schedule function pcm_arsenal:shell_drop_sfx/shell_drop_disam 9t
 
-
+# load the physics object sound system
+schedule function pcm_arsenal:physics_objects/physobj_dropped 10t
