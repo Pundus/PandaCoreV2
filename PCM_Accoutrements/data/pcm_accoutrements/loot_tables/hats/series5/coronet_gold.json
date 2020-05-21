@@ -28,6 +28,18 @@
 					"translate": "pcm2.items.lore.accoutrement",
 					"color": "gold",
 					"italic": false
+				}],[{
+					"translate": "pcm2.items.lore.prefix.series",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"text": "5",
+					"color": "dark_gray",
+					"italic": false
+				},{
+					"translate": "pcm2.items.lore.suffix.accoutrement",
+					"color": "dark_gray",
+					"italic": false
 				}],{
 					"translate": "pcm2.items.hats.coronet_gold.lore1",
 					"color": "gray",

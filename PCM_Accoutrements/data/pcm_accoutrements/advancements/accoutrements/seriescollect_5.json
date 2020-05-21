@@ -1,0 +1,70 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/seriescollect_4",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.seriescollect_5.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.seriescollect_5.desc"
+        },
+        "icon": {
+            "item": "minecraft:white_dye",
+            "nbt": "{CustomModelData:287}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_s4collect": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_coronet_coal:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_coronet_iron:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_coronet_gold:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_coronet_diamond:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_coronet_emerald:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_medal_coal:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_medal_iron:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_medal_gold:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_medal_diamond:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_medal_emerald:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_s4collect"
+    ]
+  ],
+    "rewards": {
+		"experience": 2500,
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

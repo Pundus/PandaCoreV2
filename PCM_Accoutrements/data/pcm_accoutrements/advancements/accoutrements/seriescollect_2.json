@@ -1,0 +1,75 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/seriescollect_1",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.seriescollect_2.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.seriescollect_2.desc"
+        },
+        "icon": {
+            "item": "minecraft:white_dye",
+            "nbt": "{CustomModelData:295}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_s2collect": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_3dglasses:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_doctorsmirror:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_dualhairribbons:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_fallenangel:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_nou:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_officerscap:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_partyhat:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_racersgoggles:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_sergeantspeak:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_sovietenforcement:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_sweettooth:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_taketheplunge:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_s2collect"
+    ]
+  ],
+    "rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

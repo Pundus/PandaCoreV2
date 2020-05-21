@@ -1,0 +1,72 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/seriescollect_2",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.seriescollect_3.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.seriescollect_3.desc"
+        },
+        "icon": {
+            "item": "minecraft:white_dye",
+            "nbt": "{CustomModelData:294}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_s3collect": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_assimilation:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_atoymakerstoy:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_cranialexposure:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_frankensteinbolts:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_hellshorns:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_reapershood:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_sapphireseer:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_sixfeetunder:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_thephantom:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_vampiricalcloak:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_zombiestack:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_s3collect"
+    ]
+  ],
+    "rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

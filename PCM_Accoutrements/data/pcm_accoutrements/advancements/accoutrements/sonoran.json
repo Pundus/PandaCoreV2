@@ -1,0 +1,45 @@
+{
+	"parent": "pcm_accoutrements:accoutrements/son",
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_horse_armor",
+			"nbt": "{CustomModelData:230}"
+		},
+		"title": {
+			"translate": "pcm2.advancements.sonoran.name"
+		},
+		"description": {
+			"translate": "pcm2.advancements.sonoran.desc"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"pcm2_killsombrero": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:husk",
+					"equipment": {
+						"head": {
+							"item": "minecraft:leather_horse_armor",
+							"nbt": "{pcm2_hat:1,pcm2_simplesombrero:1}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pcm2_killsombrero"
+		]
+	],
+	"rewards": {
+		"loot": [
+			"pcm_accoutrements:lockbox/lockbox_05"
+		]
+	}
+}

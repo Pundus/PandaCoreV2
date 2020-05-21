@@ -1,0 +1,63 @@
+{
+ "parent": "pcm_accoutrements:accoutrements/seriescollect_3",
+    "display": {
+        "title": {
+            "translate": "pcm2.advancements.seriescollect_4.name"
+        },
+        "description": {
+            "translate": "pcm2.advancements.seriescollect_4.desc"
+        },
+        "icon": {
+            "item": "minecraft:white_dye",
+            "nbt": "{CustomModelData:290}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcm2_s4collect": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_bandedblacktophat:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_beebobblehat:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_chapeauclaque:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_classicfrenchberet:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_greyknitbeanie:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_simplesombrero:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_whitedottedbowtie:1}"
+          },{
+            "item": "minecraft:leather_helmet",
+            "nbt": "{pcm2_woolyflatcap:1}"
+          }
+        ]
+      }
+    }
+    },
+	"requirements": [
+    [
+      "pcm2_s4collect"
+    ]
+  ],
+    "rewards": {
+        "loot": [
+            "pcm_accoutrements:lockbox/lockbox_05"
+        ]
+    }
+}

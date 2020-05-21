@@ -8,3 +8,4 @@ playsound minecraft:item.book.page_turn player @s ~ ~ ~ 1 1 1
 execute if score @s PC_RNG matches 0 run tag @s add pcm2_thephantom
 execute if score @s PC_RNG matches 1 run tag @s add pcm2_assimilation
 
+execute as @s run scoreboard players reset pcm2_srfg3 PC_RNG 
