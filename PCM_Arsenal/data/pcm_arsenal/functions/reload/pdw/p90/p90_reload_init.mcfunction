@@ -7,4 +7,4 @@ execute as @s store result score @s ARS_TotalMags run clear @s enchanted_book{ar
 
 #if it's more than one then were good
 
-execute as @s[scores={ARS_TotalMags=1..}] at @s run function pcm_arsenal:reload/smg/p90/p90_reload_prog
+execute as @s[scores={ARS_TotalMags=1..}] at @s run function pcm_arsenal:reload/pdw/p90/p90_reload_prog
