@@ -12,6 +12,7 @@ execute store result entity @s Item.tag.arsenal_loudness byte 1 run scoreboard p
 execute store result entity @s Item.tag.arsenal_rof int 1 run scoreboard players get P90 ARS_SET_RoF
 execute store result entity @s Item.tag.arsenal_reloadt byte 1 run scoreboard players get P90 ARS_SET_ReloadT
 execute store result entity @s Item.tag.arsenal_force byte 1 run scoreboard players get P90 ARS_SET_Force
+execute store result entity @s Item.tag.arsenal_weight byte 1 run scoreboard players get P90 ARS_SET_Weight
 execute store result entity @s Item.tag.arsenal_drops byte 1 run scoreboard players get P90 ARS_SET_DropS
 execute store result entity @s Item.tag.arsenal_muzzle_able byte 1 run scoreboard players get P90 ARS_SET_Muzzle
 execute store result entity @s Item.tag.arsenal_optics_able byte 1 run scoreboard players get P90 ARS_SET_Optics
@@ -28,42 +29,47 @@ data modify entity @s Item.tag.display.Lore[6] set from block ~ 0 ~ Text1
 #recoil
 data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.recoil","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Recoil"}}]'
 
-data modify entity @s Item.tag.display.Lore[7] set from block ~ 0 ~ Text1
+data modify entity @s Item.tag.display.Lore[8] set from block ~ 0 ~ Text1
 
 #range
 data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.range","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Range"}}]'
 
-data modify entity @s Item.tag.display.Lore[8] set from block ~ 0 ~ Text1
+data modify entity @s Item.tag.display.Lore[9] set from block ~ 0 ~ Text1
 
 #damage
 data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.damage","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Damage"}}]'
 
-data modify entity @s Item.tag.display.Lore[9] set from block ~ 0 ~ Text1
+data modify entity @s Item.tag.display.Lore[10] set from block ~ 0 ~ Text1
 
 #piercing
 data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.piercing","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Piercing"}}]'
 
-data modify entity @s Item.tag.display.Lore[10] set from block ~ 0 ~ Text1
+data modify entity @s Item.tag.display.Lore[11] set from block ~ 0 ~ Text1
 
 #loudness
 data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.loudness","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Loudness"}}]'
 
-data modify entity @s Item.tag.display.Lore[11] set from block ~ 0 ~ Text1
+data modify entity @s Item.tag.display.Lore[12] set from block ~ 0 ~ Text1
 
 #rof
 data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.rof","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_RoF"}}]'
 
-data modify entity @s Item.tag.display.Lore[12] set from block ~ 0 ~ Text1
+data modify entity @s Item.tag.display.Lore[13] set from block ~ 0 ~ Text1
 
 #relaodt
 data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.reloadt","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_ReloadT"}}]'
 
-data modify entity @s Item.tag.display.Lore[13] set from block ~ 0 ~ Text1
+data modify entity @s Item.tag.display.Lore[14] set from block ~ 0 ~ Text1
 
-#relaodt
+#force
 data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.force","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Force"}}]'
 
-data modify entity @s Item.tag.display.Lore[14] set from block ~ 0 ~ Text1
+data modify entity @s Item.tag.display.Lore[15] set from block ~ 0 ~ Text1
+
+#weight
+data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.weight","color": "gray","italic": false},{"score":{"name":"P90","objective":"ARS_SET_Weight"}}]'
+
+data modify entity @s Item.tag.display.Lore[16] set from block ~ 0 ~ Text1
 
 
 #attachments

@@ -26,3 +26,5 @@ scoreboard players set P90 ARS_SET_ReloadT 43
 scoreboard players set P90 ARS_SET_Force 1
 
 scoreboard players set P90 ARS_SET_DropS 1
+
+scoreboard players set P90 ARS_SET_Weight 2

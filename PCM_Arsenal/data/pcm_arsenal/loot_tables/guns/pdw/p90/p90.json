@@ -63,6 +63,19 @@
 						"color": "gray",
 						"italic": false
 					},
+					[{
+						"translate": "arsenal.item.stats.curammo",
+						"color": "gray",
+						"italic": false
+					}, {
+						"text": "0",
+						"color": "gray",
+						"italic": false
+					},{
+						"translate": "arsenal.stats.rounds.rounds",
+						"color": "gray",
+						"italic": false
+					}],
 					{
 						"translate": "arsenal.item.stats.recoil.tech",
 						"color": "gray",
@@ -104,6 +117,11 @@
 						"italic": false
 					},
 					{
+						"translate": "arsenal.item.stats.weight.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
 						"translate": "arsenal.item.divider",
 						"color": "gray",
 						"italic": false
@@ -125,6 +143,11 @@
 					},
 					{
 						"translate": "arsenal.item.attachments.ub.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.divider",
 						"color": "gray",
 						"italic": false
 					}
