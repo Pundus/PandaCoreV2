@@ -22,5 +22,5 @@ execute as @a[tag=mag_p90_inf] run schedule function pcm_arsenal:spawn/guns/pdw/
 tag @a[tag=mag_p90_inf] remove mag_p90_inf
 
 
-
+schedule function pcm_arsenal:spawn_attachments 1t
 schedule function pcm_arsenal:spawn_items 10t

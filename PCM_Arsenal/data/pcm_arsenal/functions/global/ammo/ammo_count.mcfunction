@@ -1,7 +1,7 @@
 #This function changes the ammo count
 
 #deduct 1 from current rounds
-scoreboard players remove @s ARS_CurRounds 1
+scoreboard players remove @s[tag=!ARS_InfiniteAmmo] ARS_CurRounds 1
 
 #store the new value
 execute store result block ~ 0 ~ Items[0].tag.arsenal_ammo int 1 run scoreboard players get @s ARS_CurRounds

@@ -12,3 +12,5 @@ execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"mag_belt"}}}] at @s run playsou
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"gun_pistol"}}}] at @s run playsound grab.gun.pistol player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"gun_plastic"}}}] at @s run playsound grab.gun.plastic player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"gun_wood"}}}] at @s run playsound grab.gun.wood player @a ~ ~ ~ 1 1 0
+
+execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"attachment_grab"}}}] at @s run playsound grab.attachment player @a ~ ~ ~ 1 1 0

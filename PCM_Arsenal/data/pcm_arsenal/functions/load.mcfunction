@@ -42,3 +42,16 @@ schedule function pcm_arsenal:shell_drop_sfx/shell_drop_disam 9t
 
 # load the physics object sound system
 schedule function pcm_arsenal:physics_objects/physobj_dropped 10t
+
+# load the mechanics delayed
+schedule function pcm_arsenal:mechanics/mechanics_delay_5t 11t
+schedule function pcm_arsenal:mechanics/mechanics_delay_5s 12t
+
+# load the weight system
+schedule function pcm_arsenal:weight/weight_root 13t
+
+# held gun FX
+schedule function pcm_arsenal:guns_held/held_core 14t
+
+# attachments system
+schedule function pcm_arsenal:attachments/attachments_root 15t

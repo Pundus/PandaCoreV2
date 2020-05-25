@@ -8,8 +8,9 @@ function pcm_arsenal:modified_pim/store_mainhand
 execute as @s store result score @s ARS_TotalMags run clear @s enchanted_book{arsenal_halfmag:0b,arsenal_mag:"p90"} 0
 
 #Play the gunshot sound
-execute as @s[nbt=!{SelectedItem:{tags:{arsenal_suppressed:1b}}}] at @s run playsound minecraft:p90.shoot player @a ~ ~ ~ 1 1 0
-execute as @s[nbt={SelectedItem:{tags:{arsenal_suppressed:1b}}}] at @s run function pcm_arsenal:global/sound/suppressed/762
+execute as @s[nbt=!{SelectedItem:{tag:{arsenal_suppressed:1b}}}] at @s run playsound minecraft:p90.shoot player @a ~ ~ ~ 1 1 0
+execute as @s[nbt={SelectedItem:{tag:{muzzle_id:"suppressor"}}}] at @s run function pcm_arsenal:global/sound/suppressed/762
+execute as @s[nbt={SelectedItem:{tag:{muzzle_id:"osprey"}}}] at @s run function pcm_arsenal:global/sound/suppressed/cinematic_9x19
 
 # Sound
 function pcm_arsenal:global/sound_loader

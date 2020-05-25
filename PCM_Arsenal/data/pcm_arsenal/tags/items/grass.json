@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass",
+    "minecraft:mycelium",
+    "minecraft:grass_path",
+    "minecraft:snow"
+  ]
+}

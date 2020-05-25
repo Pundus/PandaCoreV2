@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{arsenal_phys_obj:1b,arsenal_phys_grab:\"gun_plastic\",arsenal_phys_drop:\"gun_plastic_large\",arsenal_guntype:\"PDW\",arsenal_loaded:0b,isarsenalitem:1b,attach_muzzle:0b,muzzle_id:\"none\",attach_optics:0b,optics_id:\"none\",attach_underbarrel:0b,underbarrel_id:\"none\",HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ammo:0,arsenal_isgun:1b,arsenal_gun:\"p90\",PCUUID:4100,CustomModelData:4100,arsenal_justspawned:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:32s}]}"
+				"tag": "{arsenal_phys_obj:1b,arsenal_phys_grab:\"gun_plastic\",arsenal_phys_drop:\"gun_plastic_large\",arsenal_guntype:\"PDW\",arsenal_loaded:0b,isarsenalitem:1b,attach_muzzle:0b,muzzle_id:\"none\",attach_optics:0b,optics_id:\"none\",attach_underbarrel:0b,underbarrel_id:\"none\",attach_arail:0b,arail_id:\"none\",HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ammo:0,arsenal_isgun:1b,arsenal_gun:\"p90\",PCUUID:4100,CustomModelData:4100,arsenal_justspawned:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:32s}]}"
 			}, {
 				"function": "set_name",
 				"name": {
@@ -32,21 +32,21 @@
 					{
 						"translate": "arsenal.item.gun.p90.dsc1",
 						"color": "gray",
-						"italic": false
+						"italic": true
 					},
 					{
 						"translate": "arsenal.item.gun.p90.dsc2",
 						"color": "gray",
-						"italic": false
+						"italic": true
 					},
 					{
 						"translate": "arsenal.item.gun.p90.dsc3",
 						"color": "gray",
-						"italic": false
+						"italic": true
 					},
 					{
-						"translate": "arsenal.item.divider",
-						"color": "gray",
+						"translate": "arsenal.item.divider.stats",
+						"color": "dark_gray",
 						"italic": false
 					},
 					[{
@@ -55,25 +55,7 @@
 						"italic": false
 					}, {
 						"translate": "arsenal.item.cartridge.fn57",
-						"color": "gray",
-						"italic": false
-					}],
-					{
-						"translate": "arsenal.item.stats.rounds.tech",
-						"color": "gray",
-						"italic": false
-					},
-					[{
-						"translate": "arsenal.item.stats.curammo",
-						"color": "gray",
-						"italic": false
-					}, {
-						"text": "0",
-						"color": "gray",
-						"italic": false
-					},{
-						"translate": "arsenal.stats.rounds.rounds",
-						"color": "gray",
+						"color": "white",
 						"italic": false
 					}],
 					{
@@ -122,13 +104,8 @@
 						"italic": false
 					},
 					{
-						"translate": "arsenal.item.divider",
-						"color": "gray",
-						"italic": false
-					},
-					{
-						"translate": "arsenal.item.attachments.attachments",
-						"color": "gray",
+						"translate": "arsenal.item.divider.attch",
+						"color": "dark_gray",
 						"italic": false
 					},
 					{
@@ -147,8 +124,13 @@
 						"italic": false
 					},
 					{
-						"translate": "arsenal.item.divider",
+						"translate": "arsenal.item.attachments.arail.tech",
 						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.divider.empty",
+						"color": "dark_gray",
 						"italic": false
 					}
 				]

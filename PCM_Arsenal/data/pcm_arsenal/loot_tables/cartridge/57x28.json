@@ -32,12 +32,12 @@
 					{
 						"translate": "arsenal.item.crt.57x28.dsc1",
 						"color": "gray",
-						"italic": false
+						"italic": true
 					},
 					{
 						"translate": "arsenal.item.crt.57x28.dsc2",
 						"color": "gray",
-						"italic": false
+						"italic": true
 					}
 				]
 			}]

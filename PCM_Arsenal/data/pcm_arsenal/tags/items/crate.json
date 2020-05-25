@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:barrel",
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:note_block",
+    "minecraft:jukebox",
+    "minecraft:bee_nest",
+    "minecraft:beehive",
+    "minecraft:loom",
+    "minecraft:cartography_table",
+    "minecraft:fletching_table",
+    "minecraft:crafting_table",
+    "minecraft:composter",
+    "minecraft:scaffolding",
+    "minecraft:bookshelf"
+  ]
+}
