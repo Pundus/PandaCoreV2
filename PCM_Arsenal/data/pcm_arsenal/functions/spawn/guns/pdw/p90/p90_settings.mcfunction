@@ -3,6 +3,7 @@
 #Make the thing.
 function pcm_arsenal:modified_pim/create_sign
 
+# global
 execute store result entity @s Item.tag.arsenal_rounds int 1 run scoreboard players get P90 ARS_SET_Rounds
 execute store result entity @s Item.tag.arsenal_recoil byte 1 run scoreboard players get P90 ARS_SET_Recoil
 execute store result entity @s Item.tag.arsenal_range int 1 run scoreboard players get P90 ARS_SET_Range
@@ -14,10 +15,19 @@ execute store result entity @s Item.tag.arsenal_reloadt byte 1 run scoreboard pl
 execute store result entity @s Item.tag.arsenal_force byte 1 run scoreboard players get P90 ARS_SET_Force
 execute store result entity @s Item.tag.arsenal_weight byte 1 run scoreboard players get P90 ARS_SET_Weight
 execute store result entity @s Item.tag.arsenal_drops byte 1 run scoreboard players get P90 ARS_SET_DropS
+
+#attachments
 execute store result entity @s Item.tag.arsenal_muzzle_able byte 1 run scoreboard players get P90 ARS_SET_Muzzle
 execute store result entity @s Item.tag.arsenal_optics_able byte 1 run scoreboard players get P90 ARS_SET_Optics
 execute store result entity @s Item.tag.arsenal_ub_able byte 1 run scoreboard players get P90 ARS_SET_UB
 execute store result entity @s Item.tag.arsenal_arail_able byte 1 run scoreboard players get P90 ARS_SET_ARail
+
+#ammo type
+execute store result entity @s Item.tag.arsenal_ammotype byte 1 run scoreboard players get P90 ARS_SET_AmmoT
+
+#suppressor SFX
+execute store result entity @s Item.tag.ars_suppressed_sfx byte 1 run scoreboard players get P90 ARS_SET_SuppSFX
+execute store result entity @s Item.tag.ars_cinematic_sfx byte 1 run scoreboard players get P90 ARS_SET_SuppCin
 
 #Remove the justspawned
 data remove entity @s Item.tag.arsenal_justspawned

@@ -18,12 +18,17 @@ scoreboard objectives add ARS_SET_ReloadT dummy
 scoreboard objectives add ARS_SET_Force dummy
 scoreboard objectives add ARS_SET_Weight dummy
 scoreboard objectives add ARS_SET_DropS dummy
+scoreboard objectives add ARS_SET_SuppSFX dummy
+scoreboard objectives add ARS_SET_SuppCin dummy
+scoreboard objectives add ARS_SET_AmmoT dummy
 
 scoreboard objectives add ARS_TEMP_Rnds dummy
+scoreboard objectives add ARS_TEMP_ROver dummy
 scoreboard objectives add ARS_TEMP_Cart dummy
 
 scoreboard objectives add ARS_ItemLookTime dummy
 scoreboard objectives add ARS_ArrowLife dummy
+scoreboard objectives add ARS_PostDecay dummy
 scoreboard objectives add ARS_BlockID dummy
 
 scoreboard objectives add ARS_Multipliers dummy
@@ -47,6 +52,8 @@ scoreboard objectives add ARS_ATCH_Loud dummy
 scoreboard objectives add ARS_ATCH_Range dummy
 scoreboard objectives add ARS_ATCH_Dmg dummy
 scoreboard objectives add ARS_ATCH_Recoil dummy
+scoreboard objectives add ARS_ATCH_Rounds dummy
+scoreboard objectives add ARS_ATCH_Pierce dummy
 
 
 
@@ -56,6 +63,8 @@ scoreboard objectives add ARS_TotalMags dummy
 scoreboard objectives add ARS_ReloadProg dummy
 scoreboard objectives add ARS_RateDelay dummy
 scoreboard objectives add ARS_JumpDel dummy
+scoreboard objectives add ARS_OwnARem dummy
+scoreboard objectives add ARS_LaserLength dummy
 
 scoreboard objectives add ARS_PreAttach dummy
 

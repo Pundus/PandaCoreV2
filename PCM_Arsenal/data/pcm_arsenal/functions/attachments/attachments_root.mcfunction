@@ -6,4 +6,14 @@
 
 execute as @a[predicate=pcm_arsenal:sneaking] as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_isattachment:1b}}]}] as @s[nbt={SelectedItem:{tag:{arsenal_isgun:1b}}}] at @s run function pcm_arsenal:attachments/pre_attach
 
+
+# check if player owns an attachments remover constantly
+execute as @a store result score @s ARS_OwnARem run clear @s enchanted_book{arsenal_attachremover:1b} 0
+
+#check if still crouching
+execute as @a[predicate=!pcm_arsenal:sneaking] run scoreboard players reset @s ARS_PreAttach
+execute as @a[predicate=!pcm_arsenal:sneaking] run tag @s remove ARS_Atch_Override
+
+# Attachment remover system
+
 schedule function pcm_arsenal:attachments/attachments_root 10t

@@ -1,0 +1,65 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{arsenal_isattachment:1b,arsenal_attachtype:\"underbarrel\",arsenal_attachment:\"stubby_foregrip\",arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"attachment_grab\",arsenal_phys_drop:\"attachment_plastic\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4009,CustomModelData:4009,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.attachments.stubby_foregrip.name",
+					"color": "white",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [
+					[{
+						"translate": "arsenal.item.attachments.underbarrel.desc",
+						"color": "white",
+						"italic": false
+					},{
+						"translate": "arsenal.item.type.attachment",
+						"color": "white",
+						"italic": false
+					}],
+					{
+						"translate": "arsenal.item.attachments.stubby_foregrip.dsc1",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.attachments.stubby_foregrip.dsc2",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.modifiers",
+						"color": "dark_gray",
+						"italic": false
+					},
+					[{
+						"translate": "arsenal.item.stats.negative",
+						"color": "dark_aqua",
+						"italic": false
+					}, {
+						"text": "1",
+						"color": "dark_aqua",
+						"italic": false
+					}, {
+						"translate": "arsenal.item.stats.suffix.weight",
+						"color": "dark_aqua",
+						"italic": false
+					}]
+				]
+			}]
+		}]
+	}]
+}

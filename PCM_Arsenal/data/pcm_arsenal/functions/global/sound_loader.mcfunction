@@ -8,10 +8,10 @@ execute as @s[nbt=!{SelectedItem:{tag:{arsenal_suppressed:1b}}},nbt={SelectedIte
 execute as @s[nbt=!{SelectedItem:{tag:{arsenal_suppressed:1b}}},nbt={SelectedItem:{tag:{arsenal_loudness:6b}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/antimat_loop
 
 #for supressed guns
-execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:1b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/supressed_small_loop
-execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:2b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/supressed_small_loop
-execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:3b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/supressed_small_loop
-execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:4b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/supressed_large_loop
-execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:5b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/supressed_large_loop
-execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:6b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/supressed_large_loop
+execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:1b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/suppressed_small_loop
+execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:2b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/suppressed_small_loop
+execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:3b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/suppressed_small_loop
+execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:4b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/suppressed_large_loop
+execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:5b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/suppressed_large_loop
+execute as @s[nbt={SelectedItem:{tag:{arsenal_loudness:6b,muzzle_id:"suppressor"}}}] at @s positioned ~ ~-62 ~ run function pcm_arsenal:global/sound/suppressed_large_loop
 

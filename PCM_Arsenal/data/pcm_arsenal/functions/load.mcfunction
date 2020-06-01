@@ -23,7 +23,7 @@ schedule function pcm_arsenal:lookat_name/look_detector 2t
 schedule function pcm_arsenal:pickup_module/pickup_loop 3t
 
 #load the decayer
-schedule function pcm_arsenal:arrows_handler/decay/decayer 4t
+### DEPRECATED
 
 # load teams
 schedule function pcm_arsenal:teams/teams_create 5t
@@ -55,3 +55,6 @@ schedule function pcm_arsenal:guns_held/held_core 14t
 
 # attachments system
 schedule function pcm_arsenal:attachments/attachments_root 15t
+
+#load subsystems
+schedule function pcm_arsenal:attachments/subsystem/subsystem_init 4t

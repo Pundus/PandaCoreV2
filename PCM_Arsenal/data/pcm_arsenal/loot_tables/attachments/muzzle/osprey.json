@@ -1,0 +1,57 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{arsenal_isattachment:1b,arsenal_attachtype:\"muzzle\",arsenal_attachment:\"osprey\",arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"attachment_grab\",arsenal_phys_drop:\"attachment_metal\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4001,CustomModelData:4001,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.attachments.osprey.name",
+					"color": "white",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [
+					[{
+						"translate": "arsenal.item.attachments.muzzle.desc",
+						"color": "white",
+						"italic": false
+					},{
+						"translate": "arsenal.item.type.attachment",
+						"color": "white",
+						"italic": false
+					}],
+					{
+						"translate": "arsenal.item.attachments.osprey.dsc1",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.attachments.osprey.dsc2",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.modifiers",
+						"color": "dark_gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.suppressed2",
+						"color": "dark_aqua",
+						"italic": false
+					}
+				]
+			}]
+		}]
+	}]
+}

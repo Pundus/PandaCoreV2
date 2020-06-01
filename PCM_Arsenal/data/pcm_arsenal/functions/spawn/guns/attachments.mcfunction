@@ -20,6 +20,16 @@ execute as @s[nbt={Item:{tag:{attach_arail:0b,arsenal_arail_able:1b}}}] run data
 
 execute as @s[nbt={Item:{tag:{attach_arail:0b,arsenal_arail_able:1b}}}] run data modify entity @s Item.tag.display.Lore[19] set from block ~ 0 ~ Text1
 
+#ammo type 1
+execute as @s[nbt={Item:{tag:{attach_ammotype:0b,arsenal_ammotype:1b}}}] run data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.attachments.ammotype","color": "gray","italic": false},{"translate": "arsenal.item.attachments.standard","color": "gray","italic": false}]'
+
+execute as @s[nbt={Item:{tag:{attach_ammotype:0b,arsenal_ammotype:1b}}}] run data modify entity @s Item.tag.display.Lore[20] set from block ~ 0 ~ Text1
+
+#ammo type 2
+execute as @s[nbt={Item:{tag:{attach_ammotype:0b,arsenal_ammotype:2b}}}] run data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.attachments.ammotype","color": "gray","italic": false},{"translate": "arsenal.item.attachments.standardsg","color": "gray","italic": false}]'
+
+execute as @s[nbt={Item:{tag:{attach_ammotype:0b,arsenal_ammotype:2b}}}] run data modify entity @s Item.tag.display.Lore[20] set from block ~ 0 ~ Text1
+
 
 #muzzle unable
 execute as @s[nbt={Item:{tag:{arsenal_muzzle_able:0b}}}] run data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.attachments.muzzle","color": "gray","italic": false},{"translate": "arsenal.item.attachments.na","color": "gray","italic": false}]'

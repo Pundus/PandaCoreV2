@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "#minecraft:carpets",
+    "minecraft:glass",
+    "minecraft:redstone_wire",
+    "minecraft:lever",
+    "#minecraft:buttons",
+    "#minecraft:rails",
+    "#minecraft:signs"
+  ]
+}

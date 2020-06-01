@@ -17,7 +17,7 @@ data modify block ~ 0 ~ Items[0].tag.display.Lore[16] set from block ~1 0 ~1 Tex
 tag @s remove ARS_ATCH_Muzzle_Meta
 
 #play the muzzle screwing sound
-playsound minecraft:attachment.muzzle.attach player @s ~ ~ ~ 1 1 0
+playsound attachment.muzzle.attach player @s ~ ~ ~ 1 1 0
 
 #retrieve
 function pcm_arsenal:modified_pim/retrieve_mainhand

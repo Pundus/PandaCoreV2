@@ -1,5 +1,7 @@
 # This checks arrows in the ground.
 
+tell @a[tag=ARS_Debug_ArrowLog] Arrow hit.
+
 #create an armor stand to test
 execute as @s at @s positioned ~ 0 ~ run function pcm_arsenal:arrows_handler/impact/determine_block
 

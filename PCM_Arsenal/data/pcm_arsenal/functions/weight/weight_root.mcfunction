@@ -14,6 +14,6 @@ execute as @a store result score @s ARS_TMP_Weight9 run clear @s #pcm_arsenal:we
 execute as @a store result score @s ARS_TMP_Weight10 run clear @s #pcm_arsenal:weighted{arsenal_weight:10b} 0
 
 execute as @a run function pcm_arsenal:weight/weight_calculator
-execute as @a run function pcm_arsenal:weight/weight_fx
+execute as @a[tag=!ARS_IgnoreWeight] run function pcm_arsenal:weight/weight_fx
 
 schedule function pcm_arsenal:weight/weight_root 10t

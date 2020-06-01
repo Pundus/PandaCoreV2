@@ -10,29 +10,33 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{arsenal_isattachment:1b,arsenal_attachtype:\"muzzle\",arsenal_attachment:\"suppressor\",arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"attachment_grab\",arsenal_phys_drop:\"attachment_metal\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4000,CustomModelData:4000,arsenal_justspawned:1b}"
+				"tag": "{arsenal_isattachment:1b,arsenal_attachtype:\"muzzle\",arsenal_attachment:\"compensator\",arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"attachment_grab\",arsenal_phys_drop:\"attachment_metal\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4003,CustomModelData:4003,arsenal_justspawned:1b}"
 			}, {
 				"function": "set_name",
 				"name": {
-					"translate": "arsenal.item.attachments.suppressor.name",
+					"translate": "arsenal.item.attachments.compensator.name",
 					"color": "white",
 					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [
-					{
+					[{
+						"translate": "arsenal.item.attachments.muzzle.desc",
+						"color": "white",
+						"italic": false
+					},{
 						"translate": "arsenal.item.type.attachment",
 						"color": "white",
 						"italic": false
-					},
+					}],
 					{
-						"translate": "arsenal.item.attachments.suppressor.dsc1",
+						"translate": "arsenal.item.attachments.compensator.dsc1",
 						"color": "gray",
 						"italic": true
 					},
 					{
-						"translate": "arsenal.item.attachments.suppressor.dsc2",
+						"translate": "arsenal.item.attachments.compensator.dsc2",
 						"color": "gray",
 						"italic": true
 					},
@@ -43,15 +47,15 @@
 					},
 					[{
 						"translate": "arsenal.item.stats.negative",
-						"color": "gray",
+						"color": "dark_aqua",
 						"italic": false
 					}, {
 						"text": "1",
-						"color": "white",
+						"color": "dark_aqua",
 						"italic": false
 					}, {
-						"translate": "arsenal.item.stats.suffix.loudness",
-						"color": "gray",
+						"translate": "arsenal.item.stats.suffix.recoil",
+						"color": "dark_aqua",
 						"italic": false
 					}]
 				]

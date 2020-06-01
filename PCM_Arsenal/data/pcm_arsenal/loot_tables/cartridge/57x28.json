@@ -15,20 +15,17 @@
 				"function": "set_name",
 				"name": {
 					"translate": "arsenal.item.crt.57x28.name",
-					"color": "green",
+					"color": "dark_aqua",
 					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [
-					[{
-						"translate": "arsenal.item.rarity.military",
-						"color": "green",
-						"italic": false
-					}, {
+					{
 						"translate": "arsenal.item.type.cartridge",
+						"color": "dark_aqua",
 						"italic": false
-					}],
+					},
 					{
 						"translate": "arsenal.item.crt.57x28.dsc1",
 						"color": "gray",

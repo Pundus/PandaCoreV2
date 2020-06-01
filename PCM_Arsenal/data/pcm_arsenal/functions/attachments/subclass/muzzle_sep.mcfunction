@@ -22,6 +22,9 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachment:"muzzle_booste
 #barrel_extension
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachment:"barrel_extension"}}]}] as @s[nbt={SelectedItem:{tag:{arsenal_muzzle_able:1b,attach_muzzle:0b}}}] run function pcm_arsenal:attachments/subclass/muzzle/barrel_extension
 
+#round_repeater
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachment:"round_repeater"}}]}] as @s[nbt={SelectedItem:{tag:{arsenal_muzzle_able:1b,attach_muzzle:0b}}}] run function pcm_arsenal:attachments/subclass/muzzle/round_repeater
+
 
 
 

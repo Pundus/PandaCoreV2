@@ -4,8 +4,8 @@
 #
 #
 
-
-
+#remove the projectiles
+data remove block ~ 0 ~ Items[0].tag.ChargedProjectiles
 
 tag @s add offhandgunrep
 data modify block ~ 0 ~ Items[0].tag.arsenal_loaded set value 1b

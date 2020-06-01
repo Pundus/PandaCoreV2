@@ -15,20 +15,17 @@
 				"function": "set_name",
 				"name": {
 					"translate": "arsenal.item.mag.p90.name",
-					"color": "green",
+					"color": "aqua",
 					"italic": false
 				}
 			}, {
 				"function": "set_lore",
 				"lore": [
-					[{
-						"translate": "arsenal.item.rarity.military",
-						"color": "green",
-						"italic": false
-					}, {
+					{
 						"translate": "arsenal.item.type.magazine",
+						"color": "aqua",
 						"italic": false
-					}],
+					},
 					{
 						"translate": "arsenal.item.mag.p90.dsc1",
 						"color": "gray",
@@ -43,6 +40,11 @@
 						"translate": "arsenal.item.mag.p90.dsc3",
 						"color": "gray",
 						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.empty",
+						"color": "dark_gray",
+						"italic": false
 					},
 					{
 						"translate": "arsenal.item.divider.empty",

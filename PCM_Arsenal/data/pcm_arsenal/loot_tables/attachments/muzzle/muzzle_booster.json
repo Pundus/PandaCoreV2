@@ -1,0 +1,78 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{arsenal_isattachment:1b,arsenal_attachtype:\"muzzle\",arsenal_attachment:\"muzzle_booster\",arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"attachment_grab\",arsenal_phys_drop:\"attachment_metal\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4005,CustomModelData:4005,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.attachments.muzzle_booster.name",
+					"color": "white",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [
+					[{
+						"translate": "arsenal.item.attachments.muzzle.desc",
+						"color": "white",
+						"italic": false
+					},{
+						"translate": "arsenal.item.type.attachment",
+						"color": "white",
+						"italic": false
+					}],
+					{
+						"translate": "arsenal.item.attachments.muzzle_booster.dsc1",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.attachments.muzzle_booster.dsc2",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.modifiers",
+						"color": "dark_gray",
+						"italic": false
+					},
+					[{
+						"translate": "arsenal.item.stats.positive",
+						"color": "dark_aqua",
+						"italic": false
+					}, {
+						"text": "50",
+						"color": "dark_aqua",
+						"italic": false
+					}, {
+						"translate": "arsenal.item.stats.suffix.damage",
+						"color": "dark_aqua",
+						"italic": false
+					}],
+					[{
+						"translate": "arsenal.item.stats.positive",
+						"color": "red",
+						"italic": false
+					}, {
+						"text": "1",
+						"color": "red",
+						"italic": false
+					}, {
+						"translate": "arsenal.item.stats.suffix.recoil",
+						"color": "red",
+						"italic": false
+					}]
+				]
+			}]
+		}]
+	}]
+}

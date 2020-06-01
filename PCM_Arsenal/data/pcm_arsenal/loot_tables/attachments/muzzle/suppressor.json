@@ -21,11 +21,15 @@
 			}, {
 				"function": "set_lore",
 				"lore": [
-					{
+					[{
+						"translate": "arsenal.item.attachments.muzzle.desc",
+						"color": "white",
+						"italic": false
+					},{
 						"translate": "arsenal.item.type.attachment",
 						"color": "white",
 						"italic": false
-					},
+					}],
 					{
 						"translate": "arsenal.item.attachments.suppressor.dsc1",
 						"color": "gray",
@@ -43,7 +47,7 @@
 					},
 					{
 						"translate": "arsenal.item.stats.suppressed",
-						"color": "gray",
+						"color": "dark_aqua",
 						"italic": false
 					},
 					[{

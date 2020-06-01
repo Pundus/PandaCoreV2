@@ -5,7 +5,7 @@ scoreboard players set P90 ARS_SET_Rounds 50
 
 scoreboard players set P90 ARS_SET_Recoil 3
 
-scoreboard players set P90 ARS_SET_Range 3
+scoreboard players set P90 ARS_SET_Range 6
 
 scoreboard players set P90 ARS_SET_Damage 250
 
@@ -19,7 +19,7 @@ scoreboard players set P90 ARS_SET_Muzzle 1
 
 scoreboard players set P90 ARS_SET_Optics 1
 
-scoreboard players set P90 ARS_SET_UB 0
+scoreboard players set P90 ARS_SET_UB 1
 
 scoreboard players set P90 ARS_SET_ARail 1
 
@@ -30,3 +30,9 @@ scoreboard players set P90 ARS_SET_Force 1
 scoreboard players set P90 ARS_SET_DropS 1
 
 scoreboard players set P90 ARS_SET_Weight 3
+
+scoreboard players set P90 ARS_SET_SuppSFX 7
+
+scoreboard players set P90 ARS_SET_SuppCin 4
+
+scoreboard players set P90 ARS_SET_AmmoT 1

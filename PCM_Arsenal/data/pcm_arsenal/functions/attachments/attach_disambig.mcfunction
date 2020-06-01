@@ -25,4 +25,4 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachtype:"underbarrel"}
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachtype:"arail"}}]}] as @s[nbt={SelectedItem:{tag:{arsenal_arail_able:1b,attach_arail:0b}}}] at @s run function pcm_arsenal:attachments/subclass/arail_sep
 
 # Ram clear.
-#function pcm_arsenal:modified_pim/ram_clear
+function pcm_arsenal:modified_pim/ram_clear
