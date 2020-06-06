@@ -9,8 +9,8 @@ execute as @s store result score @s ARS_TotalMags run clear @s enchanted_book{ar
 
 #Play the gunshot sound
 stopsound @s * item.crossbow.shoot
-execute as @s[nbt=!{SelectedItem:{tag:{arsenal_suppressed:1b}}}] at @s run playsound minecraft:p90.shoot player @a ~ ~ ~ 1 1 0
-execute as @s[nbt={SelectedItem:{tag:{arsenal_suppressed:1b}}}] at @s run function pcm_arsenal:global/sound/suppressed/suppressed_sfx_disambig
+execute as @s[predicate=!pcm_arsenal:held_item/suppressed] at @s run playsound minecraft:p90.shoot player @a ~ ~ ~ 1 1 0
+execute as @s[predicate=pcm_arsenal:held_item/suppressed] at @s run function pcm_arsenal:global/sound/suppressed/suppressed_sfx_disambig
 
 
 # Sound

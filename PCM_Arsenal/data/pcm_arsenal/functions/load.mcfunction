@@ -58,3 +58,9 @@ schedule function pcm_arsenal:attachments/attachments_root 15t
 
 #load subsystems
 schedule function pcm_arsenal:attachments/subsystem/subsystem_init 4t
+
+#HP rework
+schedule function pcm_arsenal:healing_rework/global_ticker 16t
+
+#bleeder
+schedule function pcm_arsenal:bleeding/blood_looper 17t

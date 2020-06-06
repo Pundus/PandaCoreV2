@@ -1,0 +1,65 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{arsenal_isattachment:1b,arsenal_attachtype:\"arail\",arsenal_attachment:\"canted_irons\",arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"attachment_grab\",arsenal_phys_drop:\"attachment_plastic\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4019,CustomModelData:4019,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.attachments.canted_irons.name",
+					"color": "white",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [
+					[{
+						"translate": "arsenal.item.attachments.arail.desc",
+						"color": "white",
+						"italic": false
+					},{
+						"translate": "arsenal.item.type.attachment",
+						"color": "white",
+						"italic": false
+					}],
+					{
+						"translate": "arsenal.item.attachments.canted_irons.dsc1",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.attachments.canted_irons.dsc2",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.modifiers",
+						"color": "dark_gray",
+						"italic": false
+					},
+					[{
+						"translate": "arsenal.item.stats.positive",
+						"color": "dark_aqua",
+						"italic": false
+					}, {
+						"text": "1",
+						"color": "dark_aqua",
+						"italic": false
+					}, {
+						"translate": "arsenal.item.stats.suffix.range",
+						"color": "dark_aqua",
+						"italic": false
+					}]
+				]
+			}]
+		}]
+	}]
+}

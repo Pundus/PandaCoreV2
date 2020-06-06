@@ -5,7 +5,7 @@ function pcm_arsenal:attachments/subclass/muzzle/muzzle_global
 
 #modify specific stats
 execute as @s at @s store result score @s ARS_ATCH_Range run data get block ~ 0 ~ Items[0].tag.arsenal_range
-scoreboard players add @s[scores={ARS_ATCH_Range=1..}] ARS_ATCH_Range 1
+scoreboard players add @s ARS_ATCH_Range 1
 execute as @s at @s store result block ~ 0 ~ Items[0].tag.arsenal_range byte 1 run scoreboard players get @s ARS_ATCH_Range
 
 

@@ -11,8 +11,8 @@
 
 
 #Scan the offhand (reloading).
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_isgun:1b}}]},tag=offhandgunrep] at @s run function pcm_arsenal:bullet_loader/bullet_settings_offhand
+execute as @s[predicate=pcm_arsenal:offhand_item/isgun_off,tag=offhandgunrep] at @s run function pcm_arsenal:bullet_loader/bullet_settings_offhand
 
 #Scan the mainhand (shooting).
-execute as @s[nbt={SelectedItem:{tag:{arsenal_isgun:1b}}},tag=mainhandgunrep] at @s run function pcm_arsenal:bullet_loader/bullet_settings_mainhand
+execute as @s[predicate=pcm_arsenal:held_item/isgun,tag=mainhandgunrep] at @s run function pcm_arsenal:bullet_loader/bullet_settings_mainhand
 

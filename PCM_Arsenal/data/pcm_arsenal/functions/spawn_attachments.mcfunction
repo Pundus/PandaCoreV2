@@ -91,11 +91,11 @@ execute as @a[tag=atch_canted_irons] at @s run loot spawn ~ ~ ~ loot pcm_arsenal
 tag @a[tag=atch_canted_irons] remove atch_canted_irons
 
 # Ammunition Reservoir
-execute as @a[tag=atch_reservoir] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/accessory/ammo_reservoir
+execute as @a[tag=atch_reservoir] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/accessory/reservoir
 tag @a[tag=atch_reservoir] remove atch_reservoir
 
 # Magazine Duplicator
-execute as @a[tag=atch_duplicator] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/accessory/mag_duplicator
+execute as @a[tag=atch_duplicator] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/accessory/duplicator
 tag @a[tag=atch_duplicator] remove atch_duplicator
 
 ############################################################################################################

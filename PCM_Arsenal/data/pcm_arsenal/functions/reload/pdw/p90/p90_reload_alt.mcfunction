@@ -16,4 +16,4 @@ execute as @s[scores={ARS_ReloadProg=1}] at @s run playsound minecraft:p90.reloa
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_ammo:50}}]}] at @s if score @s ARS_ReloadProg > P90 ARS_SET_ReloadT run function pcm_arsenal:reload/pdw/p90/p90_unload
 
 #if gun is half full
-execute as @s[nbt=!{Inventory:[{Slot:-106b,tag:{arsenal_ammo:0}}]},nbt=!{Inventory:[{Slot:-106b,tag:{arsenal_ammo:50}}]}] at @s if score @s ARS_ReloadProg > P90 ARS_SET_ReloadT run function pcm_arsenal:reload/pdw/p90/p90_reload_semi_alt
+execute as @s[predicate=!pcm_arsenal:offhand_item/ammo_0_off,nbt=!{Inventory:[{Slot:-106b,tag:{arsenal_ammo:50}}]}] at @s if score @s ARS_ReloadProg > P90 ARS_SET_ReloadT run function pcm_arsenal:reload/pdw/p90/p90_reload_semi_alt

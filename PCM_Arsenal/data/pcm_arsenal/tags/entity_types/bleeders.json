@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player",
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:creeper",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:pillager",
+    "minecraft:evoker",
+    "minecraft:illusioner",
+    "minecraft:ravager",
+    "minecraft:vindicator",
+    "minecraft:vex",
+    "minecraft:phantom",
+    "minecraft:villager",
+    "minecraft:witch"
+  ]
+}

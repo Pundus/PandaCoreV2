@@ -18,6 +18,6 @@ execute as @s[scores={ARS_CurRounds=1..},nbt={SelectedItem:{tag:{arsenal_gun:"p9
 
 
 #End of the Line!
-scoreboard players reset @s ARS_FiredGun
+
 #scoreboard players reset @s ARS_RateDelay
 #tag @s remove ARS_Chambering

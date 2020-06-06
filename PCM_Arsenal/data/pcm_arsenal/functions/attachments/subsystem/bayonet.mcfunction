@@ -1,7 +1,7 @@
 # Give strength to players with bayonet
 
 # run as player
-execute as @a as @s[nbt={SelectedItem:{tag:{arsenal_bayonet:1b}}}] run effect give @s minecraft:strength 2 4 true
+execute as @a as @s[predicate=pcm_arsenal:held_item/bayonet] run effect give @s minecraft:strength 2 4 true
 
 #loop function
 

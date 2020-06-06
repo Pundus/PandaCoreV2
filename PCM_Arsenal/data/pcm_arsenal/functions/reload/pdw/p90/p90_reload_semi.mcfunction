@@ -2,6 +2,8 @@
 
 #store the current ammo
 execute store result score @s ARS_TEMP_Rnds run data get entity @s Inventory[{Slot:-106b}].tag.arsenal_ammo
+execute as @s[predicate=pcm_arsenal:offhand_item/reservoir] run scoreboard players remove @s ARS_TEMP_Rnds 10
+execute as @s if score @s ARS_TEMP_Rnds > P90 ARS_SET_Rounds run scoreboard players operation @s ARS_TEMP_Rnds -= P90 ARS_SET_Rounds
 
 #make a shulky
 function pcm_arsenal:modified_pim/create_shulker

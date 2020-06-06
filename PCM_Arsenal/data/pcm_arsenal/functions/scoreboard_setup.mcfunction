@@ -65,13 +65,16 @@ scoreboard objectives add ARS_RateDelay dummy
 scoreboard objectives add ARS_JumpDel dummy
 scoreboard objectives add ARS_OwnARem dummy
 scoreboard objectives add ARS_LaserLength dummy
+scoreboard objectives add ARS_HPCool dummy
 
 scoreboard objectives add ARS_PreAttach dummy
 
 scoreboard objectives add ARS_FiredGun minecraft.used:minecraft.crossbow
+scoreboard objectives add ARS_Jumps minecraft.custom:minecraft.jump 
 
 scoreboard objectives add Kills totalKillCount
 scoreboard objectives add Health health
+scoreboard objectives add ARS_Food food 
 
 #Math multipliers
 scoreboard players set 1 ARS_Multipliers 1

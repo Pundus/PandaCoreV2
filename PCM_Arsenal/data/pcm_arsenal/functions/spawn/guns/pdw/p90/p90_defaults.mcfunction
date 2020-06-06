@@ -5,9 +5,9 @@ scoreboard players set P90 ARS_SET_Rounds 50
 
 scoreboard players set P90 ARS_SET_Recoil 3
 
-scoreboard players set P90 ARS_SET_Range 6
+scoreboard players set P90 ARS_SET_Range 5
 
-scoreboard players set P90 ARS_SET_Damage 250
+scoreboard players set P90 ARS_SET_Damage 75
 
 scoreboard players set P90 ARS_SET_Piercing 3
 

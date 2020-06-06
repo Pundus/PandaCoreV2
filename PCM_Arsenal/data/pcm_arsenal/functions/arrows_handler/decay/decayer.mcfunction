@@ -6,6 +6,8 @@ execute as @e[type=arrow,scores={ARS_ArrowLife=0}] run data modify entity @s NoG
 
 execute as @e[type=arrow,scores={ARS_ArrowLife=0}] run scoreboard players add @s ARS_PostDecay 1
 
-kill @e[type=arrow,scores={ARS_PostDecay=100..}] 
+execute as @e[type=arrow,scores={ARS_ArrowLife=0},tag=!ARS_SlowDown] run function pcm_arsenal:arrows_handler/decay/slowdown
 
-schedule function pcm_arsenal:arrows_handler/decay/decayer 2t
+kill @e[type=arrow,scores={ARS_PostDecay=250..}] 
+
+schedule function pcm_arsenal:arrows_handler/decay/decayer 1t

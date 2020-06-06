@@ -4,7 +4,7 @@
 # and a gun in the mainhand...
 #
 
-execute as @a[predicate=pcm_arsenal:sneaking] as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_isattachment:1b}}]}] as @s[nbt={SelectedItem:{tag:{arsenal_isgun:1b}}}] at @s run function pcm_arsenal:attachments/pre_attach
+execute as @a[predicate=pcm_arsenal:sneaking] as @s[predicate=pcm_arsenal:offhand_item/isattachment_off] as @s[predicate=pcm_arsenal:held_item/isgun] at @s run function pcm_arsenal:attachments/pre_attach
 
 
 # check if player owns an attachments remover constantly

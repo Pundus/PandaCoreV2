@@ -19,5 +19,5 @@ function pcm_arsenal:modified_pim/ram_clear
 
 
 
-tag @s[nbt={SelectedItem:{tag:{Charged:1b}}}] remove ARS_Chambering
-scoreboard players reset @s[nbt={SelectedItem:{tag:{Charged:1b}}}] ARS_RateDelay
+tag @s[predicate=pcm_arsenal:held_item/charged] remove ARS_Chambering
+scoreboard players reset @s[predicate=pcm_arsenal:held_item/charged] ARS_RateDelay
