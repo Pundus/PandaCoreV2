@@ -23,5 +23,4 @@ tag @a[tag=mag_p90_inf] remove mag_p90_inf
 
 
 schedule function pcm_arsenal:spawn_attachments 1t
-schedule function pcm_arsenal:spawn_grenades 2t
 schedule function pcm_arsenal:spawn_items 10t

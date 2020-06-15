@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "minecraft:crossbow",
-    "minecraft:flower_banner_pattern",
     "minecraft:enchanted_book"
   ]
 }

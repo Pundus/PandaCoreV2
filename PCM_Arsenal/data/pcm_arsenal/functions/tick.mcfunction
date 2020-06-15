@@ -5,14 +5,10 @@ function pcm_arsenal:arrows_handler/arrows_handler
 function pcm_arsenal:global/particle/lighting_as_handler
 function pcm_arsenal:cart_giver/cart_giver
 function pcm_arsenal:arrows_handler/decay/decayer
-function pcm_arsenal:arrows_handler/effects/arrow_fx_ticker
 function pcm_arsenal:attachments/subsystem/flashlight_as_handler
-
-
 
 function pcm_arsenal:healing_rework/blood_ticker
 
-function pcm_arsenal:grenades/throw_distance/throw_distance_init
 
 #arrow speeder
 execute as @e[type=arrow,tag=!ARS_SpeedTag,nbt={Color:-1}] run function pcm_arsenal:arrows_handler/arrow_speeder

@@ -18,7 +18,4 @@ execute as @s[nbt={Item:{tag:{arsenal_phys_drop:"gun_plastic_large"}}}] at @s ru
 execute as @s[nbt={Item:{tag:{arsenal_phys_drop:"attachment_metal"}}}] at @s run playsound drop.attachment.metal player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={Item:{tag:{arsenal_phys_drop:"attachment_plastic"}}}] at @s run playsound drop.attachment.plastic player @a ~ ~ ~ 1 1 0
 
-execute as @s[nbt={Item:{tag:{arsenal_phys_drop:"grenade_grenade"}}}] at @s run playsound drop.grenade.grenade player @a ~ ~ ~ 1 1 0
-execute as @s[nbt={Item:{tag:{arsenal_phys_drop:"grenade_flashbang"}}}] at @s run playsound drop.grenade.flashbang player @a ~ ~ ~ 1 1 0
-
 tag @s add ARS_PO_Done
