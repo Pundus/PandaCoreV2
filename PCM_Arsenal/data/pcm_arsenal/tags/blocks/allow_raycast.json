@@ -4,6 +4,8 @@
     "minecraft:air",
     "#minecraft:carpets",
     "minecraft:glass",
+    "minecraft:glass_pane",
+    "minecraft:water",
     "minecraft:redstone_wire",
     "minecraft:lever",
     "#minecraft:buttons",

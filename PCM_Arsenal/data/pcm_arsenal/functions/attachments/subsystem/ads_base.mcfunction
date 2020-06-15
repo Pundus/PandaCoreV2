@@ -5,6 +5,8 @@ execute as @a[tag=!ARS_ADS_Enable,predicate=pcm_arsenal:sneaking] as @s[predicat
 
 execute as @a[tag=ARS_ADS_Enable] if score @s ARS_Jumps matches 1.. run function pcm_arsenal:attachments/subsystem/ads_disable
 
+execute as @a[tag=ARS_ADS_Enable,predicate=!pcm_arsenal:held_item/ads] run function pcm_arsenal:attachments/subsystem/ads_disable
+
 scoreboard players reset @a[scores={ARS_Jumps=1..}] ARS_Jumps
 
 #loop function

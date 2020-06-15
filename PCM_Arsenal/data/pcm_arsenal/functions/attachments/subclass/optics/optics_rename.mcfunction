@@ -11,7 +11,7 @@ tag @s add ARS_ATCH_Optics_Meta
 data modify block ~1 0 ~1 Text1 set value '[{"translate": "arsenal.item.attachments.optics","color": "gray","italic": false},{"nbt":"Inventory[{Slot:-106b}].tag.display.Name","entity":"@a[limit=1,tag=ARS_ATCH_Optics_Meta,sort=nearest]","interpret":true}]'
 
 #apply
-data modify block ~ 0 ~ Items[0].tag.display.Lore[19] set from block ~1 0 ~1 Text1
+data modify block ~ 0 ~ Items[0].tag.display.Lore[17] set from block ~1 0 ~1 Text1
 
 #remove tag
 tag @s remove ARS_ATCH_Optics_Meta

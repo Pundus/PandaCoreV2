@@ -83,7 +83,7 @@ execute as @a[tag=atch_tri_laser] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:at
 tag @a[tag=atch_tri_laser] remove atch_tri_laser
 
 # Ballistics Tracker
-execute as @a[tag=atch_tracker] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/accessory/ballistics_tracker
+execute as @a[tag=atch_tracker] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/accessory/tracker
 tag @a[tag=atch_tracker] remove atch_tracker
 
 # Canted Ironsights
@@ -123,15 +123,19 @@ tag @a[tag=atch_acog] remove atch_acog
 ############################################################################################################
 
 # Armor Piercing Rounds
-execute as @a[tag=atch_ap_rounds] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/ammunition/armor_piercing
+execute as @a[tag=atch_ap_rounds] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/ammunition/ap_rounds
 tag @a[tag=atch_ap_rounds] remove atch_ap_rounds
 
 # Incendiary Rounds
-execute as @a[tag=atch_incen_rounds] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/ammunition/incendiary
+execute as @a[tag=atch_incen_rounds] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/ammunition/incen_rounds
 tag @a[tag=atch_incen_rounds] remove atch_incen_rounds
 
 # Tracer Rounds
-execute as @a[tag=atch_tracer_rounds] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/ammunition/tracer
+execute as @a[tag=atch_tracer_rounds] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/ammunition/tracer_rounds
 tag @a[tag=atch_tracer_rounds] remove atch_tracer_rounds
+
+# Hollow Point Rounds
+execute as @a[tag=atch_hp_rounds] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/ammunition/hp_rounds
+tag @a[tag=atch_hp_rounds] remove atch_hp_rounds
 
 

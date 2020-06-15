@@ -1,5 +1,16 @@
 #This will create the scoreboards necessary
 
+#but first gamerules
+gamerule mobGriefing false
+gamerule doFireTick false
+gamerule doMobSpawning false
+gamerule naturalRegeneration false
+gamerule doDaylightCycle false
+gamerule doTileDrops false
+gamerule keepInventory true
+
+scoreboard objectives add ARS_MenuSys trigger
+
 scoreboard objectives add ArsenalVersion dummy
 scoreboard players set GunFormat ArsenalVersion 1
 
@@ -27,9 +38,14 @@ scoreboard objectives add ARS_TEMP_ROver dummy
 scoreboard objectives add ARS_TEMP_Cart dummy
 
 scoreboard objectives add ARS_ItemLookTime dummy
+scoreboard objectives add ARS_Wall_HP dummy
 scoreboard objectives add ARS_ArrowLife dummy
 scoreboard objectives add ARS_PostDecay dummy
 scoreboard objectives add ARS_BlockID dummy
+scoreboard objectives add ARS_GrenadeTimer dummy
+scoreboard objectives add ARS_GrenadeCount dummy
+scoreboard objectives add ARS_GrenadeCook dummy
+scoreboard objectives add ARS_DropGrenade minecraft.dropped:minecraft.flower_banner_pattern
 
 scoreboard objectives add ARS_Multipliers dummy
 
@@ -43,6 +59,16 @@ scoreboard objectives add ARS_TMP_Weight7 dummy
 scoreboard objectives add ARS_TMP_Weight8 dummy
 scoreboard objectives add ARS_TMP_Weight9 dummy
 scoreboard objectives add ARS_TMP_Weight10 dummy
+scoreboard objectives add ARS_TMP_Weight11 dummy
+scoreboard objectives add ARS_TMP_Weight12 dummy
+scoreboard objectives add ARS_TMP_Weight13 dummy
+scoreboard objectives add ARS_TMP_Weight14 dummy
+scoreboard objectives add ARS_TMP_Weight15 dummy
+scoreboard objectives add ARS_TMP_Weight16 dummy
+scoreboard objectives add ARS_TMP_Weight17 dummy
+scoreboard objectives add ARS_TMP_Weight18 dummy
+scoreboard objectives add ARS_TMP_Weight19 dummy
+scoreboard objectives add ARS_TMP_Weight20 dummy
 scoreboard objectives add ARS_WeightF dummy
 
 
@@ -87,3 +113,13 @@ scoreboard players set 7 ARS_Multipliers 7
 scoreboard players set 8 ARS_Multipliers 8
 scoreboard players set 9 ARS_Multipliers 9
 scoreboard players set 10 ARS_Multipliers 10
+scoreboard players set 11 ARS_Multipliers 11
+scoreboard players set 12 ARS_Multipliers 12
+scoreboard players set 13 ARS_Multipliers 13
+scoreboard players set 14 ARS_Multipliers 14
+scoreboard players set 15 ARS_Multipliers 15
+scoreboard players set 16 ARS_Multipliers 16
+scoreboard players set 17 ARS_Multipliers 17
+scoreboard players set 18 ARS_Multipliers 18
+scoreboard players set 19 ARS_Multipliers 19
+scoreboard players set 20 ARS_Multipliers 20
