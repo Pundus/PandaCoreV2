@@ -1,0 +1,1 @@
+# This function deals with the chat-menu of the game.

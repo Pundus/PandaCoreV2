@@ -61,6 +61,20 @@ schedule function pcm_arsenal:attachments/subsystem/subsystem_init 4t
 
 #HP rework
 schedule function pcm_arsenal:healing_rework/global_ticker 16t
+# sub
+schedule function pcm_arsenal:healing_rework/heal 14t
 
 #bleeder
 schedule function pcm_arsenal:bleeding/blood_looper 17t
+
+#attachment removal
+schedule function pcm_arsenal:attachments/remove_attachments/removal_init 18t
+
+# Grenade
+schedule function pcm_arsenal:grenades/grenade_root 19t
+
+#wallbreaker
+schedule function pcm_arsenal:arrows_handler/impact/wallbreaker/wallbreaker_repeat 1s
+
+#movement fx
+schedule function pcm_arsenal:movement_fx/movement_fx_root 21t
