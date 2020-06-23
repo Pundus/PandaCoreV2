@@ -1,5 +1,11 @@
 # Start the removal process
 
+#tag
+tag @s add ARS_Atch_Override
+
+# message
+title @s actionbar {"translate":"arsenal.attachments.notif.detach"}
+
 function pcm_arsenal:modified_pim/create_shulker
 function pcm_arsenal:modified_pim/store_mainhand
 

@@ -7,4 +7,4 @@ execute as @e[type=area_effect_cloud,tag=ARS_WallHealth] at @s run function pcm_
 
 kill @e[type=area_effect_cloud,tag=ARS_WallHealth,scores={ARS_Wall_HP=..0}]
 
-schedule function pcm_arsenal:arrows_handler/impact/wallbreaker/wallbreaker_repeat 7s
+schedule function pcm_arsenal:arrows_handler/impact/wallbreaker/wallbreaker_repeat 5s

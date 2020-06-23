@@ -20,7 +20,8 @@ execute as @a[scores={ARS_FiredGun=1..},predicate=pcm_arsenal:held_item/isgun] r
 
 #Secondary functions
 #block reloading
-execute as @a[predicate=pcm_arsenal:held_item/isgun] run scoreboard players reset @s ARS_ReloadProg
+execute as @a[predicate=pcm_arsenal:held_item/isgun,scores={ARS_ReloadProg=1..}] run function pcm_arsenal:guns/reload_stopper
+
 #reset ratedelay if gun not held
 execute as @a[predicate=!pcm_arsenal:held_item/isgun] run scoreboard players reset @s ARS_RateDelay
 execute as @a[predicate=pcm_arsenal:held_item/charged] run scoreboard players reset @s ARS_RateDelay
