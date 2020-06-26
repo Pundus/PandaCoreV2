@@ -1,4 +1,4 @@
-# Give strength to players with bayonet
+# Give nightvisiion to players with flashlight
 
 # run as player
 execute as @a as @s[predicate=pcm_arsenal:held_item/flashlight] run effect give @s minecraft:night_vision 14 0 true

@@ -5,6 +5,13 @@ say PCM Arsenal loaded.
 scoreboard players set PCM_Arsenal PC_Modules 4
 
 
+scoreboard players set %C ARS_RNG 12345
+scoreboard players set %A ARS_RNG 1664525
+scoreboard players set %Modulo ARS_RNG 100
+
+execute store result score %X ARS_RNG run time query gametime
+
+
 #Load scoreboards.
 
 function pcm_arsenal:scoreboard_setup
@@ -78,3 +85,6 @@ schedule function pcm_arsenal:arrows_handler/impact/wallbreaker/wallbreaker_repe
 
 #movement fx
 schedule function pcm_arsenal:movement_fx/movement_fx_root 21t
+
+# decal decay
+schedule function pcm_arsenal:arrows_handler/impact/bullet_decals/decal_decay 2t

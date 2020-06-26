@@ -11,6 +11,13 @@ gamerule keepInventory true
 
 scoreboard objectives add ARS_MenuSys trigger
 
+scoreboard objectives add ARS_RNG dummy
+
+scoreboard objectives add ARS_DecalCount dummy
+execute unless score %DecalsMax ARS_DecalCount = %DecalsMax ARS_DecalCount run scoreboard players set %DecalsMax ARS_DecalCount 200
+execute unless score %DecalsTime ARS_DecalCount = %DecalsTime ARS_DecalCount run scoreboard players set %DecalsTime ARS_DecalCount 45
+scoreboard players set %DecalsVar ARS_DecalCount 6
+
 scoreboard objectives add ArsenalVersion dummy
 scoreboard players set GunFormat ArsenalVersion 1
 
@@ -99,7 +106,8 @@ scoreboard objectives add ARS_FiredGun minecraft.used:minecraft.crossbow
 scoreboard objectives add ARS_Jumps minecraft.custom:minecraft.jump 
 
 scoreboard objectives add Kills totalKillCount
-scoreboard objectives add Health health
+scoreboard objectives add ARS_HP health
+scoreboard objectives add ARS_MaxHP dummy
 scoreboard objectives add ARS_Food food 
 
 #Math multipliers

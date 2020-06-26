@@ -39,16 +39,6 @@
 						"translate": "arsenal.item.divider.empty",
 						"color": "dark_gray",
 						"italic": false
-					},
-					{
-						"translate": "arsenal.item.attachments.remover.detail1",
-						"color": "dark_gray",
-						"italic": false
-					},
-					{
-						"translate": "arsenal.item.attachments.remover.detail2",
-						"color": "dark_gray",
-						"italic": false
 					}
 
 				]

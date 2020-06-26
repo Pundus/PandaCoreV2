@@ -1,4 +1,4 @@
-# Give strength to players with bayonet
+# Give the ADS subsystem
 
 # run as player
 execute as @a[tag=!ARS_ADS_Enable,predicate=pcm_arsenal:sneaking] as @s[predicate=pcm_arsenal:held_item/ads] run function pcm_arsenal:attachments/subsystem/ads_enable

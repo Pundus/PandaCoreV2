@@ -6,6 +6,9 @@ function pcm_arsenal:arrows_handler/impact/on_hit
 #clear arrows that rebound
 function pcm_arsenal:arrows_handler/impact/rebound
 
+#Kill extraneous decals
+execute store result score %DecalsTotal ARS_DecalCount if entity @e[type=armor_stand,tag=ARS_BulletHole]
+execute if score %DecalsTotal ARS_DecalCount > %DecalsMax ARS_DecalCount run kill @e[type=armor_stand,tag=ARS_BulletHole,limit=1,sort=arbitrary]
 
 #Modify the data of untagged arrows, then tag them.
 

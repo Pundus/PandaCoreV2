@@ -1,4 +1,4 @@
-# Give strength to players with bayonet
+# Tag them with ballistics tracker
 
 # run as player
 execute as @a as @s[predicate=pcm_arsenal:held_item/btracker] run tag @s add ARS_BT_Held

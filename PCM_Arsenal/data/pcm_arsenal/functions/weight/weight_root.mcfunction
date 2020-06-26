@@ -12,8 +12,20 @@ execute as @a store result score @s ARS_TMP_Weight7 run clear @s #pcm_arsenal:we
 execute as @a store result score @s ARS_TMP_Weight8 run clear @s #pcm_arsenal:weighted{arsenal_weight:8b} 0
 execute as @a store result score @s ARS_TMP_Weight9 run clear @s #pcm_arsenal:weighted{arsenal_weight:9b} 0
 execute as @a store result score @s ARS_TMP_Weight10 run clear @s #pcm_arsenal:weighted{arsenal_weight:10b} 0
+execute as @a store result score @s ARS_TMP_Weight11 run clear @s #pcm_arsenal:weighted{arsenal_weight:11b} 0
+execute as @a store result score @s ARS_TMP_Weight12 run clear @s #pcm_arsenal:weighted{arsenal_weight:12b} 0
+execute as @a store result score @s ARS_TMP_Weight13 run clear @s #pcm_arsenal:weighted{arsenal_weight:13b} 0
+execute as @a store result score @s ARS_TMP_Weight14 run clear @s #pcm_arsenal:weighted{arsenal_weight:14b} 0
+execute as @a store result score @s ARS_TMP_Weight15 run clear @s #pcm_arsenal:weighted{arsenal_weight:15b} 0
+execute as @a store result score @s ARS_TMP_Weight16 run clear @s #pcm_arsenal:weighted{arsenal_weight:16b} 0
+execute as @a store result score @s ARS_TMP_Weight17 run clear @s #pcm_arsenal:weighted{arsenal_weight:17b} 0
+execute as @a store result score @s ARS_TMP_Weight18 run clear @s #pcm_arsenal:weighted{arsenal_weight:18b} 0
+execute as @a store result score @s ARS_TMP_Weight19 run clear @s #pcm_arsenal:weighted{arsenal_weight:19b} 0
+execute as @a store result score @s ARS_TMP_Weight20 run clear @s #pcm_arsenal:weighted{arsenal_weight:20b} 0
 
 execute as @a run function pcm_arsenal:weight/weight_calculator
 execute as @a[tag=!ARS_IgnoreWeight] run function pcm_arsenal:weight/weight_fx
+
+execute as @a[predicate=!pcm_arsenal:held_item/isgun,predicate=!pcm_arsenal:offhand_item/isgun_off] run title @s actionbar [{"translate":"arsenal.alert.current_weight"},{"score":{"name":"@s","objective":"ARS_WeightF"}}]
 
 schedule function pcm_arsenal:weight/weight_root 10t
