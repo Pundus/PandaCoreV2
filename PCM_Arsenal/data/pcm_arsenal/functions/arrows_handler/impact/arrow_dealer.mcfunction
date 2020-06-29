@@ -60,6 +60,8 @@ execute as @s at @s positioned ~ 0 ~ if entity @e[type=minecraft:armor_stand,dis
 #particles
 execute as @s at @s positioned ~ 0 ~ unless score @e[type=minecraft:armor_stand,distance=..1,tag=ARS_ImpactCheck,limit=1] ARS_BlockID matches 99 at @s run function pcm_arsenal:arrows_handler/impact/hitspark
 
+execute as @s at @s positioned ~ 0 ~ run kill @e[type=armor_stand,limit=1,sort=nearest,distance=..1,tag=ARS_ImpactCheck]
+
 #exclusion
 function pcm_arsenal:arrows_handler/impact/kill_sound
 kill @s
