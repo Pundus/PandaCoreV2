@@ -88,3 +88,6 @@ schedule function pcm_arsenal:movement_fx/movement_fx_root 21t
 
 # decal decay
 schedule function pcm_arsenal:arrows_handler/impact/bullet_decals/decal_decay 2t
+
+# Menu
+schedule function pcm_arsenal:menu_module/menu_looper 1t

@@ -18,3 +18,4 @@ execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"attachment_grab"}}}] at @s run 
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"grenade_frag"}}}] at @s run playsound grab.grenade.frag player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"grenade_flashbang"}}}] at @s run playsound grab.grenade.flashbang player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"grenade_smoke"}}}] at @s run playsound grab.grenade.smoke player @a ~ ~ ~ 1 1 0
+execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"grenade_molotov"}}}] at @s run playsound grab.grenade.molotov player @a ~ ~ ~ 1 1 0

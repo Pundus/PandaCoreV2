@@ -1,6 +1,7 @@
 #Runs every 10t to deal with mechanics.
 
 #function pcm_arsenal:mechanics/jump_delay/jump_delay
+function pcm_arsenal:mechanics/fire_nausea/fire_nausea
 
 
 

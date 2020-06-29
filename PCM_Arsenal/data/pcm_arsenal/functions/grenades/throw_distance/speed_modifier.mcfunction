@@ -6,10 +6,14 @@ execute as @s store result entity @s Motion[2] double 0.000003 run data get enti
 
 #oop lets sneak in audio
 execute as @s[nbt={Item:{tag:{has_spoon:1b}}}] at @s run playsound grenade.spoon player @a ~ ~ ~ 1 1 0
-execute as @s at @s run playsound grenade.throw player @a ~ ~ ~ 1 1 0
+execute as @s[nbt=!{Item:{tag:{arsenal_grenade:"molotov"}}}] at @s run playsound grenade.throw player @a ~ ~ ~ 1 1 0
+execute as @s[nbt={Item:{tag:{arsenal_grenade:"molotov"}}}] at @s run playsound grenade.molotov.throw player @a ~ ~ ~ 1 1 0
 
 # OOP WHAT IF WE SNEAK IN UHHHHH..... MODEL TOO???
 data modify entity @s Item.id set value "minecraft:globe_banner_pattern"
+
+# GRENADE CALLOUTS???
+execute as @s at @s if entity @p[scores={ARS_DropGrenade=1..},tag=!ARS_DisableGrenCallouts] run function pcm_arsenal:grenades/callouts
 
 # WHAT IF WE ALSO GOT THE GRENADE COOK
 scoreboard players set @s ARS_GrenadeTimer 80

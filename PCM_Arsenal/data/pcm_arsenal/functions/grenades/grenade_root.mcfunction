@@ -10,5 +10,7 @@ schedule function pcm_arsenal:grenades/countdown/countdown_base 5t
 
 schedule function pcm_arsenal:grenades/countdown/countdown_inventory 6t
 
+schedule function pcm_arsenal:grenades/fire_area 7t
 
-schedule function pcm_arsenal:grenades/bouncy/bouncy_root 7t
+
+schedule function pcm_arsenal:grenades/bouncy/bouncy_root 6t

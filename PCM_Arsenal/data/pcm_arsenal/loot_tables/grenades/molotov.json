@@ -1,0 +1,48 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{has_spoon:0b,primer_sfx:2b,arsenal_weight:1b,grenade_primed:0b,arsenal_grenade:\"molotov\",arsenal_isgrenade:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"grenade_molotov\",arsenal_phys_drop:\"grenade_molotov\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4953,CustomModelData:4953,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.grenade.molotov.name",
+					"color": "green",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [{
+						"translate": "arsenal.item.type.grenade",
+						"color": "green",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.grenade.molotov.dsc1",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.grenade.molotov.dsc2",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.empty",
+						"color": "dark_gray",
+						"italic": false
+					}
+
+				]
+			}]
+		}]
+	}]
+}

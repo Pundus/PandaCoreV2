@@ -13,13 +13,17 @@ scoreboard objectives add ARS_MenuSys trigger
 
 scoreboard objectives add ARS_RNG dummy
 
+scoreboard objectives add Arsenal_Settings dummy
+execute unless score %DecalsMax Arsenal_Settings = %DecalsMax Arsenal_Settings run scoreboard players set %DecalsMax Arsenal_Settings 200
+execute unless score %DecalsTime Arsenal_Settings = %DecalsTime Arsenal_Settings run scoreboard players set %DecalsTime Arsenal_Settings 45
+execute unless score %GlobalGrenadeGlow Arsenal_Settings = %GlobalGrenadeGlow Arsenal_Settings run scoreboard players set %GlobalGrenadeGlow Arsenal_Settings 1
+
 scoreboard objectives add ARS_DecalCount dummy
-execute unless score %DecalsMax ARS_DecalCount = %DecalsMax ARS_DecalCount run scoreboard players set %DecalsMax ARS_DecalCount 200
-execute unless score %DecalsTime ARS_DecalCount = %DecalsTime ARS_DecalCount run scoreboard players set %DecalsTime ARS_DecalCount 45
-scoreboard players set %DecalsVar ARS_DecalCount 6
+scoreboard players set %DecalsVar ARS_DecalCount 13
 
 scoreboard objectives add ArsenalVersion dummy
-scoreboard players set GunFormat ArsenalVersion 1
+scoreboard players set %GunFormat ArsenalVersion 1
+scoreboard players set %Mainframe ArsenalVersion 2
 
 scoreboard objectives add ARS_SET_Rounds dummy
 scoreboard objectives add ARS_SET_Recoil dummy
@@ -99,8 +103,11 @@ scoreboard objectives add ARS_JumpDel dummy
 scoreboard objectives add ARS_OwnARem dummy
 scoreboard objectives add ARS_LaserLength dummy
 scoreboard objectives add ARS_HPCool dummy
+scoreboard objectives add ARS_FireTrack dummy
+
 
 scoreboard objectives add ARS_PreAttach dummy
+
 
 scoreboard objectives add ARS_FiredGun minecraft.used:minecraft.crossbow
 scoreboard objectives add ARS_Jumps minecraft.custom:minecraft.jump 

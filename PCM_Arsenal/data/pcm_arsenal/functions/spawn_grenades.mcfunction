@@ -8,6 +8,14 @@ tag @a[tag=grenade_frag] remove grenade_frag
 execute as @a[tag=grenade_flashbang] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:grenades/flashbang
 tag @a[tag=grenade_flashbang] remove grenade_flashbang
 
+# Incendiary
+execute as @a[tag=grenade_incen] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:grenades/incen
+tag @a[tag=grenade_incen] remove grenade_incen
+
+# Molotov
+execute as @a[tag=grenade_molotov] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:grenades/molotov
+tag @a[tag=grenade_molotov] remove grenade_molotov
+
 # Smoke Red
 execute as @a[tag=grenade_smoke_red] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:grenades/smoke_red
 tag @a[tag=grenade_smoke_red] remove grenade_smoke_red

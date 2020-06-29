@@ -15,7 +15,7 @@ data modify block ~ 0 ~ Items[0].tag.display.Name set from block ~1 0 ~1 Text1
 
 #playsound
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{primer_sfx:1b}}]}] at @s run playsound grenade.pinpull player @s ~ ~ ~ 1 1
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{primer_sfx:2b}}]}] at @s run playsound grenade.molotov.light player @s ~ ~ ~ 1 1
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{primer_sfx:2b}}]}] at @s run playsound grenade.molotov.prime player @s ~ ~ ~ 1 1
 
 #get it back
 function pcm_arsenal:modified_pim/retrieve_offhand

@@ -1,0 +1,48 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{has_spoon:1b,primer_sfx:1b,arsenal_weight:1b,grenade_primed:0b,arsenal_grenade:\"incen\",arsenal_isgrenade:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"grenade_smoke\",arsenal_phys_drop:\"grenade_grenade\",isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4952,CustomModelData:4952,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.grenade.incen.name",
+					"color": "green",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [{
+						"translate": "arsenal.item.type.grenade",
+						"color": "green",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.grenade.incen.dsc1",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.grenade.incen.dsc2",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.empty",
+						"color": "dark_gray",
+						"italic": false
+					}
+
+				]
+			}]
+		}]
+	}]
+}
