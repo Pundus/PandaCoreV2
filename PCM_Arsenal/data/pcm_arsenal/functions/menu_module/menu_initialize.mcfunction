@@ -12,7 +12,7 @@ tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.ico
 tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.icon.folder"},{"translate":"arsenal.menu.options","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger ARS_MenuSys set 1"},"hoverEvent":{"action":"show_text","value":[{"translate":"arsenal.menu.options.info"}]}}]
 
 # Operator Settings
-tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.icon.folder"},{"translate":"arsenal.menu.settings","color":"blue","clickEvent":{"action":"run_command","value":"/trigger ARS_MenuSys set 2"},"hoverEvent":{"action":"show_text","value":[{"translate":"arsenal.menu.settings.info"}]}}]
+tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.icon.folder"},{"translate":"arsenal.menu.settings","color":"blue","clickEvent":{"action":"run_command","value":"/function pcm_arsenal:menu_module/settings/settings_page_1"},"hoverEvent":{"action":"show_text","value":[{"translate":"arsenal.menu.settings.info"}]}}]
 
 #Blank
 tellraw @s [{"translate":"arsenal.menu.prefixor"},{"text":" "}]

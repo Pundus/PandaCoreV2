@@ -1,4 +1,4 @@
-# Enable photosens flashbang
+# disable photosens flashbang
 
 tag @s remove ARS_PhotoSensFlash
 scoreboard players set @s ARS_MenuSys 0

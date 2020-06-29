@@ -71,6 +71,7 @@
     "minecraft:black_stained_glass_pane",
     "minecraft:chorus_flower",
     "minecraft:chorus_plant",
+    "minecraft:barrier",
     "#minecraft:walls",
     "#minecraft:slabs",
     "#minecraft:stairs",
@@ -90,6 +91,7 @@
     "#minecraft:rails",
     "#minecraft:carpets",
     "#minecraft:underwater_bonemeals",
+    "#minecraft:buttons",
     "minecraft:bamboo"
   ]
 }

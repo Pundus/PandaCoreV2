@@ -11,3 +11,7 @@ execute as @s[predicate=pcm_arsenal:block_identifier/sand] run scoreboard player
 execute as @s[predicate=pcm_arsenal:block_identifier/grass] run scoreboard players set @s ARS_BlockID 8
 execute as @s[predicate=pcm_arsenal:block_identifier/foliage] run scoreboard players set @s ARS_BlockID 9
 execute as @s[predicate=pcm_arsenal:block_identifier/slime] run scoreboard players set @s ARS_BlockID 10
+execute as @s[predicate=pcm_arsenal:block_identifier/fruit] run scoreboard players set @s ARS_BlockID 11
+execute as @s[predicate=pcm_arsenal:block_identifier/metalhollow] run scoreboard players set @s ARS_BlockID 12
+execute as @s[predicate=pcm_arsenal:block_identifier/metalsolid] run scoreboard players set @s ARS_BlockID 13
+execute as @s[predicate=pcm_arsenal:block_identifier/disallow] run scoreboard players set @s ARS_BlockID 99

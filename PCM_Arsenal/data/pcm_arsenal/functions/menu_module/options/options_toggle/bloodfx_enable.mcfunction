@@ -1,4 +1,4 @@
-# Enable photosens flashbang
+# enable bloodfx
 
 tag @s remove ARS_DisableSSBlood
 scoreboard players set @s ARS_MenuSys 0

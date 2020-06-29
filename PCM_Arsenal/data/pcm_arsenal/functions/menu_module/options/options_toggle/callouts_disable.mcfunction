@@ -1,4 +1,4 @@
-# Enable photosens flashbang
+# disable grenade callouts
 
 tag @s add ARS_DisableGrenCallouts
 scoreboard players set @s ARS_MenuSys 0

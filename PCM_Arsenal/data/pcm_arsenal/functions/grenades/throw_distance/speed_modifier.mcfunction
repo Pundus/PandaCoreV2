@@ -15,6 +15,9 @@ data modify entity @s Item.id set value "minecraft:globe_banner_pattern"
 # GRENADE CALLOUTS???
 execute as @s at @s if entity @p[scores={ARS_DropGrenade=1..},tag=!ARS_DisableGrenCallouts] run function pcm_arsenal:grenades/callouts
 
+#what if glow
+execute as @s if score %GlobalGrenadeGlow Arsenal_Settings matches 1 run data modify entity @s Glowing set value 1b
+
 # WHAT IF WE ALSO GOT THE GRENADE COOK
 scoreboard players set @s ARS_GrenadeTimer 80
 scoreboard players operation @s ARS_GrenadeTimer -= @p[scores={ARS_DropGrenade=1..}] ARS_GrenadeCook

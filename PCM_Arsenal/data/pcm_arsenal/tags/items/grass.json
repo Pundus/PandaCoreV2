@@ -4,6 +4,8 @@
     "minecraft:grass",
     "minecraft:mycelium",
     "minecraft:grass_path",
-    "minecraft:snow"
+	"minecraft:soul_soil",
+    "minecraft:snow",
+    "minecraft:snow_block"
   ]
 }

@@ -22,6 +22,9 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachment:"flashlight_gr
 #bayonet_lug
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachment:"bayonet_lug"}}]}] as @s[nbt={SelectedItem:{tag:{arsenal_ub_able:1b,attach_underbarrel:0b}}}] run function pcm_arsenal:attachments/subclass/underbarrel/bayonet_lug
 
+#tac_sac
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachment:"tac_sac"}}]}] as @s[nbt={SelectedItem:{tag:{arsenal_ub_able:1b,attach_underbarrel:0b}}}] run function pcm_arsenal:attachments/subclass/underbarrel/tac_sac
+
 
 
 

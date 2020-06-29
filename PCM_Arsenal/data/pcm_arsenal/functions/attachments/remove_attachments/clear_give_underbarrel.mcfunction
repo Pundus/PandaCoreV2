@@ -7,6 +7,7 @@ tag @s[nbt={SelectedItem:{tag:{underbarrel_id:"folding_grip"}}}] add atch_foldin
 tag @s[nbt={SelectedItem:{tag:{underbarrel_id:"aiming_laser"}}}] add atch_aiming_laser
 tag @s[nbt={SelectedItem:{tag:{underbarrel_id:"flashlight_grip"}}}] add atch_flashlight_grip
 tag @s[nbt={SelectedItem:{tag:{underbarrel_id:"bayonet_lug"}}}] add atch_bayonet_lug
+tag @s[nbt={SelectedItem:{tag:{underbarrel_id:"tac_sac"}}}] add atch_tac_sac
 
 playsound attachment.rail.detach player @s ~ ~ ~ 1 1 0
 

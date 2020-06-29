@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_block",
+    "minecraft:netherite_block",
+    "minecraft:ancient_debris",
+    "minecraft:iron_bars",
+    "minecraft:chain",
+    "minecraft:smithing_table",
+    "minecraft:anvil"
+  ]
+}

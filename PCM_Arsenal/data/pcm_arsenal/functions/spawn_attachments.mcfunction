@@ -68,6 +68,10 @@ tag @a[tag=atch_flashlight_grip] remove atch_flashlight_grip
 execute as @a[tag=atch_bayonet_lug] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/underbarrel/bayonet_lug
 tag @a[tag=atch_bayonet_lug] remove atch_bayonet_lug
 
+# Tac-Sac
+execute as @a[tag=atch_tac_sac] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:attachments/underbarrel/tac_sac
+tag @a[tag=atch_tac_sac] remove atch_tac_sac
+
 ############################################################################################################
 
 # Flashlight

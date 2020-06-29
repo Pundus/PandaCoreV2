@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_trapdoor",
+    "minecraft:iron_door",
+    "minecraft:end_portal_frame",
+    "minecraft:respawn_anchor",
+    "minecraft:blast_furnace",
+    "minecraft:iron_block",
+    "minecraft:ender_chest",
+    "minecraft:hopper",
+    "minecraft:bell"
+  ]
+}
