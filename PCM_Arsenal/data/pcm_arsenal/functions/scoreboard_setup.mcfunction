@@ -11,7 +11,26 @@ gamerule keepInventory true
 
 scoreboard objectives add ARS_MenuSys trigger
 
+scoreboard objectives add ARS_TeamTotals dummy
+
 scoreboard objectives add ARS_RNG dummy
+scoreboard players set %MaxChatTips ARS_RNG 16
+scoreboard players set %WinTips ARS_RNG 16
+scoreboard players set %LoseTips ARS_RNG 22
+scoreboard players set %TieTips ARS_RNG 11
+
+scoreboard objectives add ARS_GMDeaths deathCount 
+
+scoreboard objectives add ARS_Gamemodes dummy
+execute unless score %TDM_MaxTime ARS_Gamemodes = %TDM_MaxTime ARS_Gamemodes run scoreboard players set %TDM_MaxTime ARS_Gamemodes 600
+execute unless score %TDM_PointsNeeded ARS_Gamemodes = %TDM_PointsNeeded ARS_Gamemodes run scoreboard players set %TDM_PointsNeeded ARS_Gamemodes 50
+execute unless score %ActiveGM ARS_Gamemodes = %ActiveGM ARS_Gamemodes run scoreboard players set %ActiveGM ARS_Gamemodes 0
+execute unless score %InProgress ARS_Gamemodes = %InProgress ARS_Gamemodes run scoreboard players set %InProgress ARS_Gamemodes 0
+execute unless score %Score_Red ARS_Gamemodes = %Score_Red ARS_Gamemodes run scoreboard players set %Score_Red ARS_Gamemodes 0
+execute unless score %Score_Blue ARS_Gamemodes = %Score_Blue ARS_Gamemodes run scoreboard players set %Score_Blue ARS_Gamemodes 0
+execute unless score %ActiveMap ARS_Gamemodes = %ActiveMap ARS_Gamemodes run scoreboard players set %ActiveMap ARS_Gamemodes 0
+
+
 
 scoreboard objectives add Arsenal_Settings dummy
 execute unless score %DecalsMax Arsenal_Settings = %DecalsMax Arsenal_Settings run scoreboard players set %DecalsMax Arsenal_Settings 200

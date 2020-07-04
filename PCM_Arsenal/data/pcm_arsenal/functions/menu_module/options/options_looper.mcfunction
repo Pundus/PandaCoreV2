@@ -15,6 +15,9 @@ execute as @s[tag=ARS_DisableHitsparks] if score @s ARS_MenuSys matches 14 run f
 execute as @s[tag=!ARS_DisableEntityBleed] if score @s ARS_MenuSys matches 15 run function pcm_arsenal:menu_module/options/options_toggle/bleeding_disable
 execute as @s[tag=ARS_DisableEntityBleed] if score @s ARS_MenuSys matches 15 run function pcm_arsenal:menu_module/options/options_toggle/bleeding_enable
 
+execute as @s[tag=!ARS_DisableChatTips] if score @s ARS_MenuSys matches 16 run function pcm_arsenal:menu_module/options/options_toggle/tips_disable
+execute as @s[tag=ARS_DisableChatTips] if score @s ARS_MenuSys matches 16 run function pcm_arsenal:menu_module/options/options_toggle/tips_enable
+
 
 execute as @s if score @s ARS_MenuSys matches 101 run function pcm_arsenal:menu_module/options/options_page_1
 execute as @s if score @s ARS_MenuSys matches 102 run function pcm_arsenal:menu_module/options/options_page_2

@@ -14,6 +14,9 @@ tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.ico
 # Operator Settings
 tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.icon.folder"},{"translate":"arsenal.menu.settings","color":"blue","clickEvent":{"action":"run_command","value":"/function pcm_arsenal:menu_module/settings/settings_page_1"},"hoverEvent":{"action":"show_text","value":[{"translate":"arsenal.menu.settings.info"}]}}]
 
+# Wargames Initialization
+tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.icon.folder"},{"translate":"arsenal.menu.wargames","color":"light_purple","clickEvent":{"action":"run_command","value":"/execute if score %InProgress ARS_Gamemodes matches 0 run function pcm_arsenal:menu_module/wargames/wargames_core"},"hoverEvent":{"action":"show_text","value":[{"translate":"arsenal.menu.wargames.info"}]}}]
+
 #Blank
 tellraw @s [{"translate":"arsenal.menu.prefixor"},{"text":" "}]
 

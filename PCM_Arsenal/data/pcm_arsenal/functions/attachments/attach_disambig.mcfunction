@@ -26,7 +26,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachtype:"arail"}}]}] a
 
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_attachtype:"ammotype"}}]}] as @s[nbt={SelectedItem:{tag:{arsenal_ammotype:1b,attach_ammotype:0b}}}] at @s run function pcm_arsenal:attachments/subclass/ammunition_sep
 
-tag @a[scores={ARS_OwnARem=0}] add atch_remover
+tag @s[scores={ARS_OwnARem=0}] add atch_remover
 
 
 # Ram clear.

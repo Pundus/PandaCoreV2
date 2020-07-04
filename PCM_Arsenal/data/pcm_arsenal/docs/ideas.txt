@@ -1,0 +1,94 @@
+TDM
+Team Deathmatch
+
+In Team Deathmatch, you will be pitted against an opposing team to battle it out. Whichever team gets a certain amount of kills first wins. If the time limit expires, the team with the most number of kills wins.
+
+Time Limit:
+Kills to Win:
+
+BUS
+Base Under Siege
+In Base Under Siege, your base has a capture point to defend, and the enemy's base has a capture point to attack. Capturing the enemy's point will make their base health go down, and vice versa. Defend your point while attacking the enemy's. Whichever team's base loses all of it's health first loses. If the time limit expires, the team with the least base health remaining loses.
+
+Time Limit:
+Starting Base Health:
+
+KOTH
+King of the Hill
+
+In King of the Hill, there is a capture point in the center of the map. Standing on it gives your team points, and vice versa for the enemy. The first team to reach a point limit wins. If the time limit expires, the team with the most points wins.
+
+OE
+Opposition Elimination
+In Opposition Elimination, teams cannot respawn. The last team standing wins.
+
+Devonshire
+A map with 2-axis symmetry, Devonshire is a standard 2-team layout, designed for multiple gamemodes.
+
+Tips:
+
+Look out for bullet holes to determine where fights have taken place, or the direction enemy fire is coming from.
+You can climb up iron bars, but are vulnerable while doing so.
+All grenades have a four second fuse.
+An undamaged stone brick wall takes six shots to destroy, and regenerates afterwards.
+Ammo Resupply cabinets give you the ammo of your currently held gun when you crouch near them.
+Grenades don't bounce off certain blocks, such as stone walls and iron bricks.
+Grenades damage all players, including yourself and your teammates. Watch out for friendly fire.
+Bullets can ricochet off of Ammo Resupply cabinets.
+Crouching for around half a second before jumping allows you do perform a high jump, clearing up to 2.5 blocks.
+You can carry as many items as you want, at the cost of weight which slows you down.
+Chat with your team using /teammsg.
+Know when to fight and when to retreat.
+Be sure to seek cover, as snipers can pick you off.
+Mousing over the weapon name in chat killfeeds will show that weapons stats and attachments.
+Combining attachments in different orders can yield different results.
+Be sure to clear buildings thoroughly, you never know what might be inside.
+
+Win MSG
+
+Songs will be sung of this day!
+Stories will be written of this glorious victory!
+A battle is won, but the war is not.
+Glory be to the fight!
+Your next victory shall be swift!
+Onward to the next skirmish!
+Don't get cocky.
+By the books.
+Your Tour of Duty is just beginning.
+May your victorious streak continue.
+May your battles be swift and well fought.
+Stay sharp.
+Try not to overextend.
+Be brave, but not brash.
+
+
+Lose MSG
+
+You will yet live to fight another day.
+Defeat is but a setback.
+The battle is not over.
+A battle is lost, but the war is not.
+War is hell.
+You can make the enemy pay.
+Victory was within your grasp!
+You've got them on their toes.
+Not every fight is won.
+Defeat is not disgrace.
+Return to the fight stronger!
+Perhaps it's time to lay low.
+May your next battle bring victory.
+Fortune favors the bold.
+Boldly you will ride in battle.
+If you're going to hell, bring them with you.
+Doors and corners kid, doors and corners.
+Know when to retreat.
+Prepare your counter-attack.
+
+Tie MSG
+A fight well fought.
+Be proud of your equal standing.
+Push it over the edge next time.
+Just a wee bit more.
+Compensate your tactics.
+
+

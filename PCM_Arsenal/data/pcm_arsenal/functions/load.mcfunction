@@ -12,9 +12,14 @@ scoreboard players set %Modulo ARS_RNG 100
 execute store result score %X ARS_RNG run time query gametime
 
 
+
 #Load scoreboards.
 
 function pcm_arsenal:scoreboard_setup
+
+#Gamemodes 
+schedule function pcm_arsenal:gamemodes/gamemodes_core_loop 5t
+function pcm_arsenal:gamemodes/bossbar_setup
 
 #load spawn-related functions
 #reset defaults DOES NOT loop
@@ -91,3 +96,15 @@ schedule function pcm_arsenal:arrows_handler/impact/bullet_decals/decal_decay 2t
 
 # Menu
 schedule function pcm_arsenal:menu_module/menu_looper 1t
+
+#reverb painter
+schedule function pcm_arsenal:devtools/reverb_painter/reverb_painter_root 3t
+
+# ammo resupply
+schedule function pcm_arsenal:ammo_resupply/ammo_resupply_root 4t
+
+#chat tips
+schedule function pcm_arsenal:chat_tips 5t
+
+#time decay
+schedule function pcm_arsenal:gamemodes/time_decayer 1s
