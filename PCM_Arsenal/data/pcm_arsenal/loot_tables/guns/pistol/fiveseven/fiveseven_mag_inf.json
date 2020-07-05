@@ -1,0 +1,63 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:enchanted_book",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"mag_plastic\",arsenal_phys_drop:\"mag_metal_small\",arsenal_infmag:1b,arsenal_halfmag:0b,isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ismag:1b,arsenal_mag:\"fiveseven\",PCUUID:4501,CustomModelData:4501,arsenal_justspawned:1b}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.maginf.fiveseven.name",
+					"color": "aqua",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [
+					{
+						"translate": "arsenal.item.type.magazine",
+						"color": "aqua",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.mag.fiveseven.dsc1",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.mag.fiveseven.dsc2",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.mag.fiveseven.dsc3",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.empty",
+						"color": "dark_gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.divider.empty",
+						"color": "dark_gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.rounds.tech",
+						"color": "gray",
+						"italic": false
+					}
+				]
+			}]
+		}]
+	}]
+}

@@ -11,7 +11,7 @@ scoreboard players set %Modulo ARS_RNG 100
 
 execute store result score %X ARS_RNG run time query gametime
 
-
+execute as @a[tag=!ARS_XPFirstLoad] run function pcm_arsenal:reset_xp
 
 #Load scoreboards.
 
@@ -105,6 +105,9 @@ schedule function pcm_arsenal:ammo_resupply/ammo_resupply_root 4t
 
 #chat tips
 schedule function pcm_arsenal:chat_tips 5t
+
+#progression system
+schedule function pcm_arsenal:progression_system/progression_looper 6t
 
 #time decay
 schedule function pcm_arsenal:gamemodes/time_decayer 1s

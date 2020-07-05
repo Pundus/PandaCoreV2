@@ -4,7 +4,7 @@
 execute store result score @s ARS_TEMP_Rnds run data get entity @s Inventory[{Slot:-106b}].tag.arsenal_ammo
 execute store result score @s ARS_TEMP_ROver run data get entity @s SelectedItem.tag.arsenal_ammo
 execute as @s[predicate=pcm_arsenal:offhand_item/reservoir] run scoreboard players remove @s ARS_TEMP_Rnds 10
-execute as @s if score @s ARS_TEMP_Rnds > %P90 ARS_SET_Rounds run scoreboard players operation @s ARS_TEMP_Rnds -= %P90 ARS_SET_Rounds
+execute as @s[predicate=pcm_arsenal:offhand_item/duplicator] run scoreboard players operation @s ARS_TEMP_Rnds /= 2 ARS_Multipliers
 
 #make a shulky
 function pcm_arsenal:modified_pim/create_shulker

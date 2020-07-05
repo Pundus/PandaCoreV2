@@ -22,6 +22,28 @@ execute as @a[tag=mag_p90_inf] run schedule function pcm_arsenal:spawn/guns/pdw/
 tag @a[tag=mag_p90_inf] remove mag_p90_inf
 
 
+#Fn fiveseven
+execute as @a[tag=gun_fiveseven] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:guns/pistol/fiveseven/fiveseven
+execute as @a[tag=gun_fiveseven] run schedule function pcm_arsenal:spawn/guns/pistol/fiveseven/fiveseven_init 1t
+tag @a[tag=gun_fiveseven] remove gun_fiveseven
+
+#Fn fiveseven Mag
+execute as @a[tag=mag_fiveseven] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:guns/pistol/fiveseven/fiveseven_mag
+execute as @a[tag=mag_fiveseven] run schedule function pcm_arsenal:spawn/guns/pistol/fiveseven/fiveseven_mag_init 1t
+tag @a[tag=mag_fiveseven] remove mag_fiveseven
+
+#Fn fiveseven Mag used
+execute as @a[tag=mag_fiveseven_used] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:guns/pistol/fiveseven/fiveseven_mag_used
+execute as @a[tag=mag_fiveseven_used] run schedule function pcm_arsenal:spawn/guns/pistol/fiveseven/fiveseven_mag_init 1t
+tag @a[tag=mag_fiveseven_used] remove mag_fiveseven_used
+
+#Fn fiveseven Mag infinite
+execute as @a[tag=mag_fiveseven_inf] at @s run loot spawn ~ ~ ~ loot pcm_arsenal:guns/pistol/fiveseven/fiveseven_mag_inf
+execute as @a[tag=mag_fiveseven_inf] run schedule function pcm_arsenal:spawn/guns/pistol/fiveseven/fiveseven_mag_init 1t
+tag @a[tag=mag_fiveseven_inf] remove mag_fiveseven_inf
+
+
+
 schedule function pcm_arsenal:spawn_attachments 1t
 schedule function pcm_arsenal:spawn_grenades 2t
 schedule function pcm_arsenal:spawn_items 10t

@@ -9,7 +9,17 @@ gamerule doDaylightCycle false
 gamerule doTileDrops false
 gamerule keepInventory true
 
+scoreboard objectives add ARS_InternalXP level
+scoreboard objectives add ARS_Rank dummy {"translate":"arsenal.rank.name"}
+scoreboard objectives add ARS_Currency dummy {"translate":"arsenal.currency.name"}
+execute as @a unless score @s ARS_Currency = @s ARS_Currency run scoreboard players set @s ARS_Currency 500
+execute as @a unless score @s ARS_Rank = @s ARS_Rank run scoreboard players set @s ARS_Rank 0
+
+#gun_kills_scoreboard
+function pcm_arsenal:gun_kills_scoreboard
+
 scoreboard objectives add ARS_MenuSys trigger
+scoreboard objectives add ARS_CartToMag trigger
 
 scoreboard objectives add ARS_TeamTotals dummy
 
@@ -113,9 +123,11 @@ scoreboard objectives add ARS_ATCH_Pierce dummy
 
 
 
+scoreboard objectives add ARS_SpawnCart dummy
 scoreboard objectives add ARS_MaxRounds dummy
 scoreboard objectives add ARS_CurRounds dummy
 scoreboard objectives add ARS_TotalMags dummy
+scoreboard objectives add ARS_RndsInOH dummy
 scoreboard objectives add ARS_ReloadProg dummy
 scoreboard objectives add ARS_RateDelay dummy
 scoreboard objectives add ARS_JumpDel dummy
@@ -123,6 +135,7 @@ scoreboard objectives add ARS_OwnARem dummy
 scoreboard objectives add ARS_LaserLength dummy
 scoreboard objectives add ARS_HPCool dummy
 scoreboard objectives add ARS_FireTrack dummy
+scoreboard objectives add ARS_RankTemp dummy
 
 
 scoreboard objectives add ARS_PreAttach dummy
@@ -131,6 +144,9 @@ scoreboard objectives add ARS_PreAttach dummy
 scoreboard objectives add ARS_FiredGun minecraft.used:minecraft.crossbow
 scoreboard objectives add ARS_Jumps minecraft.custom:minecraft.jump 
 
+scoreboard objectives add ARS_KillTrack totalKillCount
+scoreboard objectives add ARS_KillTrackG totalKillCount
+scoreboard objectives add ARS_PlrKillTrack playerKillCount
 scoreboard objectives add Kills totalKillCount
 scoreboard objectives add ARS_HP health
 scoreboard objectives add ARS_MaxHP dummy

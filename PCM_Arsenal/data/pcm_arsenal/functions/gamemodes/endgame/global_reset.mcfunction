@@ -1,7 +1,7 @@
 #  Global reset
 
 
-tag @e[tag=ARS_ActiveMap] remove ARS_ActiveMap
+tag @e[tag=ARS_ActiveMap,tag=!ARS_PermaMap] remove ARS_ActiveMap
 
 scoreboard players set %ActiveMap ARS_Gamemodes 0
 scoreboard players set %ActiveGM ARS_Gamemodes 0

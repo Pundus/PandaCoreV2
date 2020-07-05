@@ -13,7 +13,10 @@ execute as @s store result score @s ARS_CurRounds run data get entity @s Selecte
 #Gun Disambiguation
 
 #P90
-execute as @s[scores={ARS_CurRounds=1..},nbt={SelectedItem:{tag:{arsenal_gun:"p90"}}}] at @s run function pcm_arsenal:guns/pdw/p90_fire
+execute as @s[scores={ARS_CurRounds=1..},predicate=pcm_arsenal:held_item/guns/pdw/p90] at @s run function pcm_arsenal:guns/pdw/p90_fire
+
+#fiveseven
+execute as @s[scores={ARS_CurRounds=1..},predicate=pcm_arsenal:held_item/guns/pistol/fiveseven] at @s run function pcm_arsenal:guns/pistol/fiveseven_fire
 
 
 
