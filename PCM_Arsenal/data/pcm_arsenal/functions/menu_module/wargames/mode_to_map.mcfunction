@@ -8,3 +8,4 @@ execute if score %ActiveGM ARS_Gamemodes matches 99 run function pcm_arsenal:men
 
 #tdm
 execute if score %ActiveGM ARS_Gamemodes matches 1 run function pcm_arsenal:menu_module/wargames/tdm_maps
+execute if score %ActiveGM ARS_Gamemodes matches 2 run function pcm_arsenal:menu_module/wargames/tdm_maps

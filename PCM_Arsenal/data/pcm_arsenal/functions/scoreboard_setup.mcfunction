@@ -46,10 +46,14 @@ execute unless score %PvE ARS_Gamemodes = %PvE ARS_Gamemodes run scoreboard play
 execute unless score %Training ARS_Gamemodes = %Training ARS_Gamemodes run scoreboard players set %Training ARS_Gamemodes 0
 execute unless score %TimeOverride ARS_Gamemodes = %TimeOverride ARS_Gamemodes run scoreboard players set %TimeOverride ARS_Gamemodes 0
 execute unless score %WinReward ARS_Gamemodes = %WinReward ARS_Gamemodes run scoreboard players set %WinReward ARS_Gamemodes 250
+execute unless score %PvEWinReward ARS_Gamemodes = %PvEWinReward ARS_Gamemodes run scoreboard players set %PvEWinReward ARS_Gamemodes 150
 execute unless score %LoseReward ARS_Gamemodes = %LoseReward ARS_Gamemodes run scoreboard players set %LoseReward ARS_Gamemodes 100
 execute unless score %TieReward ARS_Gamemodes = %TieReward ARS_Gamemodes run scoreboard players set %TieReward ARS_Gamemodes 150
 scoreboard players set %VilNameMax ARS_Gamemodes 116
+scoreboard players set %VilNameMax ARS_Gamemodes 116
+scoreboard players set %ZomTypeMax ARS_Gamemodes 10
 scoreboard players set %CDVilHurtMax ARS_Gamemodes 18
+scoreboard players set %CDVilDieMax ARS_Gamemodes 8
 
 
 

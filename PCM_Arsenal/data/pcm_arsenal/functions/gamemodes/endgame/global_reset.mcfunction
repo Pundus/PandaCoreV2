@@ -1,5 +1,8 @@
 #  Global reset
 
+kill @e[type=#pcm_arsenal:undead,tag=ARS_CD_Zombie]
+kill @e[type=villager,tag=ARS_CD_Villager]
+
 gamerule doMobSpawning false
 
 tag @e[tag=ARS_ActiveMap,tag=!ARS_PermaMap] remove ARS_ActiveMap
@@ -16,5 +19,6 @@ scoreboard players set %CD_ZomTimer ARS_Gamemodes 0
 scoreboard players set %CD_VilTimer ARS_Gamemodes 0
 scoreboard players set %CD_HordeTimer ARS_Gamemodes 0
 
-kill @e[type=zombie,tag=ARS_CD_Zombie,tag=!ARS_CD_ZombieIG]
-kill @e[type=villager,tag=ARS_CD_Villager]
+team modify blue nametagVisibility hideForOtherTeams
+
+
