@@ -28,5 +28,7 @@ execute as @a[predicate=pcm_arsenal:held_item/charged] run scoreboard players re
 execute as @a[predicate=!pcm_arsenal:held_item/isgun] run tag @s remove ARS_Chambering
 execute as @a[predicate=pcm_arsenal:held_item/charged] run tag @s remove ARS_Chambering
 
+execute as @a[scores={ARS_FiredGun=1..},predicate=pcm_arsenal:held_item/attach_any] run function pcm_arsenal:arrows_handler/alternate_ammo/alt_ammo_disambig
+
 # Last for Last
 scoreboard players reset @a ARS_FiredGun

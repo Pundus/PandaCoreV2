@@ -1,12 +1,26 @@
-# tdm_looping
+# cd_looping
 
 # basic
 execute store result bossbar pcm_arsenal:bb_timer value run scoreboard players get %RoundTime ARS_Gamemodes
-execute store result bossbar pcm_arsenal:bb_red value run scoreboard players get %Score_Red ARS_Gamemodes
-execute store result bossbar pcm_arsenal:bb_blue value run scoreboard players get %Score_Blue ARS_Gamemodes
+execute store result bossbar pcm_arsenal:bb_red value if @e[type=villager,tag=ARS_CD_Villager]
+execute store result bossbar pcm_arsenal:bb_blue value if @e[type=zombie,tag=ARS_CD_Zombie,tag=!ARS_CD_ZombieIG]
 
-#check for deaths, award other team points
-execute as @a if score @s ARS_GMDeaths matches 1.. run function pcm_arsenal:gamemodes/tdm/award_point
+#add 1 to the counter every .25 of a sec
+scoreboard players add %CD_ZomTimer ARS_Gamemodes 1
+scoreboard players add %CD_VilTimer ARS_Gamemodes 1
+scoreboard players add %CD_HordeTimer ARS_Gamemodes 1
+
+#if the zomtimer = 12
+execute at @e[type=area_effect_cloud,tag=ARS_ActiveMap,tag=ARS_SpawnMarker,tag=ARS_AEC_Blue,limit=1,sort=random] if score %CD_ZomTimer ARS_Gamemodes matches 12.. run function pcm_arsenal:gamemodes/cd/cd_zombie_spawn
+
+#if the hordetimer = 480
+execute if score %CD_ZomTimer ARS_Gamemodes matches 480.. run scoreboard players set %CD_HordeSize ARS_Gamemodes 0
+execute if score %CD_ZomTimer ARS_Gamemodes matches 480.. run function pcm_arsenal:gamemodes/cd/cd_spawn_horde
+
+#if the viltimer = 120
+execute at @e[type=area_effect_cloud,tag=ARS_ActiveMap,tag=ARS_SpawnMarker,tag=ARS_AEC_Red,limit=1,sort=random] if score %CD_ZomTimer ARS_Gamemodes matches 120.. run function pcm_arsenal:gamemodes/villager_spawns
+
+
 
 #check for Wins
 execute if score %ActiveGM ARS_Gamemodes matches 1 if score %Score_Red ARS_Gamemodes >= %TDM_PointsNeeded ARS_Gamemodes run function pcm_arsenal:gamemodes/endgame/red_win

@@ -32,6 +32,9 @@ scoreboard players set %TieTips ARS_RNG 11
 scoreboard objectives add ARS_GMDeaths deathCount 
 
 scoreboard objectives add ARS_Gamemodes dummy
+execute unless score %CD_MaxTime ARS_Gamemodes = %CD_MaxTime ARS_Gamemodes run scoreboard players set %CD_MaxTime ARS_Gamemodes 600
+execute unless score %CD_MaxVillagers ARS_Gamemodes = %CD_MaxVillagers ARS_Gamemodes run scoreboard players set %CD_MaxVillagers ARS_Gamemodes 50
+execute unless score %CD_MaxZombies ARS_Gamemodes = %CD_MaxZombies ARS_Gamemodes run scoreboard players set %CD_MaxZombies ARS_Gamemodes 200
 execute unless score %TDM_MaxTime ARS_Gamemodes = %TDM_MaxTime ARS_Gamemodes run scoreboard players set %TDM_MaxTime ARS_Gamemodes 600
 execute unless score %TDM_PointsNeeded ARS_Gamemodes = %TDM_PointsNeeded ARS_Gamemodes run scoreboard players set %TDM_PointsNeeded ARS_Gamemodes 50
 execute unless score %ActiveGM ARS_Gamemodes = %ActiveGM ARS_Gamemodes run scoreboard players set %ActiveGM ARS_Gamemodes 0
@@ -39,6 +42,14 @@ execute unless score %InProgress ARS_Gamemodes = %InProgress ARS_Gamemodes run s
 execute unless score %Score_Red ARS_Gamemodes = %Score_Red ARS_Gamemodes run scoreboard players set %Score_Red ARS_Gamemodes 0
 execute unless score %Score_Blue ARS_Gamemodes = %Score_Blue ARS_Gamemodes run scoreboard players set %Score_Blue ARS_Gamemodes 0
 execute unless score %ActiveMap ARS_Gamemodes = %ActiveMap ARS_Gamemodes run scoreboard players set %ActiveMap ARS_Gamemodes 0
+execute unless score %PvE ARS_Gamemodes = %PvE ARS_Gamemodes run scoreboard players set %PvE ARS_Gamemodes 0
+execute unless score %Training ARS_Gamemodes = %Training ARS_Gamemodes run scoreboard players set %Training ARS_Gamemodes 0
+execute unless score %TimeOverride ARS_Gamemodes = %TimeOverride ARS_Gamemodes run scoreboard players set %TimeOverride ARS_Gamemodes 0
+execute unless score %WinReward ARS_Gamemodes = %WinReward ARS_Gamemodes run scoreboard players set %WinReward ARS_Gamemodes 250
+execute unless score %LoseReward ARS_Gamemodes = %LoseReward ARS_Gamemodes run scoreboard players set %LoseReward ARS_Gamemodes 100
+execute unless score %TieReward ARS_Gamemodes = %TieReward ARS_Gamemodes run scoreboard players set %TieReward ARS_Gamemodes 150
+scoreboard players set %VilNameMax ARS_Gamemodes 116
+scoreboard players set %CDVilHurtMax ARS_Gamemodes 18
 
 
 

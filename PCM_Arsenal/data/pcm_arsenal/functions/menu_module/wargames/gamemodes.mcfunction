@@ -12,6 +12,9 @@ tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.ico
 #TDM
 tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.icon.arrow"},{"color":"red","translate":"arsenal.menu.wargames.tdm","clickEvent":{"action":"run_command","value":"/scoreboard players set %ActiveGM ARS_Gamemodes 1"},"hoverEvent":{"action":"show_text","value":[{"translate":"arsenal.menu.wargames.tdm.info"}]}}]
 
+#CD
+tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.icon.arrow"},{"color":"green","translate":"arsenal.menu.wargames.cd","clickEvent":{"action":"run_command","value":"/scoreboard players set %ActiveGM ARS_Gamemodes 2"},"hoverEvent":{"action":"show_text","value":[{"translate":"arsenal.menu.wargames.cd.info"}]}}]
+
 #Move on to maps
 tellraw @s [{"translate":"arsenal.menu.prefixor"},{"translate":"arsenal.menu.icon.arrow"},{"translate":"arsenal.menu.wargames.map_select","clickEvent":{"action":"run_command","value":"/execute as @s unless score %ActiveGM ARS_Gamemodes matches 0 run function pcm_arsenal:menu_module/wargames/mode_to_map"},"hoverEvent":{"action":"show_text","value":[{"translate":"arsenal.menu.wargames.map_select.info"}]}}]
 

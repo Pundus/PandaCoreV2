@@ -3,9 +3,9 @@
 #recoil
 scoreboard players set %FiveSeven ARS_SET_Rounds 20
 
-scoreboard players set %FiveSeven ARS_SET_Recoil 3
+scoreboard players set %FiveSeven ARS_SET_Recoil 5
 
-scoreboard players set %FiveSeven ARS_SET_Range 5
+scoreboard players set %FiveSeven ARS_SET_Range 3
 
 scoreboard players set %FiveSeven ARS_SET_Damage 75
 
