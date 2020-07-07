@@ -51,7 +51,7 @@ execute unless score %LoseReward ARS_Gamemodes = %LoseReward ARS_Gamemodes run s
 execute unless score %TieReward ARS_Gamemodes = %TieReward ARS_Gamemodes run scoreboard players set %TieReward ARS_Gamemodes 150
 scoreboard players set %VilNameMax ARS_Gamemodes 116
 scoreboard players set %VilNameMax ARS_Gamemodes 116
-scoreboard players set %ZomTypeMax ARS_Gamemodes 10
+scoreboard players set %ZomTypeMax ARS_Gamemodes 15
 scoreboard players set %CDVilHurtMax ARS_Gamemodes 18
 scoreboard players set %CDVilDieMax ARS_Gamemodes 8
 

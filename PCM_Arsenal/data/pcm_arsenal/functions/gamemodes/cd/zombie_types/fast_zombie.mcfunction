@@ -1,0 +1,3 @@
+# basic zombie
+
+summon minecraft:zombie ~ ~ ~ {CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,IsBaby:0b,Health:6f,ArmorItems:[{id:"minecraft:leather_boots",Count:1b}],ArmorDropChances:[-327.670F,-327.670F,-327.670F,-327.670F],Tags:["ARS_CD_Zombie"],CustomName:'{"translate":"arsenal.game.cd.zombie.fast.name"}',Attributes:[{Name:generic.follow_range,Base:100},{Name:generic.movement_speed,Base:.4},{Name:generic.max_health,Base:6},{Name:generic.attack_damage,Base:0.5},{Name:zombie.spawn_reinforcements,Base:0.4}]}
