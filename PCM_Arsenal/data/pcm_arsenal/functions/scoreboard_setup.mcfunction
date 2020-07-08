@@ -8,6 +8,7 @@ gamerule naturalRegeneration false
 gamerule doDaylightCycle false
 gamerule doTileDrops false
 gamerule keepInventory true
+gamerule doInsomnia false
 
 scoreboard objectives add ARS_InternalXP level
 scoreboard objectives add ARS_Rank dummy {"translate":"arsenal.rank.name"}

@@ -2,6 +2,7 @@
 
 #function pcm_arsenal:mechanics/jump_delay/jump_delay
 function pcm_arsenal:mechanics/fire_nausea/fire_nausea
+function pcm_arsenal:mechanics/clear_tipped_arrows
 
 
 
