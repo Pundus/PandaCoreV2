@@ -1,0 +1,2 @@
+#This will find all guns with these tags in the world and give them the appropriate data.
+execute as @e[type=item,nbt={Item:{tag:{arsenal_justspawned:1b,arsenal_mag:"stanag30"}}}] at @s run function pcm_arsenal:spawn/guns/global/stanag30/stanag30_settings

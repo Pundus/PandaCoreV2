@@ -12,11 +12,17 @@ execute as @s store result score @s ARS_CurRounds run data get entity @s Selecte
 
 #Gun Disambiguation
 
-#P90
-execute as @s[scores={ARS_CurRounds=1..},predicate=pcm_arsenal:held_item/guns/pdw/p90] at @s run function pcm_arsenal:guns/pdw/p90_fire
+#PDW
+execute as @s[scores={ARS_CurRounds=1..},predicate=pcm_arsenal:held_item/guntype_pdw] at @s run function pcm_arsenal:guns/pdw/pdw_disambig
 
-#fiveseven
-execute as @s[scores={ARS_CurRounds=1..},predicate=pcm_arsenal:held_item/guns/pistol/fiveseven] at @s run function pcm_arsenal:guns/pistol/fiveseven_fire
+#pistol
+execute as @s[scores={ARS_CurRounds=1..},predicate=pcm_arsenal:held_item/guntype_pistol] at @s run function pcm_arsenal:guns/pistol/pistol_disambig
+
+#shotgun
+execute as @s[scores={ARS_CurRounds=1..},predicate=pcm_arsenal:held_item/guntype_shotgun] at @s run function pcm_arsenal:guns/shotgun/shotgun_disambig
+
+#carbine
+execute as @s[scores={ARS_CurRounds=1..},predicate=pcm_arsenal:held_item/guntype_carbine] at @s run function pcm_arsenal:guns/carbine/carbine_disambig
 
 
 

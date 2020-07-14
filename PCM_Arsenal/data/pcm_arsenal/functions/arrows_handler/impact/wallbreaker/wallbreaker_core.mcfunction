@@ -1,6 +1,6 @@
 # If no AEC, summon one
 
-execute as @s at @s align xyz positioned ~0.5 ~0.2 ~0.5 unless entity @e[type=area_effect_cloud,tag=ARS_WallHealth,distance=..0.5] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["ARS_WallHealth"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+execute as @s at @s align xyz positioned ~0.5 ~0.2 ~0.5 unless entity @e[type=area_effect_cloud,tag=ARS_WallHealth,distance=..0.5] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["ARS_WallHealth","ARS_TrackWallHP"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 # If there is an AEC
 

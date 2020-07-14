@@ -2,6 +2,10 @@
 
 
 
+# three round burst counter
+execute as @a[predicate=pcm_arsenal:held_item/uncharged,predicate=pcm_arsenal:held_item/three_burst,tag=!ARS_Chambering] at @s run function pcm_arsenal:guns/three_burst
+
+
 # play ROF sound
 execute as @a[predicate=pcm_arsenal:held_item/uncharged,tag=!ARS_Chambering] at @s run function pcm_arsenal:guns/rof_sound
 

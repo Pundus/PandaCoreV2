@@ -21,3 +21,5 @@ execute as @s[nbt={SelectedItem:{tag:{ars_suppressed_sfx:7b}}}] at @s run playso
 execute as @s[nbt={SelectedItem:{tag:{ars_suppressed_sfx:8b}}}] at @s run playsound suppressed.380acp.shoot player @a ~ ~ ~ 2 1 0
 execute as @s[nbt={SelectedItem:{tag:{ars_suppressed_sfx:9b}}}] at @s run playsound suppressed.762x39.shoot player @a ~ ~ ~ 2 1 0
 execute as @s[nbt={SelectedItem:{tag:{ars_suppressed_sfx:10b}}}] at @s run playsound suppressed.12gauge.shoot player @a ~ ~ ~ 2 1 0
+execute as @s[nbt={SelectedItem:{tag:{ars_suppressed_sfx:11b}}}] at @s run playsound suppressed.12gauge_short.shoot player @a ~ ~ ~ 2 1 0
+execute as @s[nbt={SelectedItem:{tag:{ars_suppressed_sfx:12b}}}] at @s run playsound suppressed.12gauge_super.shoot player @a ~ ~ ~ 2 1 0

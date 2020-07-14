@@ -9,9 +9,15 @@ execute as @s store result score @s ARS_CurRounds run data get entity @s Selecte
 
 #Gun Disambiguation
 
-#P90
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_gun:"p90"}}]}] run function pcm_arsenal:reload/pdw/p90/p90_reload_init
+#pdw
+execute as @s[predicate=pcm_arsenal:offhand_item/guntype_pdw_off] run function pcm_arsenal:reload/pdw/pdw_disambig
 
-#fiveseven
-execute as @s[nbt={Inventory:[{Slot:-106b,tag:{arsenal_gun:"fiveseven"}}]}] run function pcm_arsenal:reload/pistol/fiveseven/fiveseven_reload_init
+#pistol
+execute as @s[predicate=pcm_arsenal:offhand_item/guntype_pistol_off] run function pcm_arsenal:reload/pistol/pistol_disambig
+
+#shotgun
+execute as @s[predicate=pcm_arsenal:offhand_item/guntype_shotgun_off] run function pcm_arsenal:reload/shotgun/shotgun_disambig
+
+#carbine
+execute as @s[predicate=pcm_arsenal:offhand_item/guntype_carbine_off] run function pcm_arsenal:reload/carbine/carbine_disambig
 

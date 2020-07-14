@@ -2,6 +2,7 @@
 
 kill @e[type=#pcm_arsenal:undead,tag=ARS_CD_Zombie]
 kill @e[type=villager,tag=ARS_CD_Villager]
+kill @e[type=item]
 
 gamerule doMobSpawning false
 

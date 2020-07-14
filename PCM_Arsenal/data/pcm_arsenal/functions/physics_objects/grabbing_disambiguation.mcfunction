@@ -7,7 +7,8 @@ execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"case_large"}}}] at @s run plays
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"mag_drum"}}}] at @s run playsound grab.mag.drum player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"mag_plastic"}}}] at @s run playsound grab.mag.plastic player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"mag_metal"}}}] at @s run playsound grab.mag.metal player @a ~ ~ ~ 1 1 0
-execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"mag_belt"}}}] at @s run playsound grab.mag.drum player @a ~ ~ ~ 1 1 0
+execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"mag_belt"}}}] at @s run playsound grab.mag.belt player @a ~ ~ ~ 1 1 0
+execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"mag_tiny"}}}] at @s run playsound grab.mag.tiny player @a ~ ~ ~ 1 1 0
 
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"gun_pistol"}}}] at @s run playsound grab.gun.pistol player @a ~ ~ ~ 1 1 0
 execute as @s[nbt={Item:{tag:{arsenal_phys_grab:"gun_plastic"}}}] at @s run playsound grab.gun.plastic player @a ~ ~ ~ 1 1 0

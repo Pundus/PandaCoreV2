@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{ars_shell:1b,ars_shelltype:\"small\",ars_dropdelor:1b,arsenal_phys_obj:1b,arsenal_phys_drop:\"case_small\",HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:4999,CustomModelData:4999}"
+				"tag": "{ars_shell:1b,ars_shelltype:\"small\",ars_dropdelor:1b,arsenal_phys_obj:1b,arsenal_phys_drop:\"case_small\",HideFlags:63,Unbreakable:1b,RepairCost:9999,PCUUID:9000,CustomModelData:9000}"
 			}, {
 				"function": "set_name",
 				"name": {

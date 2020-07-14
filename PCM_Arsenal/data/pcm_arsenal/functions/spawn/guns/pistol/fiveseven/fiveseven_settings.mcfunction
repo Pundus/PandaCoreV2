@@ -15,6 +15,8 @@ execute store result entity @s Item.tag.arsenal_reloadt byte 1 run scoreboard pl
 execute store result entity @s Item.tag.arsenal_force byte 1 run scoreboard players get %FiveSeven ARS_SET_Force
 execute store result entity @s Item.tag.arsenal_weight byte 1 run scoreboard players get %FiveSeven ARS_SET_Weight
 execute store result entity @s Item.tag.arsenal_drops byte 1 run scoreboard players get %FiveSeven ARS_SET_DropS
+execute store result entity @s Item.tag.arsenal_shotshell byte 1 run scoreboard players get %FiveSeven ARS_SET_ShotShl
+execute store result entity @s Item.tag.arsenal_threeburst byte 1 run scoreboard players get %FiveSeven ARS_SET_TRB
 
 #attachments
 execute store result entity @s Item.tag.arsenal_muzzle_able byte 1 run scoreboard players get %FiveSeven ARS_SET_Muzzle

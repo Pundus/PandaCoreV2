@@ -10,7 +10,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"mag_plastic\",arsenal_phys_drop:\"mag_metal_small\",arsenal_infmag:1b,arsenal_halfmag:0b,isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ismag:1b,arsenal_mag:\"fiveseven\",PCUUID:4501,CustomModelData:4501,arsenal_justspawned:1b}"
+				"tag": "{arsenal_weight:1b,arsenal_phys_obj:1b,arsenal_phys_grab:\"mag_plastic\",arsenal_phys_drop:\"mag_metal_small\",arsenal_infmag:1b,arsenal_halfmag:0b,isarsenalitem:1b,HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ismag:1b,arsenal_mag:\"fiveseven\",PCUUID:4501,CustomModelData:4501,arsenal_justspawned:1b,arsenal_cartridge:\"57x28\"}"
 			}, {
 				"function": "set_name",
 				"name": {

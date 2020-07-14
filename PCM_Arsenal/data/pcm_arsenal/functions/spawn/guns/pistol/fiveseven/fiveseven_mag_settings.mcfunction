@@ -5,6 +5,8 @@ function pcm_arsenal:modified_pim/create_sign
 
 ###########
 
+# Make if it's not a half mag make it able to be turned back into indiv rounds.
+execute as @s[nbt=!{Item:{tag:{arsenal_halfmag:1b}}}] store result entity @s Item.tag.arsenal_ammo int 1 run scoreboard players get %FiveSeven ARS_SET_Rounds
 
 execute as @s[nbt={Item:{tag:{arsenal_halfmag:1b}}}] if entity @a[limit=1,sort=nearest,distance=..1.5,tag=semireload_fiveseven] store result entity @s Item.tag.arsenal_ammo int 1 run scoreboard players get @p[tag=semireload_fiveseven] ARS_TEMP_Rnds
 

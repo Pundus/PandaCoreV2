@@ -35,14 +35,14 @@ execute as @e[type=villager,tag=!ARS_VilRecentHurt,nbt=!{HurtTime:0s}] run funct
 execute as @e[type=villager,tag=ARS_VilRecentHurt,nbt={HurtTime:0s}] run tag @s remove ARS_VilRecentHurt
 
 #hunger
-effect give @a[predicate=pcm_arsenal:hunger] minecraft:poison 15 0
+effect give @a[predicate=pcm_arsenal:hunger] minecraft:poison 5 0
 
 #over 200
 execute if score %VillagerCount ARS_Gamemodes > %CD_MaxZombies ARS_Gamemodes run kill @e[type=#pcm_arsenal:undead,tag=ARS_CD_ZombieIG,limit=10]
 
 #tp back
 
-execute as @e[type=#pcm_arsenal:undead] at @s if block ~ ~-2 ~ infested_mossy_stone_bricks run tp @s @e[type=armor_stand,tag=ARS_ActiveMap,tag=ARS_Hill,limit=1]
+execute as @e[type=#pcm_arsenal:undead] at @s if block ~ ~-2 ~ infested_mossy_stone_bricks run tp @s @e[type=armor_stand,tag=ARS_ActiveMap,tag=ARS_BlueBase,limit=1]
 
 #check for Wins
 execute if score %ActiveGM ARS_Gamemodes matches 2 if score %RoundTime ARS_Gamemodes matches ..0 if score %VillagerCount ARS_Gamemodes matches 0 run function pcm_arsenal:gamemodes/endgame/pve_lose

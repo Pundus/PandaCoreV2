@@ -25,6 +25,7 @@ scoreboard objectives add ARS_CartToMag trigger
 scoreboard objectives add ARS_TeamTotals dummy
 
 scoreboard objectives add ARS_RNG dummy
+scoreboard players set %HeadRotate ARS_RNG 16
 scoreboard players set %MaxChatTips ARS_RNG 16
 scoreboard players set %WinTips ARS_RNG 16
 scoreboard players set %LoseTips ARS_RNG 22
@@ -88,11 +89,15 @@ scoreboard objectives add ARS_SET_DropS dummy
 scoreboard objectives add ARS_SET_SuppSFX dummy
 scoreboard objectives add ARS_SET_SuppCin dummy
 scoreboard objectives add ARS_SET_AmmoT dummy
+scoreboard objectives add ARS_SET_ShotShl dummy
+scoreboard objectives add ARS_SET_TRB dummy
 
 scoreboard objectives add ARS_TEMP_Rnds dummy
 scoreboard objectives add ARS_TEMP_ROver dummy
 scoreboard objectives add ARS_TEMP_Cart dummy
 
+scoreboard objectives add ARS_ThreeBurst dummy
+scoreboard objectives add ARS_BurstDelay dummy
 scoreboard objectives add ARS_ItemLookTime dummy
 scoreboard objectives add ARS_Wall_HP dummy
 scoreboard objectives add ARS_ArrowLife dummy

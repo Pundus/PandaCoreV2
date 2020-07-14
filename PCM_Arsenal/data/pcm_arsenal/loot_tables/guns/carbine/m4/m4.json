@@ -1,0 +1,142 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:crossbow",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{attach_any:0b,arsenal_phys_obj:1b,arsenal_phys_grab:\"gun_plastic\",arsenal_phys_drop:\"gun_metal_large\",arsenal_guntype:\"carbine\",arsenal_loaded:0b,isarsenalitem:1b,attach_muzzle:0b,muzzle_id:\"none\",attach_optics:0b,optics_id:\"none\",attach_underbarrel:0b,underbarrel_id:\"none\",attach_arail:0b,arail_id:\"none\",attach_ammotype:0b,ammotype_id:\"none\",HideFlags:63,Unbreakable:1b,RepairCost:9999,arsenal_ammo:0,arsenal_isgun:1b,arsenal_gun:\"m4\",PCUUID:4103,CustomModelData:4103,arsenal_justspawned:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:32s}]}"
+			}, {
+				"function": "set_name",
+				"name": {
+					"translate": "arsenal.item.gun.m4.name",
+					"color": "green",
+					"italic": false
+				}
+			}, {
+				"function": "set_lore",
+				"lore": [
+					{
+						"translate": "arsenal.item.type.carbine",
+						"color": "green",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.gun.m4.dsc1",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.gun.m4.dsc2",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.gun.m4.dsc3",
+						"color": "gray",
+						"italic": true
+					},
+					{
+						"translate": "arsenal.item.divider.stats",
+						"color": "dark_gray",
+						"italic": false
+					},
+					[{
+						"translate": "arsenal.item.stats.cartridge",
+						"color": "gray",
+						"italic": false
+					}, {
+						"translate": "arsenal.item.cartridge.556nato",
+						"color": "white",
+						"italic": false
+					}],
+					{
+						"translate": "arsenal.item.stats.recoil.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.range.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.damage.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.piercing.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.loudness.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.rof.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.reloadt.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.force.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.stats.weight.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.divider.attch",
+						"color": "dark_gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.muzzle.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.optics.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.ub.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.arail.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.attachments.ammotype.tech",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "arsenal.item.divider.empty",
+						"color": "dark_gray",
+						"italic": false
+					}
+				]
+			}]
+		}]
+	}]
+}

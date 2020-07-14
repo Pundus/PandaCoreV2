@@ -2,7 +2,7 @@
 
 
 #only holding!
-execute as @a[predicate=pcm_arsenal:held_item/isgun] run function pcm_arsenal:guns_held/held_disambiguation
+execute as @a[nbt={SelectedItem:{}},predicate=pcm_arsenal:held_item/isgun] run function pcm_arsenal:guns_held/held_disambiguation
 
 #remove the tag
 execute as @a run function pcm_arsenal:guns_held/tag_removal
