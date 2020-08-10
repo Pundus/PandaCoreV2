@@ -15,11 +15,11 @@ scoreboard players add %CD_VilTimer ARS_Gamemodes 1
 scoreboard players add %CD_HordeTimer ARS_Gamemodes 1
 
 #if the zomtimer = 64
-execute if score %ActiveGM ARS_Gamemodes matches 2 if score %ZombieCount ARS_Gamemodes < %CD_MaxZombies ARS_Gamemodes if score %CD_ZomTimer ARS_Gamemodes matches 12.. as @e[type=area_effect_cloud,tag=ARS_ActiveMap,tag=ARS_SpawnMarker,tag=ARS_AEC_Blue,limit=1,sort=random] at @s run function pcm_arsenal:gamemodes/cd/cd_spawn_zombie
+execute if score %ActiveGM ARS_Gamemodes matches 2 if score %ZombieCount ARS_Gamemodes < %CD_MaxZombies ARS_Gamemodes if score %CD_ZomTimer ARS_Gamemodes matches 12.. as @a[team=red] as @e[type=area_effect_cloud,tag=ARS_ActiveMap,tag=ARS_SpawnMarker,tag=ARS_AEC_Blue,limit=1,sort=random] at @s run function pcm_arsenal:gamemodes/cd/cd_spawn_zombie
 
 #if the hordetimer = 480
 execute if score %ActiveGM ARS_Gamemodes matches 2 if score %CD_HordeTimer ARS_Gamemodes matches 480.. run scoreboard players set %CD_Horde ARS_Gamemodes 25
-execute if score %ActiveGM ARS_Gamemodes matches 2 if score %CD_HordeTimer ARS_Gamemodes matches 480.. run function pcm_arsenal:gamemodes/cd/cd_horde
+execute if score %ActiveGM ARS_Gamemodes matches 2 if score %CD_HordeTimer ARS_Gamemodes matches 480.. as @a[team=red] run function pcm_arsenal:gamemodes/cd/cd_horde
 
 #if the viltimer = 120
 execute if score %ActiveGM ARS_Gamemodes matches 2 if score %RoundTime ARS_Gamemodes matches 100.. if score %VillagerCount ARS_Gamemodes < %CD_MaxVillagers ARS_Gamemodes if score %CD_VilTimer ARS_Gamemodes matches 120.. run function pcm_arsenal:gamemodes/cd/cd_spawn_villager

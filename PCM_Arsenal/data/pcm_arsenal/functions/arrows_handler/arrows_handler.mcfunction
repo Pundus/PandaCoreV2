@@ -20,6 +20,10 @@ execute as @e[type=arrow,tag=ARS_IncenAmmo,tag=!ARS_Incen_Mod] run function pcm_
 execute as @e[type=arrow,tag=!ARS_Modified,nbt={CustomPotionEffects:[{Id:26b}]}] run function pcm_arsenal:arrows_handler/modifier
 execute as @e[type=arrow,tag=ARS_Modified,tag=!ARS_EnteredWater] at @s if block ~ ~ ~ water run function pcm_arsenal:arrows_handler/water_bound
 
+
+#Global Spawn Protection
+execute as @e[type=arrow] at @s if block ~ 71 ~ infested_cobblestone run kill @s
+
 #execute as @e[type=arrow] at @s anchored eyes if block ^ ^ ^1 oak_planks run tp @s ^ ^ ^1.5
 #execute as @e[type=arrow] at @s anchored eyes if block ^ ^ ^0.5 oak_planks run tp @s ^ ^ ^1.5
 #execute as @e[type=arrow] at @s anchored eyes if block ^ ^ ^-0.5 oak_planks run tp @s ^ ^ ^-1.5

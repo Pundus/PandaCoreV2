@@ -17,6 +17,8 @@ execute store result entity @s Item.tag.arsenal_weight byte 1 run scoreboard pla
 execute store result entity @s Item.tag.arsenal_drops byte 1 run scoreboard players get %FiveSeven ARS_SET_DropS
 execute store result entity @s Item.tag.arsenal_shotshell byte 1 run scoreboard players get %FiveSeven ARS_SET_ShotShl
 execute store result entity @s Item.tag.arsenal_threeburst byte 1 run scoreboard players get %FiveSeven ARS_SET_TRB
+execute store result entity @s Item.tag.arsenal_implicitads byte 1 run scoreboard players get %FiveSeven ARS_SET_ImpADS
+execute store result entity @s Item.tag.arsenal_allowspb byte 1 run scoreboard players get %FiveSeven ARS_SET_AllowSPB
 
 #attachments
 execute store result entity @s Item.tag.arsenal_muzzle_able byte 1 run scoreboard players get %FiveSeven ARS_SET_Muzzle
@@ -68,7 +70,7 @@ data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.loud
 data modify entity @s Item.tag.display.Lore[10] set from block ~ 0 ~ Text1
 
 #rof
-data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.rof","color": "gray","italic": false},{"score":{"name":"%FiveSeven","objective":"ARS_SET_RoF"},"color": "dark_aqua"}]'
+data modify block ~ 0 ~ Text1 set value '[{"translate": "arsenal.item.stats.rof","color": "gray","italic": false},{"score":{"name":"%FiveSeven","objective":"ARS_SET_RoFDis"},"color": "dark_aqua"}]'
 
 data modify entity @s Item.tag.display.Lore[11] set from block ~ 0 ~ Text1
 

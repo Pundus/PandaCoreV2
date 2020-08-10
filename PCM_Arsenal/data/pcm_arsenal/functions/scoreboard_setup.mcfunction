@@ -51,8 +51,7 @@ execute unless score %WinReward ARS_Gamemodes = %WinReward ARS_Gamemodes run sco
 execute unless score %PvEWinReward ARS_Gamemodes = %PvEWinReward ARS_Gamemodes run scoreboard players set %PvEWinReward ARS_Gamemodes 150
 execute unless score %LoseReward ARS_Gamemodes = %LoseReward ARS_Gamemodes run scoreboard players set %LoseReward ARS_Gamemodes 100
 execute unless score %TieReward ARS_Gamemodes = %TieReward ARS_Gamemodes run scoreboard players set %TieReward ARS_Gamemodes 150
-scoreboard players set %VilNameMax ARS_Gamemodes 116
-scoreboard players set %VilNameMax ARS_Gamemodes 116
+scoreboard players set %VilNameMax ARS_Gamemodes 121
 scoreboard players set %ZomTypeMax ARS_Gamemodes 15
 scoreboard players set %CDVilHurtMax ARS_Gamemodes 18
 scoreboard players set %CDVilDieMax ARS_Gamemodes 8
@@ -78,6 +77,7 @@ scoreboard objectives add ARS_SET_Damage dummy
 scoreboard objectives add ARS_SET_Piercing dummy
 scoreboard objectives add ARS_SET_Loudness dummy
 scoreboard objectives add ARS_SET_RoF dummy
+scoreboard objectives add ARS_SET_RoFDis dummy
 scoreboard objectives add ARS_SET_Muzzle dummy
 scoreboard objectives add ARS_SET_Optics dummy
 scoreboard objectives add ARS_SET_UB dummy
@@ -91,6 +91,10 @@ scoreboard objectives add ARS_SET_SuppCin dummy
 scoreboard objectives add ARS_SET_AmmoT dummy
 scoreboard objectives add ARS_SET_ShotShl dummy
 scoreboard objectives add ARS_SET_TRB dummy
+scoreboard objectives add ARS_SET_ImpADS dummy
+
+scoreboard players set %UniRoFMultiplier ARS_SET_RoFDis 3
+
 
 scoreboard objectives add ARS_TEMP_Rnds dummy
 scoreboard objectives add ARS_TEMP_ROver dummy

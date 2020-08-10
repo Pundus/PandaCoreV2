@@ -7,9 +7,9 @@ execute as @s[scores={ARS_ThreeBurst=3..}] run scoreboard players add @s ARS_Bur
 
 
 #Main
-execute as @s[predicate=!pcm_arsenal:held_item/three_burst,scores={ARS_RateDelay=200..}] at @s run function pcm_arsenal:guns/bullet_load
-execute as @s[predicate=pcm_arsenal:held_item/three_burst,scores={ARS_RateDelay=200..,ARS_ThreeBurst=..2}] at @s run function pcm_arsenal:guns/bullet_load
-execute as @s[predicate=pcm_arsenal:held_item/three_burst,scores={ARS_RateDelay=200..,ARS_ThreeBurst=3..,ARS_BurstDelay=5..}] at @s run function pcm_arsenal:guns/bullet_load
+execute as @s[predicate=!pcm_arsenal:held_item/three_burst,scores={ARS_RateDelay=400..}] at @s run function pcm_arsenal:guns/bullet_load
+execute as @s[predicate=pcm_arsenal:held_item/three_burst,scores={ARS_RateDelay=400..,ARS_ThreeBurst=..2}] at @s run function pcm_arsenal:guns/bullet_load
+execute as @s[predicate=pcm_arsenal:held_item/three_burst,scores={ARS_RateDelay=400..,ARS_ThreeBurst=3..,ARS_BurstDelay=5..}] at @s run function pcm_arsenal:guns/bullet_load
 
 
 #Secondary functions
